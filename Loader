@@ -1,0 +1,78 @@
+-- Protected by Mnx Obfuscator | Public Enemy
+local at6HctqdEmJSUI=217
+local znRBfaAaqPmabtdP=math.abs(-98)
+local ekPOjiwGltlG6ZzrHe=math.floor(6)
+local d8uu9Sffq9kMc=bit32.bxor(34,132)
+local xRm4rdx6CtLyVHH=type(nil)
+local zl6MRlbeVjwDAx9y=math.abs(-2)
+local woyZ1X7jfngk7DUt7=math.abs(-17)
+do local _=nil end
+if false then error("") end
+if false then error("") end
+local vcoZphKkvdlTij91=math.abs(-89)
+local uwlgU7MPH33tLRHpg=math.abs(-36)
+local jcoWqGfD8XBmB=math.floor(7)
+local dUJwznWJrSyvX3PUv=812
+for _=1,0 do end
+local fdvtoWD18wwIo={"2ac8354768de370d49fca024853c4289448feaecfc6d9293112d13395f8521d35ae8cdebee8ed8df669c17fd4b3cfe0d73e6110dbd4815709d9cd4869eca","6619bd12f2f368da209736c6c8"}
+local wop6DqChuK0LCM={1,2}
+local h3tPpFtlM1U={"077dcd16e0bb7bfe048e73fb58795bc2c02daa10359464718c0532a2368aad017e97a00fba8b3b678d0bb00e50ce4336dae5ee3dba9de028ecdb2dece7c9","cca2372c0e0d381aee66b6dc"}
+local m0e0hkRHmMDBy5V8o={1,2}
+local oab56DrbbkR5j={}
+for mPr3PGQa24=1,#wop6DqChuK0LCM do oab56DrbbkR5j[wop6DqChuK0LCM[mPr3PGQa24]]=fdvtoWD18wwIo[mPr3PGQa24] end
+oab56DrbbkR5j=table.concat(oab56DrbbkR5j)
+local blmyZO85Er9q={}
+for mPr3PGQa24=1,#m0e0hkRHmMDBy5V8o do blmyZO85Er9q[m0e0hkRHmMDBy5V8o[mPr3PGQa24]]=h3tPpFtlM1U[mPr3PGQa24] end
+blmyZO85Er9q=table.concat(blmyZO85Er9q)
+local ycszdo9Y586HgZD3kt={}
+for mPr3PGQa24=1,#oab56DrbbkR5j,2 do
+  ycszdo9Y586HgZD3kt[#ycszdo9Y586HgZD3kt+1]=tonumber(string.sub(oab56DrbbkR5j,mPr3PGQa24,mPr3PGQa24+1),16)
+end
+local fH_BD8Ghbpi={23,3,126,18,54,43,76,24,231,41,112,19,89,147,209,84,211,142,180,98,164,167,5,64,126}
+for mPr3PGQa24=1,#ycszdo9Y586HgZD3kt do
+  ycszdo9Y586HgZD3kt[mPr3PGQa24]=bit32.bxor(ycszdo9Y586HgZD3kt[mPr3PGQa24],fH_BD8Ghbpi[(mPr3PGQa24-1)%#fH_BD8Ghbpi+1])
+end
+local p_2bo5TqMkgOcptfm={}
+for mPr3PGQa24=1,#blmyZO85Er9q,2 do
+  p_2bo5TqMkgOcptfm[#p_2bo5TqMkgOcptfm+1]=tonumber(string.sub(blmyZO85Er9q,mPr3PGQa24,mPr3PGQa24+1),16)
+end
+local q1sYSrOEg4VlOmD={31,27,32,66,181,82,70,15,185,40,173,43,204,252,178,37,4,69,170,248,121,101,31,66,121}
+for mPr3PGQa24=1,#p_2bo5TqMkgOcptfm do
+  p_2bo5TqMkgOcptfm[mPr3PGQa24]=bit32.bxor(p_2bo5TqMkgOcptfm[mPr3PGQa24],q1sYSrOEg4VlOmD[(mPr3PGQa24-1)%#q1sYSrOEg4VlOmD+1])
+end
+local r_vmHTa9sPOWT={}
+for mPr3PGQa24=1,math.max(#ycszdo9Y586HgZD3kt,#p_2bo5TqMkgOcptfm) do
+  if ycszdo9Y586HgZD3kt[mPr3PGQa24] then r_vmHTa9sPOWT[#r_vmHTa9sPOWT+1]=ycszdo9Y586HgZD3kt[mPr3PGQa24] end
+  if p_2bo5TqMkgOcptfm[mPr3PGQa24] then r_vmHTa9sPOWT[#r_vmHTa9sPOWT+1]=p_2bo5TqMkgOcptfm[mPr3PGQa24] end
+end
+local iJbp4G9bPV={}
+local mCnUBPCVcH1FZvKE0T=579873912
+for mPr3PGQa24=#r_vmHTa9sPOWT-1,1,-1 do
+  mCnUBPCVcH1FZvKE0T=(mCnUBPCVcH1FZvKE0T*1664525+1013904223)%4294967296
+  local hUqF1c90b3xh76pVO=mCnUBPCVcH1FZvKE0T%(mPr3PGQa24+1)+1
+  iJbp4G9bPV[#iJbp4G9bPV+1]={mPr3PGQa24+1,hUqF1c90b3xh76pVO}
+end
+for mPr3PGQa24=#iJbp4G9bPV,1,-1 do
+  local yu4CVPnrbhn4=iJbp4G9bPV[mPr3PGQa24]
+  local c6bQIpOi0rlvV=r_vmHTa9sPOWT[yu4CVPnrbhn4[1]]
+  r_vmHTa9sPOWT[yu4CVPnrbhn4[1]]=r_vmHTa9sPOWT[yu4CVPnrbhn4[2]]
+  r_vmHTa9sPOWT[yu4CVPnrbhn4[2]]=c6bQIpOi0rlvV
+end
+local oHhw4HCiBf={104,201,249,84,246,152,161,19,71,133,241,59,221,106,252,40,187,42,85,199,61,90,190,141,38}
+local ylL6jwwfFXeD3hz={}
+for mPr3PGQa24=1,#r_vmHTa9sPOWT do
+  ylL6jwwfFXeD3hz[mPr3PGQa24]=string.char(bit32.bxor(r_vmHTa9sPOWT[mPr3PGQa24],oHhw4HCiBf[(mPr3PGQa24-1)%#oHhw4HCiBf+1]))
+end
+local ax2NsKTQT=table.concat(ylL6jwwfFXeD3hz)
+local cf396OOstJu=string.len("woMIOTZt")
+local zieBzhw1e=tostring(94)
+local wyUN4Ohx3=string.len("qaQyT0sI")
+for _=1,0 do end
+for _=1,0 do end
+if false then error("") end
+local d2GKr_fxetwq7D,aisBrrpIrypA2xnsP=loadstring(ax2NsKTQT)
+if d2GKr_fxetwq7D then
+  d2GKr_fxetwq7D()
+else
+  error("Mnx | Public Enemy : "..tostring(aisBrrpIrypA2xnsP))
+end
