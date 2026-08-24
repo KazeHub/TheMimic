@@ -1,74 +1,80 @@
 -- Protected by Mnx Obfuscator | Public Enemy
-local tEU99cYhiUDQJ=math.abs(-55)
-local eMAjgZR_0yEwss7Z=312
-local mp7zrN3bU=#"vKb5vYix"
-local y4KjoU6xYmIEpnmj=bit32.bxor(87,110)
-do local _=nil end
-local cVgjoOdEv=68
-local zyJdkM7NaUGtQj=math.abs(-19)
-local dBVftLbK9sjh2=type(nil)
-local f84fEPdYgAptmrXCJ=#"vmeLI_mC"
+local dKw2zIBF6ZM=bit32.bxor(183,59)
+local ybeSnQh1o6SKF9d5k=math.floor(8)
+local yOsXuAO7dgyf8=math.floor(5)
+local vEa_cXQ8rEiZEbW6Nf=#"ov97kf9"
+local qa2Hhzzonw=bit32.bxor(191,162)
+local yLd_vy7gy8mdh9udv=#"qFsO"
+local i5lgxB4bCfhM0KC=bit32.bxor(25,149)
 for _=1,0 do end
-if false then error("") end
-local rpl1zZBgLw2fUU={"caee1e25ff6a68c2336364f713a27","b0f6683beb13e42b06952aa5a548025f07b7477a5767ccb60cfe16decbe4528ca2c84229f47218b70cc1ad0abc6e52fae1c128886ecbde9b503687a29"}
-local jHUSEbaflSYtq={2,1}
-local luceSzviF={"38ca2d23b0fb919945040dc54bfca","d863f0d6a428325eb8919baae9d5f8a1ae8262292079cde67d7f4a1893be9ff3bc3d7baa4ce2ce751a764dcb81521afbcfb04261265427204b1a5dfe9"}
-local rCl6x9CcN={2,1}
-local er0l3iUF7w={}
-for rlJDeBoPvnHl=1,#jHUSEbaflSYtq do er0l3iUF7w[jHUSEbaflSYtq[rlJDeBoPvnHl]]=rpl1zZBgLw2fUU[rlJDeBoPvnHl] end
-er0l3iUF7w=table.concat(er0l3iUF7w)
-local uydEviQTciMHgEY={}
-for rlJDeBoPvnHl=1,#rCl6x9CcN do uydEviQTciMHgEY[rCl6x9CcN[rlJDeBoPvnHl]]=luceSzviF[rlJDeBoPvnHl] end
-uydEviQTciMHgEY=table.concat(uydEviQTciMHgEY)
-local xaBDqgtoSTB={}
-for rlJDeBoPvnHl=1,#er0l3iUF7w,2 do
-  xaBDqgtoSTB[#xaBDqgtoSTB+1]=tonumber(string.sub(er0l3iUF7w,rlJDeBoPvnHl,rlJDeBoPvnHl+1),16)
-end
-local dNAw4utkxXc9TZYP={63,18,89,77,246,78,8,68,188,60,86,141,97,51,20,159,205,233,213,56,179,169,5,182}
-for rlJDeBoPvnHl=1,#xaBDqgtoSTB do
-  xaBDqgtoSTB[rlJDeBoPvnHl]=bit32.bxor(xaBDqgtoSTB[rlJDeBoPvnHl],dNAw4utkxXc9TZYP[(rlJDeBoPvnHl-1)%#dNAw4utkxXc9TZYP+1])
-end
-local zzqo95KFO4UTy={}
-for rlJDeBoPvnHl=1,#uydEviQTciMHgEY,2 do
-  zzqo95KFO4UTy[#zzqo95KFO4UTy+1]=tonumber(string.sub(uydEviQTciMHgEY,rlJDeBoPvnHl,rlJDeBoPvnHl+1),16)
-end
-local eRLa0LBGHXZI={59,43,150,218,135,109,193,79,114,252,250,132,102,231,58,230,156,237,24,172,21,70,201,173}
-for rlJDeBoPvnHl=1,#zzqo95KFO4UTy do
-  zzqo95KFO4UTy[rlJDeBoPvnHl]=bit32.bxor(zzqo95KFO4UTy[rlJDeBoPvnHl],eRLa0LBGHXZI[(rlJDeBoPvnHl-1)%#eRLa0LBGHXZI+1])
-end
-local kNWuNuH5MbP={}
-for rlJDeBoPvnHl=1,math.max(#xaBDqgtoSTB,#zzqo95KFO4UTy) do
-  if xaBDqgtoSTB[rlJDeBoPvnHl] then kNWuNuH5MbP[#kNWuNuH5MbP+1]=xaBDqgtoSTB[rlJDeBoPvnHl] end
-  if zzqo95KFO4UTy[rlJDeBoPvnHl] then kNWuNuH5MbP[#kNWuNuH5MbP+1]=zzqo95KFO4UTy[rlJDeBoPvnHl] end
-end
-local tZsVdZwnQB2JnLdn={}
-local f70ze09l0mxK5Nnm3=288078232
-for rlJDeBoPvnHl=#kNWuNuH5MbP-1,1,-1 do
-  f70ze09l0mxK5Nnm3=(f70ze09l0mxK5Nnm3*1664525+1013904223)%4294967296
-  local tFVUUmkjuK=f70ze09l0mxK5Nnm3%(rlJDeBoPvnHl+1)+1
-  tZsVdZwnQB2JnLdn[#tZsVdZwnQB2JnLdn+1]={rlJDeBoPvnHl+1,tFVUUmkjuK}
-end
-for rlJDeBoPvnHl=#tZsVdZwnQB2JnLdn,1,-1 do
-  local ztnAxjSoG=tZsVdZwnQB2JnLdn[rlJDeBoPvnHl]
-  local mZFhi0qKt2USr=kNWuNuH5MbP[ztnAxjSoG[1]]
-  kNWuNuH5MbP[ztnAxjSoG[1]]=kNWuNuH5MbP[ztnAxjSoG[2]]
-  kNWuNuH5MbP[ztnAxjSoG[2]]=mZFhi0qKt2USr
-end
-local at5sn26Q9UAD={230,233,92,59,47,28,84,228,169,241,92,201,129,5,112,212,137,135,44,252,64,27,35,178}
-local vZdQTz3fl={}
-for rlJDeBoPvnHl=1,#kNWuNuH5MbP do
-  vZdQTz3fl[rlJDeBoPvnHl]=string.char(bit32.bxor(kNWuNuH5MbP[rlJDeBoPvnHl],at5sn26Q9UAD[(rlJDeBoPvnHl-1)%#at5sn26Q9UAD+1]))
-end
-local dEN8W72bofE=table.concat(vZdQTz3fl)
-local zUyGh_o3i1R=#"idP"
-local lDYEGWfybg55fYsq=type(nil)
-local lDEu4Hl86_c3KzM=type(nil)
-local hC1fyENgNRPb=bit32.bxor(192,17)
-if false then error("") end
 do local _=nil end
-local zW3QGNyx1,sP9xoZBysh8w=loadstring(dEN8W72bofE)
-if zW3QGNyx1 then
-  zW3QGNyx1()
+for _=1,0 do end
+local m_nIa_znj_NVEk=math.floor(3)
+local zJuQHQE2g1kx=tostring(23)
+local rAbbhSMEdF2E8Sq=string.len("ixF4")
+local uaptAu4S6bGV=#"wTNGAM"
+for _=1,0 do end
+for _=1,0 do end
+local iXk8plzi5EwxRUn={"c512ff68fabf0b845c14b0cd3fb0fe23e0cc50e532687bec7ec1c979541cf4a441082dadb411d831820f7d18cda548e0e25d9ab1447420b0bb27378e568ff2ee92d46d8b8ded5f991ed45addc01467946b9d524e73bbb8fddd543606fd74452e65","ad8625b02ce34b0e95da4a9e01c9c8bf2bdb5709a5c4506f58f3079767bc56be8aab11cf1a0576b66204036a4985dc81cd4f765df00807cfc70b607489e0fd2feea7642a94dbb195334f863e1aa6047fc003a0e135537b06174c219075f2788791","e6716d06a5b6bae269a147b4002c54b73e44a2e4aeaf186de5b4afb6c62164a5acfad23cf4224c8fb51451e0cd7ef2cc3edee4","013e0ec005be590fd5ca930446eb4ba9af6d2b5d15cbf6e8b58e472b48c8bb4dda320f6fc6da54a80735bf6793b21b51cc525e217b88a4b8afbbbe46e4f19990a4972cc99652b35d5af679f4194db069be700091a137805afab8f926f20e5ef9eb"}
+local jihjXWnmZoNCFzUD6={3,1,4,2}
+local o1pnT8GuKMv={"cd565531092684f5c38fda40c142428e89924b55fe81427a960ae7a99d24fa08e524c7df17c5c02a4bb6236de68dfc4b7e33caca6014b6085b375ed22a45d7e50b327889142c6c83dffe286c95a2bf668bd164d1fe95b1511dbbe87fee4b0fcdb2","fb5e1fc1bf000d7cb3d7f23e787ffe7cf85d502c4de0f9acfec4252fb3716587756868c6dc7343d3eea11fa2d81bd66b15def4","81b02b8a714538e18cb283adce8a57429ebea414b2ab923b9d9e5985335be1aaefb1e6d9e2f4e5d06c348fb0949423bfb7422b7f2a6b1a480685a1e62da28bcae8ae1e29d05ed5da53f74790699634e2aadc4cfb8be260f4c6d20cdf9e25ff838d","92fb13bf43ca474e206acfea036a19e57cb4156f0d90be67481800a50f9d1285564fa88aa4d8be2044160b7721d0939983e9f156b361166e442c43b028a751dc94569e2cf214968b0d0f463b4ba3ce87e9e98d1f859376b5316896a561767c446a"}
+local s5eH9k84pu={2,4,1,3}
+local sit52ANnTV={}
+for zdTJ4PtfE3=1,#jihjXWnmZoNCFzUD6 do sit52ANnTV[jihjXWnmZoNCFzUD6[zdTJ4PtfE3]]=iXk8plzi5EwxRUn[zdTJ4PtfE3] end
+sit52ANnTV=table.concat(sit52ANnTV)
+local rLXNFHRz7wr5LAD={}
+for zdTJ4PtfE3=1,#s5eH9k84pu do rLXNFHRz7wr5LAD[s5eH9k84pu[zdTJ4PtfE3]]=o1pnT8GuKMv[zdTJ4PtfE3] end
+rLXNFHRz7wr5LAD=table.concat(rLXNFHRz7wr5LAD)
+local uuksTnLBnC={}
+for zdTJ4PtfE3=1,#sit52ANnTV,2 do
+  uuksTnLBnC[#uuksTnLBnC+1]=tonumber(string.sub(sit52ANnTV,zdTJ4PtfE3,zdTJ4PtfE3+1),16)
+end
+local gTAsBm9zK={179,221,163,184,90,102,166,217,241,160,124,91,202,5,243,224,79,129,153,233,54,239,118,29,26,206,24,2,247,166,44}
+for zdTJ4PtfE3=1,#uuksTnLBnC do
+  uuksTnLBnC[zdTJ4PtfE3]=bit32.bxor(uuksTnLBnC[zdTJ4PtfE3],gTAsBm9zK[(zdTJ4PtfE3-1)%#gTAsBm9zK+1])
+end
+local x5FO3RgU4YB6kzvk={}
+for zdTJ4PtfE3=1,#rLXNFHRz7wr5LAD,2 do
+  x5FO3RgU4YB6kzvk[#x5FO3RgU4YB6kzvk+1]=tonumber(string.sub(rLXNFHRz7wr5LAD,zdTJ4PtfE3,zdTJ4PtfE3+1),16)
+end
+local hZ0GkLvcV3sJql={65,164,34,91,129,185,27,69,2,185,16,51,252,208,204,230,150,30,111,67,239,156,30,189,195,171,176,134,4,5,99}
+for zdTJ4PtfE3=1,#x5FO3RgU4YB6kzvk do
+  x5FO3RgU4YB6kzvk[zdTJ4PtfE3]=bit32.bxor(x5FO3RgU4YB6kzvk[zdTJ4PtfE3],hZ0GkLvcV3sJql[(zdTJ4PtfE3-1)%#hZ0GkLvcV3sJql+1])
+end
+local acTR4CFrdntMdE5={}
+for zdTJ4PtfE3=1,math.max(#uuksTnLBnC,#x5FO3RgU4YB6kzvk) do
+  if uuksTnLBnC[zdTJ4PtfE3] then acTR4CFrdntMdE5[#acTR4CFrdntMdE5+1]=uuksTnLBnC[zdTJ4PtfE3] end
+  if x5FO3RgU4YB6kzvk[zdTJ4PtfE3] then acTR4CFrdntMdE5[#acTR4CFrdntMdE5+1]=x5FO3RgU4YB6kzvk[zdTJ4PtfE3] end
+end
+local n2MGpDC4Sau={}
+local yDhO1sP5ksxfU0=175093364
+for zdTJ4PtfE3=#acTR4CFrdntMdE5-1,1,-1 do
+  yDhO1sP5ksxfU0=(yDhO1sP5ksxfU0*1664525+1013904223)%4294967296
+  local ltI9FwYcwjnCBdlgq=yDhO1sP5ksxfU0%(zdTJ4PtfE3+1)+1
+  n2MGpDC4Sau[#n2MGpDC4Sau+1]={zdTJ4PtfE3+1,ltI9FwYcwjnCBdlgq}
+end
+for zdTJ4PtfE3=#n2MGpDC4Sau,1,-1 do
+  local fSCMGBH5NtgLa=n2MGpDC4Sau[zdTJ4PtfE3]
+  local krUdAFDk91va=acTR4CFrdntMdE5[fSCMGBH5NtgLa[1]]
+  acTR4CFrdntMdE5[fSCMGBH5NtgLa[1]]=acTR4CFrdntMdE5[fSCMGBH5NtgLa[2]]
+  acTR4CFrdntMdE5[fSCMGBH5NtgLa[2]]=krUdAFDk91va
+end
+local rgHbaTxklcA={66,174,229,119,90,246,103,137,150,166,86,110,108,163,108,194,127,220,63,4,110,58,149,176,218,13,108,147,26,65,70}
+local zzOVWUy4qqOrCP={}
+for zdTJ4PtfE3=1,#acTR4CFrdntMdE5 do
+  zzOVWUy4qqOrCP[zdTJ4PtfE3]=string.char(bit32.bxor(acTR4CFrdntMdE5[zdTJ4PtfE3],rgHbaTxklcA[(zdTJ4PtfE3-1)%#rgHbaTxklcA+1]))
+end
+local urMXijSHMvzcBZ=table.concat(zzOVWUy4qqOrCP)
+local ynPFTF5Ip6cOU9=math.floor(3)
+local lpJN2tIJ_fXS34c=bit32.bxor(196,103)
+local yMCrxFd60iPXwDx=954
+local qxTHd1k6oML5t=678
+if false then error("") end
+if false then error("") end
+for _=1,0 do end
+local bpNpkWGaigU_gJS,kF1Mh1vWFcy3=loadstring(urMXijSHMvzcBZ)
+if bpNpkWGaigU_gJS then
+  bpNpkWGaigU_gJS()
 else
-  error("Mnx | Public Enemy : "..tostring(sP9xoZBysh8w))
+  error("Mnx | Public Enemy : "..tostring(kF1Mh1vWFcy3))
 end
