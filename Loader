@@ -1,73 +1,73 @@
 -- Protected by Mnx Obfuscator | Public Enemy
-local xXQy5R2Pr1U=math.abs(-61)
-local sQZ4M18OJvvlyOPI8e=946
-local uaYEoX9hun=731
-local og8yPFVLCu=string.len("qMxrxf5D")
-local aPLXWcgGsp6SVOO_h=math.abs(-60)
-do local _=nil end
-do local _=nil end
-if false then error("") end
-local eQBFjw88a1EcH=tostring(35)
-local aTAnPQIZDQ88d=tostring(74)
-local et5ezdarU9mK5z=#"fQva6mr"
+local tekbPcWHmYwC=type(nil)
+local pqKN3NQNGyOlMX=math.abs(-89)
+local dFwoRyevYJDvvKB93q=type(nil)
+local oRxnHGJJ75cL=tostring(34)
 for _=1,0 do end
-local kmUd179lxZF5tN6Vg={"50c10d39ddb785df849c7908b1b0ea168e64bc8905fa366ef02fee4ccdccdf6164910bd574ac6fe31cc703dd99a5039e0d94cd6ad5f622f05a65b260468","0b1a0a4095f9baa3f04dc15a985155b944638ed3ce28adb085aa627b121f6ca370b083740b80096fa544da7006dc4e9ba1d485bcdccaefd61b8b6fb1c07","72a7bae687abe0e41d23270b1b7a73e69e352948136190ef6e6103e240d2bb6a98d5ba02073f338439e9140bbda070662b1b358b7460303f8ac0a735289","45a447360732f84610f659c08b2606e5e1a4b5fa5050356cb6abcc02b8596b81615aaf42305e872d47dcf06e12ae1e8e054da6956c8e96e94a785395204","9fd6d3592cc26f65e6d7f1bd67ec5b1d2a36f5392c535312d1a02645958879d48da69f01ec89cd611c6c697afef1b823f8d4fc9aed58a79bc48b35ba21c","cc82b6afe75f8270169b8f441d83061cb67f7dc6e36ebbc81f9efe96596870e6230da8e07d7c508a6dbb065a1543b5eb4db5e971be0acaca9d0863c5723","e1e8cb42406aa01fa936e0c897448a73e685691289b301432fe7f3f7961b9e7f80dab798bc88d4ee21a6bbf1c0c5d9d1e1ed0b1cd4578b18c697a4df435","9d70e1051193d516b0472ba8cf404464ddef32510513228cb3d9ecc9c1b47b8916254e063fad363c8cebbcf007b6680ab049d8825546d2714d479ce79"}
-local w2qaU6pWG_={7,6,4,1,2,5,3,8}
-local noEV9BF0lgZn0yW5S={"f5d1724fedb1dfd734784d35cc5e93e23ef2a7884be603116b13eda1eafd1a0931593e8d00d951d33d9ad42b5fe3880854fa8cd02e0ccd9acfc64e3a87c","944729e82cfccd4e1fb9bafc1453cae347fad4b7d4c29f3ee8b97bab159d2ddae808b325f2beb91b4e5a58ce8cb7aa00715b6b76a668064e3ef405627a4","55b537ce2673fbb4581a0d7427c84929c74a4c74e953f4b22a8b41b5ae2acb364bf2c966ec31abeeafe9dbbbc9dcc1b87bf14693d27db9c5ad853a778a1","9b766038f0d07e82fa38ea6e1581f88864102f80fcdc0b5c092d9222d52c3ffa6f165bc2f68fff6e52a33602b61970a01d6ed8a437b880c5bd4cd49","72e1c289c9af5d8fdd1dc8da34554c8c4077cf49b26e67baab507cb39adfb879f1a716fd4878396809f3d431ffae74d8c40c3c7e413d5ad786e7bd6a761","2c1b3ea3e996155617cb315203fa8603483f7d1a7398d4699336f91b4a749623e0719b52d2956f33916da103c4adff615167d7b052e621411f155d3f195","59d0d8d33af1cfead0310fd8086b035de62492b0c29c0ff64d91c046014970ac6cfdc5cb00888d16f7b73ca89d3074d2eaf22d9d983d60ff335571495c5","20b1a5f953f8580c3960aa10de4f2c901ebcaab5d31bb8e63b998cf70ad840f9451fb6486b9065dab547ea0a341e8f20b5f6ee61bfaba8fc006aaf01411"}
-local yrfluF_XSgLxbQ={7,3,5,8,4,1,2,6}
-local ivb8NLktBV6mV9UXT6={}
-for h73yr13zLjRFu59h9=1,#w2qaU6pWG_ do ivb8NLktBV6mV9UXT6[w2qaU6pWG_[h73yr13zLjRFu59h9]]=kmUd179lxZF5tN6Vg[h73yr13zLjRFu59h9] end
-ivb8NLktBV6mV9UXT6=table.concat(ivb8NLktBV6mV9UXT6)
-local k4QMGTygqVC22p1={}
-for h73yr13zLjRFu59h9=1,#yrfluF_XSgLxbQ do k4QMGTygqVC22p1[yrfluF_XSgLxbQ[h73yr13zLjRFu59h9]]=noEV9BF0lgZn0yW5S[h73yr13zLjRFu59h9] end
-k4QMGTygqVC22p1=table.concat(k4QMGTygqVC22p1)
-local kdmeFt1tg1YNmVc3={}
-for h73yr13zLjRFu59h9=1,#ivb8NLktBV6mV9UXT6,2 do
-  kdmeFt1tg1YNmVc3[#kdmeFt1tg1YNmVc3+1]=tonumber(string.sub(ivb8NLktBV6mV9UXT6,h73yr13zLjRFu59h9,h73yr13zLjRFu59h9+1),16)
-end
-local luvczUC15EEa2I={105,195,188,120,61,189,107,134,140,157,101,35,204,50,252,233,88,205,104,51,210,155,168,239,171,53,146,57,36}
-for h73yr13zLjRFu59h9=1,#kdmeFt1tg1YNmVc3 do
-  kdmeFt1tg1YNmVc3[h73yr13zLjRFu59h9]=bit32.bxor(kdmeFt1tg1YNmVc3[h73yr13zLjRFu59h9],luvczUC15EEa2I[(h73yr13zLjRFu59h9-1)%#luvczUC15EEa2I+1])
-end
-local f7azivsUuyq={}
-for h73yr13zLjRFu59h9=1,#k4QMGTygqVC22p1,2 do
-  f7azivsUuyq[#f7azivsUuyq+1]=tonumber(string.sub(k4QMGTygqVC22p1,h73yr13zLjRFu59h9,h73yr13zLjRFu59h9+1),16)
-end
-local cXaH3dCi6_cK68nQ9={13,158,142,194,250,176,189,185,246,140,236,182,162,2,169,141,249,177,27,219,64,54,248,189,40,7,87,26,47}
-for h73yr13zLjRFu59h9=1,#f7azivsUuyq do
-  f7azivsUuyq[h73yr13zLjRFu59h9]=bit32.bxor(f7azivsUuyq[h73yr13zLjRFu59h9],cXaH3dCi6_cK68nQ9[(h73yr13zLjRFu59h9-1)%#cXaH3dCi6_cK68nQ9+1])
-end
-local txNjb9O7t_pGUMYYEV={}
-for h73yr13zLjRFu59h9=1,math.max(#kdmeFt1tg1YNmVc3,#f7azivsUuyq) do
-  if kdmeFt1tg1YNmVc3[h73yr13zLjRFu59h9] then txNjb9O7t_pGUMYYEV[#txNjb9O7t_pGUMYYEV+1]=kdmeFt1tg1YNmVc3[h73yr13zLjRFu59h9] end
-  if f7azivsUuyq[h73yr13zLjRFu59h9] then txNjb9O7t_pGUMYYEV[#txNjb9O7t_pGUMYYEV+1]=f7azivsUuyq[h73yr13zLjRFu59h9] end
-end
-local qjs5ZGlE05CFBLu={}
-local tOnqX5iOnscQrrQH=740735440
-for h73yr13zLjRFu59h9=#txNjb9O7t_pGUMYYEV-1,1,-1 do
-  tOnqX5iOnscQrrQH=(tOnqX5iOnscQrrQH*1664525+1013904223)%4294967296
-  local wJTmkcI7dh217u5=tOnqX5iOnscQrrQH%(h73yr13zLjRFu59h9+1)+1
-  qjs5ZGlE05CFBLu[#qjs5ZGlE05CFBLu+1]={h73yr13zLjRFu59h9+1,wJTmkcI7dh217u5}
-end
-for h73yr13zLjRFu59h9=#qjs5ZGlE05CFBLu,1,-1 do
-  local rDUrK_6Lc=qjs5ZGlE05CFBLu[h73yr13zLjRFu59h9]
-  local nc2BGLxzsngSb0j2=txNjb9O7t_pGUMYYEV[rDUrK_6Lc[1]]
-  txNjb9O7t_pGUMYYEV[rDUrK_6Lc[1]]=txNjb9O7t_pGUMYYEV[rDUrK_6Lc[2]]
-  txNjb9O7t_pGUMYYEV[rDUrK_6Lc[2]]=nc2BGLxzsngSb0j2
-end
-local ivRAfbif1Pwf_B5FoQ={59,207,17,120,174,71,246,161,50,81,112,37,109,91,136,219,72,170,174,83,160,131,206,26,203,188,10,136,205}
-local vskjLxHf095f={}
-for h73yr13zLjRFu59h9=1,#txNjb9O7t_pGUMYYEV do
-  vskjLxHf095f[h73yr13zLjRFu59h9]=string.char(bit32.bxor(txNjb9O7t_pGUMYYEV[h73yr13zLjRFu59h9],ivRAfbif1Pwf_B5FoQ[(h73yr13zLjRFu59h9-1)%#ivRAfbif1Pwf_B5FoQ+1]))
-end
-local hfXIUICfY=table.concat(vskjLxHf095f)
-local fAA4iWhC8YP55Q6Q1r=math.floor(1)
-local nH2oLkoaYEZz=math.abs(-56)
 if false then error("") end
+if false then error("") end
+local wuL5AE9HHFWmhmRIK=type(nil)
+local dilVRw8S8=bit32.bxor(109,71)
+local xqnsD0ELlbfDDZPU57=bit32.bxor(60,93)
+local cbvSrL2zJ3Hzl=tostring(28)
+if false then error("") end
+local plyUk4hKFaTzlfRnN={"005eb21ffcacd21263d24081b3d6eab56f48b2e9d108701e1666307869b253efc6a8f00d5cdc0569b712aed9925337274e0fe437fe5e78f22bfba72606b120fcba4a5c85d6b5e4340dac21244ed6b458b4ce12d871b3350ccc","a9b88b5157be0ce26f246a77f7bd033dbb58f028bad1df2e341e860ae10db582f34bb16710c36e8d194b65b552fca14694b14905d083562172e9555f91a0e98011fb7ad90755f960d2949e9db69b3fd12a84bef6a4dc8be404","2bf693f552b4931f87ec19f38a798194947629bc6c7e3202753d03b1fe2d0e86d027fa4b5e5e76caca52d602d8d80ba95e6f8be45bafc6bffa8588eafb071f906d8195e285ff4c6e143fee5d6124fa4c7e9c3572031315b5d8","07f3d70a2c6dca0d6ee2a8a69eb9509589c274499d35e529922eae494dbdaf14fdd4a2b06a677ff52df32d7c2c626897276fc7c7c1b37312491fea861aca8286a3af7383e2d916bd55351c2ed8c6837859f92002bb2ee75d85","8a1031e64018a9d70808af4011ddbd69a7c21c6b7353463d2925e39055aa4dca0929c2b25c1f05fd22c5263bd46e258585df2bf98ccbc696e8a4bc21e41b4d3486777166883dfe8aadeb688ab08dad5870755f1b553bc11e7b","a2ea3b56197be95f31dec51b77ff14f86744462c801932164de0fe9c3286f5c22e6f8fa99db91f8920ac7b47ea43e6543342080b260b2225ef053888a750d5f624507d485a6f6cdc5784e6d282e61c0184dd9b4536cc2b9e4a","c22c88aa8627685d2bdaf5e843d3c90fbe9ee534d366fb9d124a7818062f"}
+local jGQYoBw1df={1,4,5,3,6,2,7}
+local d8VQoph16o96RjT={"701316e0c97c13fc8536db8f0ea0e9cd4a11782857bc0667942ad9e1e3","63c8fc488f335157907b5a6fb5e834f18124108d760c4e537381e74866e1dd36bea3cd7b03513368b48a5d4d7d8fdae74eb01a2fe720fd72ac99e7973ac737d0876c6e998c9205d7ce951e9357061626c0139dc52a8700e782","3d67cc1f7b7d4886b20754bcde32f3a2ca03585f415504c01cb0efc2328ccd308f585b5a489f78a93d18d103966094f9fe13c067b2e0674573d74f54ad5b88e6ea6426fc9da77369b973bf445a1de2361e0f7217f496699827","9598ec3df1777d121dea39c521db36eb337b6bf325a4923bd07c9a4596b3c732ae1f1f3a02dc0f888cdec77dcaa572d16b8a32457e2e8ad06e2f9ce8b49b9b009f0c338919d9a7447b9e6f2ee05011efcdee21380a9c9a8e5e","9ac6917e65dd0d1f990299d5673ecb3dbc0891e51338f91733b79583fb34899402d4123fdb0e884e9c4b41dcb3872737f0ffcb27da6abb96461688de7cfd76aa322c9db90977fcaa5e53de87033712944e7e0f2fabb667ce2d","ee304e291c46d76fa265bfefead3357c1f932b08cb26e6d2b470fd2b1c912fab2785c009670dce80a89cd86f23b44f3afb61a24e477353857bfc7bb5596e0a4ffdc95b5a43ab18ed5038a0342f9963e2b24d1b614f8f184942","e0359a240bcf39e5de4f086ee92c7a7140ac538dd9d95a5537cfceb6674610671b189155be8bbdd2c48b42cd8aa09ab143b30ce516e2ce7e27a76bdc88580eb194bab1be5b45fb61f0cb4494a24ca2eabf0d6d61ad2f105db7"}
+local bZrLrgWnSVwm7={7,2,6,4,3,1,5}
+local kz5xoW4n5cLsz={}
+for cC6HFLxCwet=1,#jGQYoBw1df do kz5xoW4n5cLsz[jGQYoBw1df[cC6HFLxCwet]]=plyUk4hKFaTzlfRnN[cC6HFLxCwet] end
+kz5xoW4n5cLsz=table.concat(kz5xoW4n5cLsz)
+local hpI6gnMFvY9CIb5PF={}
+for cC6HFLxCwet=1,#bZrLrgWnSVwm7 do hpI6gnMFvY9CIb5PF[bZrLrgWnSVwm7[cC6HFLxCwet]]=d8VQoph16o96RjT[cC6HFLxCwet] end
+hpI6gnMFvY9CIb5PF=table.concat(hpI6gnMFvY9CIb5PF)
+local lI6526WzjULC3O_Dp={}
+for cC6HFLxCwet=1,#kz5xoW4n5cLsz,2 do
+  lI6526WzjULC3O_Dp[#lI6526WzjULC3O_Dp+1]=tonumber(string.sub(kz5xoW4n5cLsz,cC6HFLxCwet,cC6HFLxCwet+1),16)
+end
+local xZ5dZS5EH={222,211,215,96,19,185,60,128,196,249,205,178,31,232,44,17,66,26,252,194,140,145,38,67,244,98,109,153,34,74,229}
+for cC6HFLxCwet=1,#lI6526WzjULC3O_Dp do
+  lI6526WzjULC3O_Dp[cC6HFLxCwet]=bit32.bxor(lI6526WzjULC3O_Dp[cC6HFLxCwet],xZ5dZS5EH[(cC6HFLxCwet-1)%#xZ5dZS5EH+1])
+end
+local mDEgJQwrGvTdsa={}
+for cC6HFLxCwet=1,#hpI6gnMFvY9CIb5PF,2 do
+  mDEgJQwrGvTdsa[#mDEgJQwrGvTdsa+1]=tonumber(string.sub(hpI6gnMFvY9CIb5PF,cC6HFLxCwet,cC6HFLxCwet+1),16)
+end
+local q7s0c5XK7={16,167,105,66,16,166,194,38,35,146,195,182,105,31,53,143,175,221,171,103,194,161,40,246,69,201,239,9,201,139,72}
+for cC6HFLxCwet=1,#mDEgJQwrGvTdsa do
+  mDEgJQwrGvTdsa[cC6HFLxCwet]=bit32.bxor(mDEgJQwrGvTdsa[cC6HFLxCwet],q7s0c5XK7[(cC6HFLxCwet-1)%#q7s0c5XK7+1])
+end
+local oF73XarWZAo={}
+for cC6HFLxCwet=1,math.max(#lI6526WzjULC3O_Dp,#mDEgJQwrGvTdsa) do
+  if lI6526WzjULC3O_Dp[cC6HFLxCwet] then oF73XarWZAo[#oF73XarWZAo+1]=lI6526WzjULC3O_Dp[cC6HFLxCwet] end
+  if mDEgJQwrGvTdsa[cC6HFLxCwet] then oF73XarWZAo[#oF73XarWZAo+1]=mDEgJQwrGvTdsa[cC6HFLxCwet] end
+end
+local h6LsqhIniTcJu12ei={}
+local mf4RT4tZEf=303067062
+for cC6HFLxCwet=#oF73XarWZAo-1,1,-1 do
+  mf4RT4tZEf=(mf4RT4tZEf*1664525+1013904223)%4294967296
+  local h76owVzuM=mf4RT4tZEf%(cC6HFLxCwet+1)+1
+  h6LsqhIniTcJu12ei[#h6LsqhIniTcJu12ei+1]={cC6HFLxCwet+1,h76owVzuM}
+end
+for cC6HFLxCwet=#h6LsqhIniTcJu12ei,1,-1 do
+  local qcH7Ix58pF=h6LsqhIniTcJu12ei[cC6HFLxCwet]
+  local rowttmFa_U=oF73XarWZAo[qcH7Ix58pF[1]]
+  oF73XarWZAo[qcH7Ix58pF[1]]=oF73XarWZAo[qcH7Ix58pF[2]]
+  oF73XarWZAo[qcH7Ix58pF[2]]=rowttmFa_U
+end
+local far6qF8lHovl={103,44,11,161,169,87,145,31,192,242,95,162,220,35,173,225,173,8,125,20,78,103,11,123,131,200,184,101,10,160,104}
+local aOIvEIjVJlkdf={}
+for cC6HFLxCwet=1,#oF73XarWZAo do
+  aOIvEIjVJlkdf[cC6HFLxCwet]=string.char(bit32.bxor(oF73XarWZAo[cC6HFLxCwet],far6qF8lHovl[(cC6HFLxCwet-1)%#far6qF8lHovl+1]))
+end
+local gQShRPv3Fpyonya=table.concat(aOIvEIjVJlkdf)
+local xwEhlWSorYl74jwtAv=string.len("weVnBFOwh")
+local qdujg82c34JjH=bit32.bxor(54,72)
+for _=1,0 do end
 do local _=nil end
-local bq7HkhJOwQbO,vRz4OsnzyA=loadstring(hfXIUICfY)
-if bq7HkhJOwQbO then
-  bq7HkhJOwQbO()
+local xQpMIxHupcSvV6,mjYpB2f9XIzN=loadstring(gQShRPv3Fpyonya)
+if xQpMIxHupcSvV6 then
+  xQpMIxHupcSvV6()
 else
-  error("Mnx | Public Enemy : "..tostring(vRz4OsnzyA))
+  error("Mnx | Public Enemy : "..tostring(mjYpB2f9XIzN))
 end
