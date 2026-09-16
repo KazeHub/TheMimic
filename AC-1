@@ -1,115 +1,1783 @@
 {
-    Matches = {
-        {
-            Index = "fireproximityprompt",
-            LocationType = "Table Index",
-            Value = true,
-            ValueName = "fireproximityprompt",
-            ValueType = "boolean"
-        },
-        {
-            Index = "Name",
-            LocationType = "Table Index",
-            Value = "fireproximityprompt",
-            ValueName = "Name",
-            ValueType = "string"
-        },
-        {
-            Index = "fireproximityprompt",
-            LocationType = "Table Index",
-            Value = {
-                line = -1,
-                name = "fireproximityprompt",
-                numparams = 0,
-                source = "[C]",
-                vargs = true
+    [13] = CFrame.new(-1721.9100341797, 11.220113754272, -4294.1459960938, -0.95052528381348, 0.00076650507980958, 0.31064623594284, 5.8207660913467e-11, 0.99999690055847, -0.002467445563525, -0.31064718961716, -0.0023453694302589, -0.95052236318588),
+    [93908] = {},
+    [93909] = {},
+    [93907] = {
+        Class = "AudioPitchShifter",
+        Name = "WiringChanged",
+        Parameters = {
+            {
+                Name = "connected",
+                Type = "bool"
             },
-            ValueName = "fireproximityprompt",
-            ValueType = "function"
+            {
+                Name = "pin",
+                Type = "string"
+            },
+            {
+                Name = "wire",
+                Type = "Wire"
+            },
+            {
+                Name = "instance",
+                Type = "Instance"
+            }
+        },
+        Security = "None",
+        Tags = {}
+    },
+    [93905] = {
+        {
+            Name = "connected",
+            Type = "bool"
+        },
+        {
+            Name = "pin",
+            Type = "string"
+        },
+        {
+            Name = "wire",
+            Type = "Wire"
+        },
+        {
+            Name = "instance",
+            Type = "Instance"
         }
     },
-    Name = "table: 0x09ad12ed9db24840",
-    Ref = {
-        [2325] = {
-            line = 266,
-            name = "",
-            numparams = 0,
-            source = "rPtbOdFGGQOOcaMliZjalQHJe",
-            vargs = false
+    [93906] = {},
+    [93904] = {
+        Name = "connected",
+        Type = "bool"
+    },
+    [93910] = {
+        Class = "AudioPitchShifter",
+        Name = "GetOutputPins",
+        Parameters = {},
+        ReturnType = "Array",
+        Security = "None",
+        Tags = {}
+    },
+    [93912] = {},
+    [93915] = {
+        {
+            Name = "pin",
+            Type = "string"
+        }
+    },
+    [93911] = {},
+    [93914] = {
+        Name = "pin",
+        Type = "string"
+    },
+    [93913] = {
+        Class = "AudioPitchShifter",
+        Name = "GetInputPins",
+        Parameters = {},
+        ReturnType = "Array",
+        Security = "None",
+        Tags = {}
+    },
+    [93916] = {},
+    [93903] = {
+        Name = "pin",
+        Type = "string"
+    },
+    [93901] = {
+        Name = "instance",
+        Type = "Instance"
+    },
+    [93893] = {},
+    [93894] = {
+        Category = "Asset",
+        Class = "AudioPlayer",
+        Name = "Asset",
+        Security = {
+            Read = "None",
+            Write = "None"
         },
-        [182511] = {
-            Category = "Text",
-            Class = "TextBox",
-            Name = "OpenTypeFeaturesError",
-            Security = {
-                Read = "None",
-                Write = "None"
-            },
-            Serialization = {
-                CanLoad = false,
-                CanSave = true
-            },
-            Tags = {
-                NotReplicated = true,
-                ReadOnly = true
-            },
-            ValueType = {
-                Category = "Primitive",
-                Name = "string"
-            }
+        Serialization = {
+            CanLoad = true,
+            CanSave = true
         },
-        [182512] = {},
-        [182513] = {
-            Category = "Text",
-            Class = "TextBox",
-            Name = "OpenTypeFeatures",
-            Security = {
-                Read = "None",
-                Write = "None"
-            },
-            Serialization = {
-                CanLoad = true,
-                CanSave = true
-            },
-            Tags = {},
-            ValueType = {
-                Category = "Primitive",
-                Name = "string"
-            }
+        Tags = {},
+        ValueType = {
+            Category = "DataType",
+            Name = "ContentId"
+        }
+    },
+    [93892] = {
+        Category = "Asset",
+        Class = "AudioPlayer",
+        Name = "AssetId",
+        Security = {
+            Read = "None",
+            Write = "None"
         },
-        [182510] = {
-            NotReplicated = true,
-            ReadOnly = true
+        Serialization = {
+            CanLoad = true,
+            CanSave = false
         },
-        [182508] = {
+        Tags = {
+            Deprecated = true,
             Hidden = true,
             NotReplicated = true
         },
-        [182509] = {
-            Category = "Data",
-            Class = "TextBox",
-            Name = "OverlayNativeInput",
-            Security = {
-                Read = "RobloxScriptSecurity",
-                Write = "RobloxScriptSecurity"
+        ValueType = {
+            Category = "Primitive",
+            Name = "string"
+        }
+    },
+    [93890] = {
+        Category = "Behavior",
+        Class = "AudioPlayer",
+        Name = "AssetRepresentation",
+        Security = {
+            Read = "RobloxScriptSecurity",
+            Write = "RobloxScriptSecurity"
+        },
+        Serialization = {
+            CanLoad = false,
+            CanSave = false
+        },
+        Tags = {
+            Hidden = true,
+            NotReplicated = true
+        },
+        ValueType = {
+            Category = "Enum",
+            Name = "AssetRepresentation"
+        }
+    },
+    [93891] = {
+        Deprecated = true,
+        Hidden = true,
+        NotReplicated = true
+    },
+    [93902] = {
+        Name = "wire",
+        Type = "Wire"
+    },
+    [93895] = {},
+    [93897] = {
+        {
+            Class = "AudioPlayer",
+            Name = "Ended",
+            Parameters = {},
+            Security = "None",
+            Tags = {}
+        },
+        {
+            Class = "AudioPlayer",
+            Name = "Looped",
+            Parameters = {},
+            Security = "None",
+            Tags = {}
+        },
+        {
+            Class = "AudioPlayer",
+            Name = "WiringChanged",
+            Parameters = {
+                {
+                    Name = "connected",
+                    Type = "bool"
+                },
+                {
+                    Name = "pin",
+                    Type = "string"
+                },
+                {
+                    Name = "wire",
+                    Type = "Wire"
+                },
+                {
+                    Name = "instance",
+                    Type = "Instance"
+                }
             },
-            Serialization = {
-                CanLoad = false,
-                CanSave = false
+            Security = "None",
+            Tags = {}
+        }
+    },
+    [93900] = {
+        Callbacks = {},
+        Events = {
+            {
+                Class = "AudioPlayer",
+                Name = "Ended",
+                Parameters = {},
+                Security = "None",
+                Tags = {}
             },
-            Tags = {
-                Hidden = true,
-                NotReplicated = true
+            {
+                Class = "AudioPlayer",
+                Name = "Looped",
+                Parameters = {},
+                Security = "None",
+                Tags = {}
             },
-            ValueType = {
-                Category = "Primitive",
-                Name = "bool"
+            {
+                Class = "AudioPlayer",
+                Name = "WiringChanged",
+                Parameters = {
+                    {
+                        Name = "connected",
+                        Type = "bool"
+                    },
+                    {
+                        Name = "pin",
+                        Type = "string"
+                    },
+                    {
+                        Name = "wire",
+                        Type = "Wire"
+                    },
+                    {
+                        Name = "instance",
+                        Type = "Instance"
+                    }
+                },
+                Security = "None",
+                Tags = {}
             }
         },
-        [182507] = {
-            Category = "Text",
-            Class = "TextBox",
-            Name = "PlaceholderColor3",
+        Functions = {
+            {
+                Class = "AudioPlayer",
+                Name = "Cancel",
+                Parameters = {
+                    {
+                        Name = "actionId",
+                        Type = "int64?"
+                    }
+                },
+                ReturnType = "bool",
+                Security = "None",
+                Tags = {}
+            },
+            {
+                Class = "AudioPlayer",
+                Name = "GetConnectedWires",
+                Parameters = {
+                    {
+                        Name = "pin",
+                        Type = "string"
+                    }
+                },
+                ReturnType = "Instances",
+                Security = "None",
+                Tags = {}
+            },
+            {
+                Class = "AudioPlayer",
+                Name = "GetInputPins",
+                Parameters = {},
+                ReturnType = "Array",
+                Security = "None",
+                Tags = {}
+            },
+            {
+                Class = "AudioPlayer",
+                Name = "GetOutputPins",
+                Parameters = {},
+                ReturnType = "Array",
+                Security = "None",
+                Tags = {}
+            },
+            {
+                Class = "AudioPlayer",
+                Name = "Play",
+                Parameters = {
+                    {
+                        Name = "atTime",
+                        Type = "double?"
+                    }
+                },
+                ReturnType = "int64?",
+                Security = "None",
+                Tags = {}
+            },
+            {
+                Class = "AudioPlayer",
+                Name = "Stop",
+                Parameters = {
+                    {
+                        Name = "atTime",
+                        Type = "double?"
+                    }
+                },
+                ReturnType = "int64?",
+                Security = "None",
+                Tags = {}
+            },
+            {
+                Class = "AudioPlayer",
+                Name = "GetWaveformAsync",
+                Parameters = {
+                    {
+                        Name = "timeRange",
+                        Type = "NumberRange"
+                    },
+                    {
+                        Name = "samples",
+                        Type = "int"
+                    }
+                },
+                ReturnType = "Array",
+                Security = "None",
+                Tags = {
+                    Yields = true
+                }
+            }
+        },
+        Name = "AudioPlayer",
+        Properties = {
+            {
+                Category = "Asset",
+                Class = "AudioPlayer",
+                Name = "Asset",
+                Security = {
+                    Read = "None",
+                    Write = "None"
+                },
+                Serialization = {
+                    CanLoad = true,
+                    CanSave = true
+                },
+                Tags = {},
+                ValueType = {
+                    Category = "DataType",
+                    Name = "ContentId"
+                }
+            },
+            {
+                Category = "Asset",
+                Class = "AudioPlayer",
+                Name = "AssetId",
+                Security = {
+                    Read = "None",
+                    Write = "None"
+                },
+                Serialization = {
+                    CanLoad = true,
+                    CanSave = false
+                },
+                Tags = {
+                    Deprecated = true,
+                    Hidden = true,
+                    NotReplicated = true
+                },
+                ValueType = {
+                    Category = "Primitive",
+                    Name = "string"
+                }
+            },
+            {
+                Category = "Behavior",
+                Class = "AudioPlayer",
+                Name = "AssetRepresentation",
+                Security = {
+                    Read = "RobloxScriptSecurity",
+                    Write = "RobloxScriptSecurity"
+                },
+                Serialization = {
+                    CanLoad = false,
+                    CanSave = false
+                },
+                Tags = {
+                    Hidden = true,
+                    NotReplicated = true
+                },
+                ValueType = {
+                    Category = "Enum",
+                    Name = "AssetRepresentation"
+                }
+            },
+            {
+                Category = "Asset",
+                Class = "AudioPlayer",
+                Name = "AudioContent",
+                Security = {
+                    Read = "None",
+                    Write = "None"
+                },
+                Serialization = {
+                    CanLoad = true,
+                    CanSave = true
+                },
+                Tags = {
+                    Hidden = true
+                },
+                ValueType = {
+                    Category = "DataType",
+                    Name = "Content"
+                }
+            },
+            {
+                Category = "Asset",
+                Class = "AudioPlayer",
+                Name = "AutoLoad",
+                Security = {
+                    Read = "None",
+                    Write = "None"
+                },
+                Serialization = {
+                    CanLoad = true,
+                    CanSave = true
+                },
+                Tags = {},
+                ValueType = {
+                    Category = "Primitive",
+                    Name = "bool"
+                }
+            },
+            {
+                Category = "Playback",
+                Class = "AudioPlayer",
+                Name = "AutoPlay",
+                Security = {
+                    Read = "None",
+                    Write = "None"
+                },
+                Serialization = {
+                    CanLoad = true,
+                    CanSave = true
+                },
+                Tags = {},
+                ValueType = {
+                    Category = "Primitive",
+                    Name = "bool"
+                }
+            },
+            {
+                Category = "Playback",
+                Class = "AudioPlayer",
+                Name = "IsPlaying",
+                Security = {
+                    Read = "None",
+                    Write = "RobloxSecurity"
+                },
+                Serialization = {
+                    CanLoad = false,
+                    CanSave = false
+                },
+                Tags = {},
+                ValueType = {
+                    Category = "Primitive",
+                    Name = "bool"
+                }
+            },
+            {
+                Category = "Asset",
+                Class = "AudioPlayer",
+                Name = "IsReady",
+                Security = {
+                    Read = "None",
+                    Write = "None"
+                },
+                Serialization = {
+                    CanLoad = false,
+                    CanSave = true
+                },
+                Tags = {
+                    NotReplicated = true,
+                    ReadOnly = true
+                },
+                ValueType = {
+                    Category = "Primitive",
+                    Name = "bool"
+                }
+            },
+            {
+                Category = "Regions",
+                Class = "AudioPlayer",
+                Name = "LoopRegion",
+                Security = {
+                    Read = "None",
+                    Write = "None"
+                },
+                Serialization = {
+                    CanLoad = true,
+                    CanSave = true
+                },
+                Tags = {},
+                ValueType = {
+                    Category = "DataType",
+                    Name = "NumberRange"
+                }
+            },
+            {
+                Category = "Playback",
+                Class = "AudioPlayer",
+                Name = "Looping",
+                Security = {
+                    Read = "None",
+                    Write = "None"
+                },
+                Serialization = {
+                    CanLoad = true,
+                    CanSave = true
+                },
+                Tags = {},
+                ValueType = {
+                    Category = "Primitive",
+                    Name = "bool"
+                }
+            },
+            {
+                Category = "Regions",
+                Class = "AudioPlayer",
+                Name = "PlaybackRegion",
+                Security = {
+                    Read = "None",
+                    Write = "None"
+                },
+                Serialization = {
+                    CanLoad = true,
+                    CanSave = true
+                },
+                Tags = {},
+                ValueType = {
+                    Category = "DataType",
+                    Name = "NumberRange"
+                }
+            },
+            {
+                Category = "Playback",
+                Class = "AudioPlayer",
+                Name = "PlaybackSpeed",
+                Security = {
+                    Read = "None",
+                    Write = "None"
+                },
+                Serialization = {
+                    CanLoad = true,
+                    CanSave = true
+                },
+                Tags = {},
+                ValueType = {
+                    Category = "Primitive",
+                    Name = "double"
+                }
+            },
+            {
+                Category = "Asset",
+                Class = "AudioPlayer",
+                Name = "TimeLength",
+                Security = {
+                    Read = "None",
+                    Write = "None"
+                },
+                Serialization = {
+                    CanLoad = false,
+                    CanSave = true
+                },
+                Tags = {
+                    NotReplicated = true,
+                    ReadOnly = true
+                },
+                ValueType = {
+                    Category = "Primitive",
+                    Name = "double"
+                }
+            },
+            {
+                Category = "Playback",
+                Class = "AudioPlayer",
+                Name = "TimePosition",
+                Security = {
+                    Read = "None",
+                    Write = "None"
+                },
+                Serialization = {
+                    CanLoad = true,
+                    CanSave = true
+                },
+                Tags = {},
+                ValueType = {
+                    Category = "Primitive",
+                    Name = "double"
+                }
+            },
+            {
+                Category = "State",
+                Class = "AudioPlayer",
+                Name = "Volume",
+                Security = {
+                    Read = "None",
+                    Write = "None"
+                },
+                Serialization = {
+                    CanLoad = true,
+                    CanSave = true
+                },
+                Tags = {},
+                ValueType = {
+                    Category = "Primitive",
+                    Name = "float"
+                }
+            }
+        },
+        Superclass = {
+            Callbacks = {},
+            Events = {
+                {
+                    Class = "Instance",
+                    Name = "AncestryChanged",
+                    Parameters = {
+                        {
+                            Name = "child",
+                            Type = "Instance"
+                        },
+                        {
+                            Name = "parent",
+                            Type = "Instance"
+                        }
+                    },
+                    Security = "None",
+                    Tags = {}
+                },
+                {
+                    Class = "Instance",
+                    Name = "AttributeChanged",
+                    Parameters = {
+                        {
+                            Name = "attribute",
+                            Type = "string"
+                        }
+                    },
+                    Security = "None",
+                    Tags = {}
+                },
+                {
+                    Class = "Instance",
+                    Name = "ChildAdded",
+                    Parameters = {
+                        {
+                            Name = "child",
+                            Type = "Instance"
+                        }
+                    },
+                    Security = "None",
+                    Tags = {}
+                },
+                {
+                    Class = "Instance",
+                    Name = "ChildRemoved",
+                    Parameters = {
+                        {
+                            Name = "child",
+                            Type = "Instance"
+                        }
+                    },
+                    Security = "None",
+                    Tags = {}
+                },
+                {
+                    Class = "Instance",
+                    Name = "DescendantAdded",
+                    Parameters = {
+                        {
+                            Name = "descendant",
+                            Type = "Instance"
+                        }
+                    },
+                    Security = "None",
+                    Tags = {}
+                },
+                {
+                    Class = "Instance",
+                    Name = "DescendantRemoving",
+                    Parameters = {
+                        {
+                            Name = "descendant",
+                            Type = "Instance"
+                        }
+                    },
+                    Security = "None",
+                    Tags = {}
+                },
+                {
+                    Class = "Instance",
+                    Name = "Destroying",
+                    Parameters = {},
+                    Security = "None",
+                    Tags = {}
+                },
+                {
+                    Class = "Instance",
+                    Name = "StyledPropertiesChanged",
+                    Parameters = {},
+                    Security = "None",
+                    Tags = {}
+                },
+                {
+                    Class = "Instance",
+                    Name = "childAdded",
+                    Parameters = {
+                        {
+                            Name = "child",
+                            Type = "Instance"
+                        }
+                    },
+                    Security = "None",
+                    Tags = {
+                        Deprecated = true
+                    }
+                }
+            },
+            Functions = {
+                {
+                    Class = "Instance",
+                    Name = "AddTag",
+                    Parameters = {
+                        {
+                            Name = "tag",
+                            Type = "string"
+                        }
+                    },
+                    ReturnType = "null",
+                    Security = "None",
+                    Tags = {}
+                },
+                {
+                    Class = "Instance",
+                    Name = "ClearAllChildren",
+                    Parameters = {},
+                    ReturnType = "null",
+                    Security = "None",
+                    Tags = {}
+                },
+                {
+                    Class = "Instance",
+                    Name = "Clone",
+                    Parameters = {},
+                    ReturnType = "Instance",
+                    Security = "None",
+                    Tags = {}
+                },
+                {
+                    Class = "Instance",
+                    Name = "Destroy",
+                    Parameters = {},
+                    ReturnType = "null",
+                    Security = "None",
+                    Tags = {}
+                },
+                {
+                    Class = "Instance",
+                    Name = "FindFirstAncestor",
+                    Parameters = {
+                        {
+                            Name = "name",
+                            Type = "string"
+                        }
+                    },
+                    ReturnType = "Instance",
+                    Security = "None",
+                    Tags = {}
+                },
+                {
+                    Class = "Instance",
+                    Name = "FindFirstAncestorOfClass",
+                    Parameters = {
+                        {
+                            Name = "className",
+                            Type = "string"
+                        }
+                    },
+                    ReturnType = "Instance",
+                    Security = "None",
+                    Tags = {}
+                },
+                {
+                    Class = "Instance",
+                    Name = "FindFirstAncestorWhichIsA",
+                    Parameters = {
+                        {
+                            Name = "className",
+                            Type = "string"
+                        }
+                    },
+                    ReturnType = "Instance",
+                    Security = "None",
+                    Tags = {}
+                },
+                {
+                    Class = "Instance",
+                    Name = "FindFirstChild",
+                    Parameters = {
+                        {
+                            Name = "name",
+                            Type = "string"
+                        },
+                        {
+                            Name = "recursive",
+                            Type = "bool"
+                        }
+                    },
+                    ReturnType = "Instance",
+                    Security = "None",
+                    Tags = {}
+                },
+                {
+                    Class = "Instance",
+                    Name = "FindFirstChildOfClass",
+                    Parameters = {
+                        {
+                            Name = "className",
+                            Type = "string"
+                        }
+                    },
+                    ReturnType = "Instance",
+                    Security = "None",
+                    Tags = {}
+                },
+                {
+                    Class = "Instance",
+                    Name = "FindFirstChildWhichIsA",
+                    Parameters = {
+                        {
+                            Name = "className",
+                            Type = "string"
+                        },
+                        {
+                            Name = "recursive",
+                            Type = "bool"
+                        }
+                    },
+                    ReturnType = "Instance",
+                    Security = "None",
+                    Tags = {}
+                },
+                {
+                    Class = "Instance",
+                    Name = "FindFirstDescendant",
+                    Parameters = {
+                        {
+                            Name = "name",
+                            Type = "string"
+                        }
+                    },
+                    ReturnType = "Instance",
+                    Security = "None",
+                    Tags = {}
+                },
+                {
+                    Class = "Instance",
+                    Name = "GetActor",
+                    Parameters = {},
+                    ReturnType = "Actor",
+                    Security = "None",
+                    Tags = {}
+                },
+                {
+                    Class = "Instance",
+                    Name = "GetAttribute",
+                    Parameters = {
+                        {
+                            Name = "attribute",
+                            Type = "string"
+                        }
+                    },
+                    ReturnType = "Variant",
+                    Security = "None",
+                    Tags = {}
+                },
+                {
+                    Class = "Instance",
+                    Name = "GetAttributeChangedSignal",
+                    Parameters = {
+                        {
+                            Name = "attribute",
+                            Type = "string"
+                        }
+                    },
+                    ReturnType = "RBXScriptSignal",
+                    Security = "None",
+                    Tags = {}
+                },
+                {
+                    Class = "Instance",
+                    Name = "GetAttributes",
+                    Parameters = {},
+                    ReturnType = "Dictionary",
+                    Security = "None",
+                    Tags = {
+                        CustomLuaState = true
+                    }
+                },
+                {
+                    Class = "Instance",
+                    Name = "GetChildren",
+                    Parameters = {},
+                    ReturnType = "Instances",
+                    Security = "None",
+                    Tags = {}
+                },
+                {
+                    Class = "Instance",
+                    Name = "GetDebugId",
+                    Parameters = {
+                        {
+                            Name = "scopeLength",
+                            Type = "int"
+                        }
+                    },
+                    ReturnType = "string",
+                    Security = "PluginSecurity",
+                    Tags = {
+                        NotBrowsable = true
+                    }
+                },
+                {
+                    Class = "Instance",
+                    Name = "GetDescendants",
+                    Parameters = {},
+                    ReturnType = "Instances",
+                    Security = "None",
+                    Tags = {
+                        CustomLuaState = true
+                    }
+                },
+                {
+                    Class = "Instance",
+                    Name = "GetFullName",
+                    Parameters = {},
+                    ReturnType = "string",
+                    Security = "None",
+                    Tags = {}
+                },
+                {
+                    Class = "Instance",
+                    Name = "GetStyled",
+                    Parameters = {
+                        {
+                            Name = "name",
+                            Type = "string"
+                        },
+                        {
+                            Name = "selector",
+                            Type = "string?"
+                        }
+                    },
+                    ReturnType = "Variant",
+                    Security = "None",
+                    Tags = {}
+                },
+                {
+                    Class = "Instance",
+                    Name = "GetStyledPropertyChangedSignal",
+                    Parameters = {
+                        {
+                            Name = "property",
+                            Type = "string"
+                        }
+                    },
+                    ReturnType = "RBXScriptSignal",
+                    Security = "None",
+                    Tags = {}
+                },
+                {
+                    Class = "Instance",
+                    Name = "GetTags",
+                    Parameters = {},
+                    ReturnType = "Array",
+                    Security = "None",
+                    Tags = {}
+                },
+                {
+                    Class = "Instance",
+                    Name = "HasTag",
+                    Parameters = {
+                        {
+                            Name = "tag",
+                            Type = "string"
+                        }
+                    },
+                    ReturnType = "bool",
+                    Security = "None",
+                    Tags = {}
+                },
+                {
+                    Class = "Instance",
+                    Name = "IsAncestorOf",
+                    Parameters = {
+                        {
+                            Name = "descendant",
+                            Type = "Instance"
+                        }
+                    },
+                    ReturnType = "bool",
+                    Security = "None",
+                    Tags = {}
+                },
+                {
+                    Class = "Instance",
+                    Name = "IsDescendantOf",
+                    Parameters = {
+                        {
+                            Name = "ancestor",
+                            Type = "Instance"
+                        }
+                    },
+                    ReturnType = "bool",
+                    Security = "None",
+                    Tags = {}
+                },
+                {
+                    Class = "Instance",
+                    Name = "IsPropertyModified",
+                    Parameters = {
+                        {
+                            Name = "property",
+                            Type = "string"
+                        }
+                    },
+                    ReturnType = "bool",
+                    Security = "None",
+                    Tags = {}
+                },
+                {
+                    Class = "Instance",
+                    Name = "QueryDescendants",
+                    Parameters = {
+                        {
+                            Name = "selector",
+                            Type = "string"
+                        }
+                    },
+                    ReturnType = "Instances",
+                    Security = "None",
+                    Tags = {
+                        CustomLuaState = true
+                    }
+                },
+                {
+                    Class = "Instance",
+                    Name = "Remove",
+                    Parameters = {},
+                    ReturnType = "null",
+                    Security = "None",
+                    Tags = {
+                        Deprecated = true
+                    }
+                },
+                {
+                    Class = "Instance",
+                    Name = "RemoveTag",
+                    Parameters = {
+                        {
+                            Name = "tag",
+                            Type = "string"
+                        }
+                    },
+                    ReturnType = "null",
+                    Security = "None",
+                    Tags = {}
+                },
+                {
+                    Class = "Instance",
+                    Name = "ResetPropertyToDefault",
+                    Parameters = {
+                        {
+                            Name = "property",
+                            Type = "string"
+                        }
+                    },
+                    ReturnType = "null",
+                    Security = "None",
+                    Tags = {}
+                },
+                {
+                    Class = "Instance",
+                    Name = "SetAttribute",
+                    Parameters = {
+                        {
+                            Name = "attribute",
+                            Type = "string"
+                        },
+                        {
+                            Name = "value",
+                            Type = "Variant"
+                        }
+                    },
+                    ReturnType = "null",
+                    Security = "None",
+                    Tags = {}
+                },
+                {
+                    Class = "Instance",
+                    Name = "WaitForChild",
+                    Parameters = {
+                        {
+                            Name = "childName",
+                            Type = "string"
+                        },
+                        {
+                            Name = "timeOut",
+                            Type = "double"
+                        }
+                    },
+                    ReturnType = "Instance",
+                    Security = "None",
+                    Tags = {
+                        CanYield = true,
+                        CustomLuaState = true
+                    }
+                },
+                {
+                    Class = "Instance",
+                    Name = "children",
+                    Parameters = {},
+                    ReturnType = "Instances",
+                    Security = "None",
+                    Tags = {
+                        Deprecated = true
+                    }
+                },
+                {
+                    Class = "Instance",
+                    Name = "clone",
+                    Parameters = {},
+                    ReturnType = "Instance",
+                    Security = "None",
+                    Tags = {
+                        Deprecated = true
+                    }
+                },
+                {
+                    Class = "Instance",
+                    Name = "destroy",
+                    Parameters = {},
+                    ReturnType = "null",
+                    Security = "None",
+                    Tags = {
+                        Deprecated = true
+                    }
+                },
+                {
+                    Class = "Instance",
+                    Name = "findFirstChild",
+                    Parameters = {
+                        {
+                            Name = "name",
+                            Type = "string"
+                        },
+                        {
+                            Name = "recursive",
+                            Type = "bool"
+                        }
+                    },
+                    ReturnType = "Instance",
+                    Security = "None",
+                    Tags = {
+                        Deprecated = true
+                    }
+                },
+                {
+                    Class = "Instance",
+                    Name = "getChildren",
+                    Parameters = {},
+                    ReturnType = "Instances",
+                    Security = "None",
+                    Tags = {
+                        Deprecated = true
+                    }
+                },
+                {
+                    Class = "Instance",
+                    Name = "isDescendantOf",
+                    Parameters = {
+                        {
+                            Name = "ancestor",
+                            Type = "Instance"
+                        }
+                    },
+                    ReturnType = "bool",
+                    Security = "None",
+                    Tags = {
+                        Deprecated = true
+                    }
+                },
+                {
+                    Class = "Instance",
+                    Name = "remove",
+                    Parameters = {},
+                    ReturnType = "null",
+                    Security = "None",
+                    Tags = {
+                        Deprecated = true
+                    }
+                }
+            },
+            Name = "Instance",
+            Properties = {
+                {
+                    Category = "Behavior",
+                    Class = "Instance",
+                    Name = "Archivable",
+                    Security = {
+                        Read = "None",
+                        Write = "None"
+                    },
+                    Serialization = {
+                        CanLoad = false,
+                        CanSave = false
+                    },
+                    Tags = {},
+                    ValueType = {
+                        Category = "Primitive",
+                        Name = "bool"
+                    }
+                },
+                {
+                    Category = "Data",
+                    Class = "Instance",
+                    Name = "Attributes",
+                    Security = {
+                        Read = "RobloxSecurity",
+                        Write = "RobloxSecurity"
+                    },
+                    Serialization = {
+                        CanLoad = false,
+                        CanSave = false
+                    },
+                    Tags = {
+                        Hidden = true,
+                        NotReplicated = true,
+                        NotScriptable = true,
+                        ReadOnly = true
+                    },
+                    ValueType = {
+                        Category = "Primitive",
+                        Name = "string"
+                    }
+                },
+                {
+                    Category = "Data",
+                    Class = "Instance",
+                    Name = "AttributesReplicate",
+                    Security = {
+                        Read = "RobloxSecurity",
+                        Write = "RobloxSecurity"
+                    },
+                    Serialization = {
+                        CanLoad = false,
+                        CanSave = false
+                    },
+                    Tags = {
+                        Hidden = true,
+                        NotScriptable = true
+                    },
+                    ValueType = {
+                        Category = "Primitive",
+                        Name = "string"
+                    }
+                },
+                {
+                    Category = "Data",
+                    Class = "Instance",
+                    Name = "AttributesSerialize",
+                    Security = {
+                        Read = "RobloxSecurity",
+                        Write = "RobloxSecurity"
+                    },
+                    Serialization = {
+                        CanLoad = true,
+                        CanSave = true
+                    },
+                    Tags = {
+                        Hidden = true,
+                        NotReplicated = true,
+                        NotScriptable = true
+                    },
+                    ValueType = {
+                        Category = "DataType",
+                        Name = "BinaryString"
+                    }
+                },
+                {
+                    Category = "Permissions",
+                    Class = "Instance",
+                    Name = "Capabilities",
+                    Security = {
+                        Read = "None",
+                        Write = "None"
+                    },
+                    Serialization = {
+                        CanLoad = true,
+                        CanSave = true
+                    },
+                    Tags = {},
+                    ValueType = {
+                        Category = "DataType",
+                        Name = "SecurityCapabilities"
+                    }
+                },
+                {
+                    Category = "Data",
+                    Class = "Instance",
+                    Name = "DataCost",
+                    Security = {
+                        Read = "LocalUserSecurity",
+                        Write = "LocalUserSecurity"
+                    },
+                    Serialization = {
+                        CanLoad = false,
+                        CanSave = false
+                    },
+                    Tags = {
+                        Deprecated = true,
+                        Hidden = true,
+                        NotReplicated = true,
+                        ReadOnly = true
+                    },
+                    ValueType = {
+                        Category = "Primitive",
+                        Name = "int"
+                    }
+                },
+                {
+                    Category = "Permissions",
+                    Class = "Instance",
+                    Name = "DefinesCapabilities",
+                    Security = {
+                        Read = "RobloxSecurity",
+                        Write = "RobloxSecurity"
+                    },
+                    Serialization = {
+                        CanLoad = true,
+                        CanSave = true
+                    },
+                    Tags = {
+                        Hidden = true,
+                        NotScriptable = true
+                    },
+                    ValueType = {
+                        Category = "Primitive",
+                        Name = "bool"
+                    }
+                },
+                {
+                    Category = "Data",
+                    Class = "Instance",
+                    Name = "HistoryId",
+                    Security = {
+                        Read = "RobloxSecurity",
+                        Write = "RobloxSecurity"
+                    },
+                    Serialization = {
+                        CanLoad = true,
+                        CanSave = true
+                    },
+                    Tags = {
+                        Hidden = true,
+                        NotReplicated = true,
+                        NotScriptable = true
+                    },
+                    ValueType = {
+                        Category = "DataType",
+                        Name = "UniqueId"
+                    }
+                },
+                {
+                    Category = "Permissions",
+                    Class = "Instance",
+                    Name = "IsInSandbox",
+                    Security = {
+                        Read = "None",
+                        Write = "None"
+                    },
+                    Serialization = {
+                        CanLoad = false,
+                        CanSave = false
+                    },
+                    Tags = {
+                        NotReplicated = true,
+                        NotScriptable = true,
+                        ReadOnly = true
+                    },
+                    ValueType = {
+                        Category = "Primitive",
+                        Name = "bool"
+                    }
+                },
+                {
+                    Category = "Data",
+                    Class = "Instance",
+                    Name = "Name",
+                    Security = {
+                        Read = "None",
+                        Write = "None"
+                    },
+                    Serialization = {
+                        CanLoad = true,
+                        CanSave = true
+                    },
+                    Tags = {},
+                    ValueType = {
+                        Category = "Primitive",
+                        Name = "string"
+                    }
+                },
+                {
+                    Category = "Data",
+                    Class = "Instance",
+                    Name = "Parent",
+                    Security = {
+                        Read = "None",
+                        Write = "None"
+                    },
+                    Serialization = {
+                        CanLoad = true,
+                        CanSave = false
+                    },
+                    Tags = {
+                        NotReplicated = true
+                    },
+                    ValueType = {
+                        Category = "Class",
+                        Name = "Instance"
+                    }
+                },
+                {
+                    Category = "Data",
+                    Class = "Instance",
+                    Name = "PredictionMode",
+                    Security = {
+                        Read = "None",
+                        Write = "None"
+                    },
+                    Serialization = {
+                        CanLoad = false,
+                        CanSave = false
+                    },
+                    Tags = {
+                        NotReplicated = true,
+                        NotScriptable = true,
+                        ReadOnly = true
+                    },
+                    ValueType = {
+                        Category = "Enum",
+                        Name = "PredictionMode"
+                    }
+                },
+                {
+                    Category = "Data",
+                    Class = "Instance",
+                    Name = "PropertyStatusStudio",
+                    Security = {
+                        Read = "RobloxSecurity",
+                        Write = "RobloxSecurity"
+                    },
+                    Serialization = {
+                        CanLoad = false,
+                        CanSave = false
+                    },
+                    Tags = {
+                        Hidden = true,
+                        NotReplicated = true,
+                        NotScriptable = true,
+                        ReadOnly = true
+                    },
+                    ValueType = {
+                        Category = "Enum",
+                        Name = "PropertyStatus"
+                    }
+                },
+                {
+                    Category = "Data",
+                    Class = "Instance",
+                    Name = "RobloxLocked",
+                    Security = {
+                        Read = "PluginSecurity",
+                        Write = "PluginSecurity"
+                    },
+                    Serialization = {
+                        CanLoad = false,
+                        CanSave = false
+                    },
+                    Tags = {
+                        Hidden = true
+                    },
+                    ValueType = {
+                        Category = "Primitive",
+                        Name = "bool"
+                    }
+                },
+                {
+                    Category = "Permissions",
+                    Class = "Instance",
+                    Name = "Sandboxed",
+                    Security = {
+                        Read = "None",
+                        Write = "None"
+                    },
+                    Serialization = {
+                        CanLoad = false,
+                        CanSave = false
+                    },
+                    Tags = {
+                        NotReplicated = true
+                    },
+                    ValueType = {
+                        Category = "Primitive",
+                        Name = "bool"
+                    }
+                },
+                {
+                    Category = "Data",
+                    Class = "Instance",
+                    Name = "SerializedOverrides",
+                    Security = {
+                        Read = "RobloxSecurity",
+                        Write = "RobloxSecurity"
+                    },
+                    Serialization = {
+                        CanLoad = true,
+                        CanSave = true
+                    },
+                    Tags = {
+                        Hidden = true,
+                        NotReplicated = true,
+                        NotScriptable = true
+                    },
+                    ValueType = {
+                        Category = "DataType",
+                        Name = "BinaryString"
+                    }
+                },
+                {
+                    Category = "Data",
+                    Class = "Instance",
+                    Name = "SourceAssetId",
+                    Security = {
+                        Read = "RobloxScriptSecurity",
+                        Write = "RobloxScriptSecurity"
+                    },
+                    Serialization = {
+                        CanLoad = true,
+                        CanSave = true
+                    },
+                    Tags = {
+                        Hidden = true
+                    },
+                    ValueType = {
+                        Category = "Primitive",
+                        Name = "int64"
+                    }
+                },
+                {
+                    Category = "Data",
+                    Class = "Instance",
+                    Name = "Tags",
+                    Security = {
+                        Read = "RobloxSecurity",
+                        Write = "RobloxSecurity"
+                    },
+                    Serialization = {
+                        CanLoad = true,
+                        CanSave = true
+                    },
+                    Tags = {
+                        Hidden = true,
+                        NotScriptable = true
+                    },
+                    ValueType = {
+                        Category = "DataType",
+                        Name = "SharedString"
+                    }
+                },
+                {
+                    Category = "Data",
+                    Class = "Instance",
+                    Name = "UniqueId",
+                    Security = {
+                        Read = "RobloxScriptSecurity",
+                        Write = "RobloxSecurity"
+                    },
+                    Serialization = {
+                        CanLoad = true,
+                        CanSave = true
+                    },
+                    Tags = {
+                        NotReplicated = true
+                    },
+                    ValueType = {
+                        Category = "DataType",
+                        Name = "UniqueId"
+                    }
+                },
+                {
+                    Category = "Behavior",
+                    Class = "Instance",
+                    Name = "archivable",
+                    Security = {
+                        Read = "None",
+                        Write = "None"
+                    },
+                    Serialization = {
+                        CanLoad = true,
+                        CanSave = false
+                    },
+                    Tags = {
+                        Deprecated = true,
+                        Hidden = true,
+                        NotReplicated = true
+                    },
+                    ValueType = {
+                        Category = "Primitive",
+                        Name = "bool"
+                    }
+                },
+                {
+                    Category = "Data",
+                    Class = "Instance",
+                    Name = "numExpectedDirectChildren",
+                    Security = {
+                        Read = "None",
+                        Write = "None"
+                    },
+                    Serialization = {
+                        CanLoad = false,
+                        CanSave = false
+                    },
+                    Tags = {
+                        Hidden = true,
+                        NotScriptable = true
+                    },
+                    ValueType = {
+                        Category = "Primitive",
+                        Name = "int"
+                    }
+                }
+            },
+            Superclass = {
+                Callbacks = {},
+                Events = {
+                    {
+                        Class = "Object",
+                        Name = "Changed",
+                        Parameters = {
+                            {
+                                Name = "property",
+                                Type = "string"
+                            }
+                        },
+                        Security = "None",
+                        Tags = {}
+                    }
+                },
+                Functions = {
+                    {
+                        Class = "Object",
+                        Name = "GetPropertyChangedSignal",
+                        Parameters = {
+                            {
+                                Name = "property",
+                                Type = "string"
+                            }
+                        },
+                        ReturnType = "RBXScriptSignal",
+                        Security = "None",
+                        Tags = {}
+                    },
+                    {
+                        Class = "Object",
+                        Name = "IsA",
+                        Parameters = {
+                            {
+                                Name = "className",
+                                Type = "string"
+                            }
+                        },
+                        ReturnType = "bool",
+                        Security = "None",
+                        Tags = {
+                            CustomLuaState = true
+                        }
+                    },
+                    {
+                        Class = "Object",
+                        Name = "isA",
+                        Parameters = {
+                            {
+                                Name = "className",
+                                Type = "string"
+                            }
+                        },
+                        ReturnType = "bool",
+                        Security = "None",
+                        Tags = {
+                            CustomLuaState = true,
+                            Deprecated = true
+                        }
+                    }
+                },
+                Name = "Object",
+                Properties = {
+                    {
+                        Category = "Data",
+                        Class = "Object",
+                        Name = "ClassName",
+                        Security = {
+                            Read = "None",
+                            Write = "None"
+                        },
+                        Serialization = {
+                            CanLoad = false,
+                            CanSave = false
+                        },
+                        Tags = {
+                            NotReplicated = true,
+                            ReadOnly = true
+                        },
+                        ValueType = {
+                            Category = "Primitive",
+                            Name = "string"
+                        }
+                    },
+                    {
+                        Category = "Data",
+                        Class = "Object",
+                        Name = "className",
+                        Security = {
+                            Read = "None",
+                            Write = "None"
+                        },
+                        Serialization = {
+                            CanLoad = false,
+                            CanSave = false
+                        },
+                        Tags = {
+                            Deprecated = true,
+                            NotReplicated = true,
+                            ReadOnly = true
+                        },
+                        ValueType = {
+                            Category = "Primitive",
+                            Name = "string"
+                        }
+                    }
+                },
+                Tags = {
+                    NotCreatable = true,
+                    NotReplicated = true
+                }
+            },
+            Tags = {
+                NotBrowsable = true,
+                NotCreatable = true
+            }
+        },
+        Tags = {}
+    },
+    [93896] = {},
+    [93899] = {
+        {
+            Category = "Asset",
+            Class = "AudioPlayer",
+            Name = "Asset",
             Security = {
                 Read = "None",
                 Write = "None"
@@ -121,119 +1789,23 @@
             Tags = {},
             ValueType = {
                 Category = "DataType",
-                Name = "Color3"
+                Name = "ContentId"
             }
         },
-        [182506] = {},
-        [182514] = {},
-        [182516] = {},
-        [182521] = {
-            Category = "Text",
-            Class = "TextBox",
-            Name = "LocalizedPlaceholderText",
-            Security = {
-                Read = "RobloxSecurity",
-                Write = "RobloxSecurity"
-            },
-            Serialization = {
-                CanLoad = false,
-                CanSave = false
-            },
-            Tags = {
-                Hidden = true,
-                NotReplicated = true,
-                NotScriptable = true,
-                ReadOnly = true
-            },
-            ValueType = {
-                Category = "Primitive",
-                Name = "string"
-            }
-        },
-        [182522] = {
-            Hidden = true,
-            NotReplicated = true
-        },
-        [182515] = {
-            Category = "Data",
-            Class = "TextBox",
-            Name = "MultiLine",
+        {
+            Category = "Asset",
+            Class = "AudioPlayer",
+            Name = "AssetId",
             Security = {
                 Read = "None",
                 Write = "None"
             },
             Serialization = {
                 CanLoad = true,
-                CanSave = true
-            },
-            Tags = {},
-            ValueType = {
-                Category = "Primitive",
-                Name = "bool"
-            }
-        },
-        [182520] = {
-            Hidden = true,
-            NotReplicated = true,
-            NotScriptable = true,
-            ReadOnly = true
-        },
-        [182518] = {
-            Hidden = true,
-            NotReplicated = true
-        },
-        [182519] = {
-            Category = "Data",
-            Class = "TextBox",
-            Name = "ManualFocusRelease",
-            Security = {
-                Read = "RobloxScriptSecurity",
-                Write = "RobloxScriptSecurity"
-            },
-            Serialization = {
-                CanLoad = false,
                 CanSave = false
             },
             Tags = {
-                Hidden = true,
-                NotReplicated = true
-            },
-            ValueType = {
-                Category = "Primitive",
-                Name = "bool"
-            }
-        },
-        [182517] = {
-            Category = "Text",
-            Class = "TextBox",
-            Name = "MaxVisibleGraphemes",
-            Security = {
-                Read = "None",
-                Write = "None"
-            },
-            Serialization = {
-                CanLoad = true,
-                CanSave = true
-            },
-            Tags = {},
-            ValueType = {
-                Category = "Primitive",
-                Name = "int"
-            }
-        },
-        [182523] = {
-            Category = "Text",
-            Class = "TextBox",
-            Name = "LocalizationMatchedSourceText",
-            Security = {
-                Read = "RobloxScriptSecurity",
-                Write = "RobloxScriptSecurity"
-            },
-            Serialization = {
-                CanLoad = true,
-                CanSave = true
-            },
-            Tags = {
+                Deprecated = true,
                 Hidden = true,
                 NotReplicated = true
             },
@@ -242,28 +1814,10 @@
                 Name = "string"
             }
         },
-        [182505] = {
-            Category = "Text",
-            Class = "TextBox",
-            Name = "PlaceholderText",
-            Security = {
-                Read = "None",
-                Write = "None"
-            },
-            Serialization = {
-                CanLoad = true,
-                CanSave = true
-            },
-            Tags = {},
-            ValueType = {
-                Category = "Primitive",
-                Name = "string"
-            }
-        },
-        [182503] = {
-            Category = "Data",
-            Class = "TextBox",
-            Name = "ReturnKeyType",
+        {
+            Category = "Behavior",
+            Class = "AudioPlayer",
+            Name = "AssetRepresentation",
             Security = {
                 Read = "RobloxScriptSecurity",
                 Write = "RobloxScriptSecurity"
@@ -278,42 +1832,33 @@
             },
             ValueType = {
                 Category = "Enum",
-                Name = "ReturnKeyType"
+                Name = "AssetRepresentation"
             }
         },
-        [182492] = {
-            Hidden = true,
-            NotReplicated = true
-        },
-        [182493] = {
-            Category = "Data",
-            Class = "TextBox",
-            Name = "ShouldEmitUpAndDownArrowEvents",
+        {
+            Category = "Asset",
+            Class = "AudioPlayer",
+            Name = "AudioContent",
             Security = {
-                Read = "RobloxScriptSecurity",
-                Write = "RobloxScriptSecurity"
+                Read = "None",
+                Write = "None"
             },
             Serialization = {
-                CanLoad = false,
-                CanSave = false
+                CanLoad = true,
+                CanSave = true
             },
             Tags = {
-                Hidden = true,
-                NotReplicated = true
+                Hidden = true
             },
             ValueType = {
-                Category = "Primitive",
-                Name = "bool"
+                Category = "DataType",
+                Name = "Content"
             }
         },
-        [182494] = {
-            Hidden = true,
-            NotReplicated = true
-        },
-        [182491] = {
-            Category = "Data",
-            Class = "TextBox",
-            Name = "ShowNativeInput",
+        {
+            Category = "Asset",
+            Class = "AudioPlayer",
+            Name = "AutoLoad",
             Security = {
                 Read = "None",
                 Write = "None"
@@ -328,73 +1873,10 @@
                 Name = "bool"
             }
         },
-        [182489] = {
-            Category = "Text",
-            Class = "TextBox",
-            Name = "Text",
-            Security = {
-                Read = "None",
-                Write = "None"
-            },
-            Serialization = {
-                CanLoad = true,
-                CanSave = true
-            },
-            Tags = {},
-            ValueType = {
-                Category = "Primitive",
-                Name = "string"
-            }
-        },
-        [182490] = {},
-        [182488] = {},
-        [182504] = {},
-        [182495] = {
-            Category = "Data",
-            Class = "TextBox",
-            Name = "ShouldEmitTabEvents",
-            Security = {
-                Read = "RobloxScriptSecurity",
-                Write = "RobloxScriptSecurity"
-            },
-            Serialization = {
-                CanLoad = false,
-                CanSave = false
-            },
-            Tags = {
-                Hidden = true,
-                NotReplicated = true
-            },
-            ValueType = {
-                Category = "Primitive",
-                Name = "bool"
-            }
-        },
-        [182497] = {
-            Category = "Data",
-            Class = "TextBox",
-            Name = "ShouldEmitReturnEvents",
-            Security = {
-                Read = "RobloxScriptSecurity",
-                Write = "RobloxScriptSecurity"
-            },
-            Serialization = {
-                CanLoad = false,
-                CanSave = false
-            },
-            Tags = {
-                Hidden = true,
-                NotReplicated = true
-            },
-            ValueType = {
-                Category = "Primitive",
-                Name = "bool"
-            }
-        },
-        [182501] = {
-            Category = "Text",
-            Class = "TextBox",
-            Name = "RichText",
+        {
+            Category = "Playback",
+            Class = "AudioPlayer",
+            Name = "AutoPlay",
             Security = {
                 Read = "None",
                 Write = "None"
@@ -409,23 +1891,13 @@
                 Name = "bool"
             }
         },
-        [182502] = {
-            Hidden = true,
-            NotReplicated = true
-        },
-        [182496] = {
-            Hidden = true,
-            NotReplicated = true
-        },
-        [182500] = {},
-        [182498] = {},
-        [182499] = {
-            Category = "Data",
-            Class = "TextBox",
-            Name = "SelectionStart",
+        {
+            Category = "Playback",
+            Class = "AudioPlayer",
+            Name = "IsPlaying",
             Security = {
                 Read = "None",
-                Write = "None"
+                Write = "RobloxSecurity"
             },
             Serialization = {
                 CanLoad = false,
@@ -434,2457 +1906,920 @@
             Tags = {},
             ValueType = {
                 Category = "Primitive",
-                Name = "int"
+                Name = "bool"
             }
         },
-        [182487] = {
-            Category = "Text",
-            Class = "TextBox",
-            Name = "TextBounds",
+        {
+            Category = "Asset",
+            Class = "AudioPlayer",
+            Name = "IsReady",
             Security = {
                 Read = "None",
                 Write = "None"
             },
             Serialization = {
                 CanLoad = false,
-                CanSave = false
+                CanSave = true
             },
             Tags = {
                 NotReplicated = true,
                 ReadOnly = true
             },
             ValueType = {
-                Category = "DataType",
-                Name = "Vector2"
+                Category = "Primitive",
+                Name = "bool"
             }
         },
-        [182524] = {
-            Hidden = true,
-            NotReplicated = true
+        {
+            Category = "Regions",
+            Class = "AudioPlayer",
+            Name = "LoopRegion",
+            Security = {
+                Read = "None",
+                Write = "None"
+            },
+            Serialization = {
+                CanLoad = true,
+                CanSave = true
+            },
+            Tags = {},
+            ValueType = {
+                Category = "DataType",
+                Name = "NumberRange"
+            }
         },
-        [182526] = {},
-        [182550] = {},
-        [182551] = {},
-        [182552] = {
-            Class = "ScrollingFrame",
-            Name = "ScrollToTop",
-            Parameters = {},
-            ReturnType = "null",
-            Security = "RobloxScriptSecurity",
+        {
+            Category = "Playback",
+            Class = "AudioPlayer",
+            Name = "Looping",
+            Security = {
+                Read = "None",
+                Write = "None"
+            },
+            Serialization = {
+                CanLoad = true,
+                CanSave = true
+            },
+            Tags = {},
+            ValueType = {
+                Category = "Primitive",
+                Name = "bool"
+            }
+        },
+        {
+            Category = "Regions",
+            Class = "AudioPlayer",
+            Name = "PlaybackRegion",
+            Security = {
+                Read = "None",
+                Write = "None"
+            },
+            Serialization = {
+                CanLoad = true,
+                CanSave = true
+            },
+            Tags = {},
+            ValueType = {
+                Category = "DataType",
+                Name = "NumberRange"
+            }
+        },
+        {
+            Category = "Playback",
+            Class = "AudioPlayer",
+            Name = "PlaybackSpeed",
+            Security = {
+                Read = "None",
+                Write = "None"
+            },
+            Serialization = {
+                CanLoad = true,
+                CanSave = true
+            },
+            Tags = {},
+            ValueType = {
+                Category = "Primitive",
+                Name = "double"
+            }
+        },
+        {
+            Category = "Asset",
+            Class = "AudioPlayer",
+            Name = "TimeLength",
+            Security = {
+                Read = "None",
+                Write = "None"
+            },
+            Serialization = {
+                CanLoad = false,
+                CanSave = true
+            },
+            Tags = {
+                NotReplicated = true,
+                ReadOnly = true
+            },
+            ValueType = {
+                Category = "Primitive",
+                Name = "double"
+            }
+        },
+        {
+            Category = "Playback",
+            Class = "AudioPlayer",
+            Name = "TimePosition",
+            Security = {
+                Read = "None",
+                Write = "None"
+            },
+            Serialization = {
+                CanLoad = true,
+                CanSave = true
+            },
+            Tags = {},
+            ValueType = {
+                Category = "Primitive",
+                Name = "double"
+            }
+        },
+        {
+            Category = "State",
+            Class = "AudioPlayer",
+            Name = "Volume",
+            Security = {
+                Read = "None",
+                Write = "None"
+            },
+            Serialization = {
+                CanLoad = true,
+                CanSave = true
+            },
+            Tags = {},
+            ValueType = {
+                Category = "Primitive",
+                Name = "float"
+            }
+        }
+    },
+    [93898] = {
+        {
+            Class = "AudioPlayer",
+            Name = "Cancel",
+            Parameters = {
+                {
+                    Name = "actionId",
+                    Type = "int64?"
+                }
+            },
+            ReturnType = "bool",
+            Security = "None",
             Tags = {}
         },
-        [182549] = {
+        {
+            Class = "AudioPlayer",
+            Name = "GetConnectedWires",
+            Parameters = {
+                {
+                    Name = "pin",
+                    Type = "string"
+                }
+            },
+            ReturnType = "Instances",
+            Security = "None",
+            Tags = {}
+        },
+        {
+            Class = "AudioPlayer",
+            Name = "GetInputPins",
+            Parameters = {},
+            ReturnType = "Array",
+            Security = "None",
+            Tags = {}
+        },
+        {
+            Class = "AudioPlayer",
+            Name = "GetOutputPins",
+            Parameters = {},
+            ReturnType = "Array",
+            Security = "None",
+            Tags = {}
+        },
+        {
+            Class = "AudioPlayer",
+            Name = "Play",
+            Parameters = {
+                {
+                    Name = "atTime",
+                    Type = "double?"
+                }
+            },
+            ReturnType = "int64?",
+            Security = "None",
+            Tags = {}
+        },
+        {
+            Class = "AudioPlayer",
+            Name = "Stop",
+            Parameters = {
+                {
+                    Name = "atTime",
+                    Type = "double?"
+                }
+            },
+            ReturnType = "int64?",
+            Security = "None",
+            Tags = {}
+        },
+        {
+            Class = "AudioPlayer",
+            Name = "GetWaveformAsync",
+            Parameters = {
+                {
+                    Name = "timeRange",
+                    Type = "NumberRange"
+                },
+                {
+                    Name = "samples",
+                    Type = "int"
+                }
+            },
+            ReturnType = "Array",
+            Security = "None",
+            Tags = {
+                Yields = true
+            }
+        }
+    },
+    [93889] = {
+        Hidden = true,
+        NotReplicated = true
+    },
+    [93917] = {
+        Class = "AudioPitchShifter",
+        Name = "GetConnectedWires",
+        Parameters = {
+            {
+                Name = "pin",
+                Type = "string"
+            }
+        },
+        ReturnType = "Instances",
+        Security = "None",
+        Tags = {}
+    },
+    [93919] = {
+        Category = "State",
+        Class = "AudioPitchShifter",
+        Name = "WindowSize",
+        Security = {
+            Read = "None",
+            Write = "None"
+        },
+        Serialization = {
+            CanLoad = true,
+            CanSave = true
+        },
+        Tags = {},
+        ValueType = {
+            Category = "Enum",
+            Name = "AudioWindowSize"
+        }
+    },
+    [93937] = {
+        Name = "curve",
+        Type = "Dictionary"
+    },
+    [93938] = {
+        {
+            Name = "curve",
+            Type = "Dictionary"
+        }
+    },
+    [93936] = {
+        Class = "AudioListener",
+        Name = "WiringChanged",
+        Parameters = {
+            {
+                Name = "connected",
+                Type = "bool"
+            },
+            {
+                Name = "pin",
+                Type = "string"
+            },
+            {
+                Name = "wire",
+                Type = "Wire"
+            },
+            {
+                Name = "instance",
+                Type = "Instance"
+            }
+        },
+        Security = "None",
+        Tags = {}
+    },
+    [93934] = {
+        {
+            Name = "connected",
+            Type = "bool"
+        },
+        {
+            Name = "pin",
+            Type = "string"
+        },
+        {
+            Name = "wire",
+            Type = "Wire"
+        },
+        {
+            Name = "instance",
+            Type = "Instance"
+        }
+    },
+    [93935] = {},
+    [93933] = {
+        Name = "connected",
+        Type = "bool"
+    },
+    [93939] = {
+        CustomLuaState = true
+    },
+    [93941] = {
+        Name = "curve",
+        Type = "Dictionary"
+    },
+    [93944] = {
+        Class = "AudioListener",
+        Name = "SetAngleAttenuation",
+        Parameters = {
+            {
+                Name = "curve",
+                Type = "Dictionary"
+            }
+        },
+        ReturnType = "null",
+        Security = "None",
+        Tags = {
+            CustomLuaState = true
+        }
+    },
+    [93940] = {
+        Class = "AudioListener",
+        Name = "SetDistanceAttenuation",
+        Parameters = {
+            {
+                Name = "curve",
+                Type = "Dictionary"
+            }
+        },
+        ReturnType = "null",
+        Security = "None",
+        Tags = {
+            CustomLuaState = true
+        }
+    },
+    [93943] = {
+        CustomLuaState = true
+    },
+    [93942] = {
+        {
+            Name = "curve",
+            Type = "Dictionary"
+        }
+    },
+    [93918] = {},
+    [93932] = {
+        Name = "pin",
+        Type = "string"
+    },
+    [93930] = {
+        Name = "instance",
+        Type = "Instance"
+    },
+    [93922] = {},
+    [93923] = {
+        Category = "State",
+        Class = "AudioPitchShifter",
+        Name = "Bypass",
+        Security = {
+            Read = "None",
+            Write = "None"
+        },
+        Serialization = {
+            CanLoad = true,
+            CanSave = true
+        },
+        Tags = {},
+        ValueType = {
+            Category = "Primitive",
+            Name = "bool"
+        }
+    },
+    [93921] = {
+        Category = "State",
+        Class = "AudioPitchShifter",
+        Name = "Pitch",
+        Security = {
+            Read = "None",
+            Write = "None"
+        },
+        Serialization = {
+            CanLoad = true,
+            CanSave = true
+        },
+        Tags = {},
+        ValueType = {
+            Category = "Primitive",
+            Name = "float"
+        }
+    },
+    [93920] = {},
+    [93931] = {
+        Name = "wire",
+        Type = "Wire"
+    },
+    [93924] = {},
+    [93926] = {
+        {
+            Class = "AudioPitchShifter",
+            Name = "WiringChanged",
+            Parameters = {
+                {
+                    Name = "connected",
+                    Type = "bool"
+                },
+                {
+                    Name = "pin",
+                    Type = "string"
+                },
+                {
+                    Name = "wire",
+                    Type = "Wire"
+                },
+                {
+                    Name = "instance",
+                    Type = "Instance"
+                }
+            },
+            Security = "None",
+            Tags = {}
+        }
+    },
+    [93929] = {
+        Callbacks = {},
+        Events = {
+            {
+                Class = "AudioPitchShifter",
+                Name = "WiringChanged",
+                Parameters = {
+                    {
+                        Name = "connected",
+                        Type = "bool"
+                    },
+                    {
+                        Name = "pin",
+                        Type = "string"
+                    },
+                    {
+                        Name = "wire",
+                        Type = "Wire"
+                    },
+                    {
+                        Name = "instance",
+                        Type = "Instance"
+                    }
+                },
+                Security = "None",
+                Tags = {}
+            }
+        },
+        Functions = {
+            {
+                Class = "AudioPitchShifter",
+                Name = "GetConnectedWires",
+                Parameters = {
+                    {
+                        Name = "pin",
+                        Type = "string"
+                    }
+                },
+                ReturnType = "Instances",
+                Security = "None",
+                Tags = {}
+            },
+            {
+                Class = "AudioPitchShifter",
+                Name = "GetInputPins",
+                Parameters = {},
+                ReturnType = "Array",
+                Security = "None",
+                Tags = {}
+            },
+            {
+                Class = "AudioPitchShifter",
+                Name = "GetOutputPins",
+                Parameters = {},
+                ReturnType = "Array",
+                Security = "None",
+                Tags = {}
+            }
+        },
+        Name = "AudioPitchShifter",
+        Properties = {
+            {
+                Category = "State",
+                Class = "AudioPitchShifter",
+                Name = "Bypass",
+                Security = {
+                    Read = "None",
+                    Write = "None"
+                },
+                Serialization = {
+                    CanLoad = true,
+                    CanSave = true
+                },
+                Tags = {},
+                ValueType = {
+                    Category = "Primitive",
+                    Name = "bool"
+                }
+            },
+            {
+                Category = "State",
+                Class = "AudioPitchShifter",
+                Name = "Pitch",
+                Security = {
+                    Read = "None",
+                    Write = "None"
+                },
+                Serialization = {
+                    CanLoad = true,
+                    CanSave = true
+                },
+                Tags = {},
+                ValueType = {
+                    Category = "Primitive",
+                    Name = "float"
+                }
+            },
+            {
+                Category = "State",
+                Class = "AudioPitchShifter",
+                Name = "WindowSize",
+                Security = {
+                    Read = "None",
+                    Write = "None"
+                },
+                Serialization = {
+                    CanLoad = true,
+                    CanSave = true
+                },
+                Tags = {},
+                ValueType = {
+                    Category = "Enum",
+                    Name = "AudioWindowSize"
+                }
+            }
+        },
+        Superclass = {
             Callbacks = {},
             Events = {
                 {
-                    Class = "TextBox",
-                    Name = "FocusLost",
+                    Class = "Instance",
+                    Name = "AncestryChanged",
                     Parameters = {
                         {
-                            Name = "enterPressed",
-                            Type = "bool"
+                            Name = "child",
+                            Type = "Instance"
                         },
                         {
-                            Name = "inputThatCausedFocusLoss",
-                            Type = "InputObject"
+                            Name = "parent",
+                            Type = "Instance"
                         }
                     },
                     Security = "None",
                     Tags = {}
                 },
                 {
-                    Class = "TextBox",
-                    Name = "Focused",
+                    Class = "Instance",
+                    Name = "AttributeChanged",
+                    Parameters = {
+                        {
+                            Name = "attribute",
+                            Type = "string"
+                        }
+                    },
+                    Security = "None",
+                    Tags = {}
+                },
+                {
+                    Class = "Instance",
+                    Name = "ChildAdded",
+                    Parameters = {
+                        {
+                            Name = "child",
+                            Type = "Instance"
+                        }
+                    },
+                    Security = "None",
+                    Tags = {}
+                },
+                {
+                    Class = "Instance",
+                    Name = "ChildRemoved",
+                    Parameters = {
+                        {
+                            Name = "child",
+                            Type = "Instance"
+                        }
+                    },
+                    Security = "None",
+                    Tags = {}
+                },
+                {
+                    Class = "Instance",
+                    Name = "DescendantAdded",
+                    Parameters = {
+                        {
+                            Name = "descendant",
+                            Type = "Instance"
+                        }
+                    },
+                    Security = "None",
+                    Tags = {}
+                },
+                {
+                    Class = "Instance",
+                    Name = "DescendantRemoving",
+                    Parameters = {
+                        {
+                            Name = "descendant",
+                            Type = "Instance"
+                        }
+                    },
+                    Security = "None",
+                    Tags = {}
+                },
+                {
+                    Class = "Instance",
+                    Name = "Destroying",
                     Parameters = {},
                     Security = "None",
                     Tags = {}
                 },
                 {
-                    Class = "TextBox",
-                    Name = "ReturnPressedFromOnScreenKeyboard",
+                    Class = "Instance",
+                    Name = "StyledPropertiesChanged",
                     Parameters = {},
                     Security = "None",
                     Tags = {}
+                },
+                {
+                    Class = "Instance",
+                    Name = "childAdded",
+                    Parameters = {
+                        {
+                            Name = "child",
+                            Type = "Instance"
+                        }
+                    },
+                    Security = "None",
+                    Tags = {
+                        Deprecated = true
+                    }
                 }
             },
             Functions = {
                 {
-                    Class = "TextBox",
-                    Name = "CaptureFocus",
-                    Parameters = {},
-                    ReturnType = "null",
-                    Security = "None",
-                    Tags = {}
-                },
-                {
-                    Class = "TextBox",
-                    Name = "IsFocused",
-                    Parameters = {},
-                    ReturnType = "bool",
-                    Security = "None",
-                    Tags = {}
-                },
-                {
-                    Class = "TextBox",
-                    Name = "ReleaseFocus",
+                    Class = "Instance",
+                    Name = "AddTag",
                     Parameters = {
                         {
-                            Name = "submitted",
-                            Type = "bool"
-                        }
-                    },
-                    ReturnType = "null",
-                    Security = "None",
-                    Tags = {}
-                },
-                {
-                    Class = "TextBox",
-                    Name = "ResetKeyboardMode",
-                    Parameters = {},
-                    ReturnType = "null",
-                    Security = "RobloxScriptSecurity",
-                    Tags = {}
-                },
-                {
-                    Class = "TextBox",
-                    Name = "SetTextFromInput",
-                    Parameters = {
-                        {
-                            Name = "text",
+                            Name = "tag",
                             Type = "string"
                         }
                     },
                     ReturnType = "null",
-                    Security = "RobloxScriptSecurity",
+                    Security = "None",
                     Tags = {}
-                }
-            },
-            Name = "TextBox",
-            Properties = {
-                {
-                    Category = "Data",
-                    Class = "TextBox",
-                    Name = "ClearTextOnFocus",
-                    Security = {
-                        Read = "None",
-                        Write = "None"
-                    },
-                    Serialization = {
-                        CanLoad = true,
-                        CanSave = true
-                    },
-                    Tags = {},
-                    ValueType = {
-                        Category = "Primitive",
-                        Name = "bool"
-                    }
                 },
                 {
-                    Category = "Data",
-                    Class = "TextBox",
-                    Name = "Confidential",
-                    Security = {
-                        Read = "RobloxSecurity",
-                        Write = "RobloxSecurity"
-                    },
-                    Serialization = {
-                        CanLoad = false,
-                        CanSave = false
-                    },
-                    Tags = {
-                        Hidden = true,
-                        NotReplicated = true,
-                        NotScriptable = true
-                    },
-                    ValueType = {
-                        Category = "Primitive",
-                        Name = "bool"
-                    }
+                    Class = "Instance",
+                    Name = "ClearAllChildren",
+                    Parameters = {},
+                    ReturnType = "null",
+                    Security = "None",
+                    Tags = {}
                 },
                 {
-                    Category = "Text",
-                    Class = "TextBox",
-                    Name = "ContentText",
-                    Security = {
-                        Read = "None",
-                        Write = "None"
-                    },
-                    Serialization = {
-                        CanLoad = false,
-                        CanSave = false
-                    },
-                    Tags = {
-                        NotReplicated = true,
-                        ReadOnly = true
-                    },
-                    ValueType = {
-                        Category = "Primitive",
-                        Name = "string"
-                    }
+                    Class = "Instance",
+                    Name = "Clone",
+                    Parameters = {},
+                    ReturnType = "Instance",
+                    Security = "None",
+                    Tags = {}
                 },
                 {
-                    Category = "Data",
-                    Class = "TextBox",
-                    Name = "CursorPosition",
-                    Security = {
-                        Read = "None",
-                        Write = "None"
-                    },
-                    Serialization = {
-                        CanLoad = false,
-                        CanSave = false
-                    },
-                    Tags = {},
-                    ValueType = {
-                        Category = "Primitive",
-                        Name = "int"
-                    }
+                    Class = "Instance",
+                    Name = "Destroy",
+                    Parameters = {},
+                    ReturnType = "null",
+                    Security = "None",
+                    Tags = {}
                 },
                 {
-                    Category = "Text",
-                    Class = "TextBox",
-                    Name = "Font",
-                    Security = {
-                        Read = "None",
-                        Write = "None"
-                    },
-                    Serialization = {
-                        CanLoad = true,
-                        CanSave = false
-                    },
-                    Tags = {
-                        Hidden = true,
-                        NotReplicated = true
-                    },
-                    ValueType = {
-                        Category = "Enum",
-                        Name = "Font"
-                    }
-                },
-                {
-                    Category = "Text",
-                    Class = "TextBox",
-                    Name = "FontFace",
-                    Security = {
-                        Read = "None",
-                        Write = "None"
-                    },
-                    Serialization = {
-                        CanLoad = true,
-                        CanSave = true
-                    },
-                    Tags = {},
-                    ValueType = {
-                        Category = "DataType",
-                        Name = "Font"
-                    }
-                },
-                {
-                    Category = "Text",
-                    Class = "TextBox",
-                    Name = "FontSize",
-                    Security = {
-                        Read = "None",
-                        Write = "None"
-                    },
-                    Serialization = {
-                        CanLoad = true,
-                        CanSave = false
-                    },
-                    Tags = {
-                        Deprecated = true,
-                        NotReplicated = true
-                    },
-                    ValueType = {
-                        Category = "Enum",
-                        Name = "FontSize"
-                    }
-                },
-                {
-                    Category = "Data",
-                    Class = "TextBox",
-                    Name = "HasFocus",
-                    Security = {
-                        Read = "RobloxSecurity",
-                        Write = "RobloxSecurity"
-                    },
-                    Serialization = {
-                        CanLoad = false,
-                        CanSave = false
-                    },
-                    Tags = {
-                        Hidden = true,
-                        NotReplicated = true,
-                        NotScriptable = true,
-                        ReadOnly = true
-                    },
-                    ValueType = {
-                        Category = "Primitive",
-                        Name = "bool"
-                    }
-                },
-                {
-                    Category = "Text",
-                    Class = "TextBox",
-                    Name = "LineHeight",
-                    Security = {
-                        Read = "None",
-                        Write = "None"
-                    },
-                    Serialization = {
-                        CanLoad = true,
-                        CanSave = true
-                    },
-                    Tags = {},
-                    ValueType = {
-                        Category = "Primitive",
-                        Name = "float"
-                    }
-                },
-                {
-                    Category = "Text",
-                    Class = "TextBox",
-                    Name = "LocalizationMatchIdentifier",
-                    Security = {
-                        Read = "RobloxScriptSecurity",
-                        Write = "RobloxScriptSecurity"
-                    },
-                    Serialization = {
-                        CanLoad = true,
-                        CanSave = true
-                    },
-                    Tags = {
-                        Hidden = true,
-                        NotReplicated = true
-                    },
-                    ValueType = {
-                        Category = "Primitive",
-                        Name = "string"
-                    }
-                },
-                {
-                    Category = "Text",
-                    Class = "TextBox",
-                    Name = "LocalizationMatchedSourceText",
-                    Security = {
-                        Read = "RobloxScriptSecurity",
-                        Write = "RobloxScriptSecurity"
-                    },
-                    Serialization = {
-                        CanLoad = true,
-                        CanSave = true
-                    },
-                    Tags = {
-                        Hidden = true,
-                        NotReplicated = true
-                    },
-                    ValueType = {
-                        Category = "Primitive",
-                        Name = "string"
-                    }
-                },
-                {
-                    Category = "Text",
-                    Class = "TextBox",
-                    Name = "LocalizedPlaceholderText",
-                    Security = {
-                        Read = "RobloxSecurity",
-                        Write = "RobloxSecurity"
-                    },
-                    Serialization = {
-                        CanLoad = false,
-                        CanSave = false
-                    },
-                    Tags = {
-                        Hidden = true,
-                        NotReplicated = true,
-                        NotScriptable = true,
-                        ReadOnly = true
-                    },
-                    ValueType = {
-                        Category = "Primitive",
-                        Name = "string"
-                    }
-                },
-                {
-                    Category = "Data",
-                    Class = "TextBox",
-                    Name = "ManualFocusRelease",
-                    Security = {
-                        Read = "RobloxScriptSecurity",
-                        Write = "RobloxScriptSecurity"
-                    },
-                    Serialization = {
-                        CanLoad = false,
-                        CanSave = false
-                    },
-                    Tags = {
-                        Hidden = true,
-                        NotReplicated = true
-                    },
-                    ValueType = {
-                        Category = "Primitive",
-                        Name = "bool"
-                    }
-                },
-                {
-                    Category = "Text",
-                    Class = "TextBox",
-                    Name = "MaxVisibleGraphemes",
-                    Security = {
-                        Read = "None",
-                        Write = "None"
-                    },
-                    Serialization = {
-                        CanLoad = true,
-                        CanSave = true
-                    },
-                    Tags = {},
-                    ValueType = {
-                        Category = "Primitive",
-                        Name = "int"
-                    }
-                },
-                {
-                    Category = "Data",
-                    Class = "TextBox",
-                    Name = "MultiLine",
-                    Security = {
-                        Read = "None",
-                        Write = "None"
-                    },
-                    Serialization = {
-                        CanLoad = true,
-                        CanSave = true
-                    },
-                    Tags = {},
-                    ValueType = {
-                        Category = "Primitive",
-                        Name = "bool"
-                    }
-                },
-                {
-                    Category = "Text",
-                    Class = "TextBox",
-                    Name = "OpenTypeFeatures",
-                    Security = {
-                        Read = "None",
-                        Write = "None"
-                    },
-                    Serialization = {
-                        CanLoad = true,
-                        CanSave = true
-                    },
-                    Tags = {},
-                    ValueType = {
-                        Category = "Primitive",
-                        Name = "string"
-                    }
-                },
-                {
-                    Category = "Text",
-                    Class = "TextBox",
-                    Name = "OpenTypeFeaturesError",
-                    Security = {
-                        Read = "None",
-                        Write = "None"
-                    },
-                    Serialization = {
-                        CanLoad = false,
-                        CanSave = true
-                    },
-                    Tags = {
-                        NotReplicated = true,
-                        ReadOnly = true
-                    },
-                    ValueType = {
-                        Category = "Primitive",
-                        Name = "string"
-                    }
-                },
-                {
-                    Category = "Data",
-                    Class = "TextBox",
-                    Name = "OverlayNativeInput",
-                    Security = {
-                        Read = "RobloxScriptSecurity",
-                        Write = "RobloxScriptSecurity"
-                    },
-                    Serialization = {
-                        CanLoad = false,
-                        CanSave = false
-                    },
-                    Tags = {
-                        Hidden = true,
-                        NotReplicated = true
-                    },
-                    ValueType = {
-                        Category = "Primitive",
-                        Name = "bool"
-                    }
-                },
-                {
-                    Category = "Text",
-                    Class = "TextBox",
-                    Name = "PlaceholderColor3",
-                    Security = {
-                        Read = "None",
-                        Write = "None"
-                    },
-                    Serialization = {
-                        CanLoad = true,
-                        CanSave = true
-                    },
-                    Tags = {},
-                    ValueType = {
-                        Category = "DataType",
-                        Name = "Color3"
-                    }
-                },
-                {
-                    Category = "Text",
-                    Class = "TextBox",
-                    Name = "PlaceholderText",
-                    Security = {
-                        Read = "None",
-                        Write = "None"
-                    },
-                    Serialization = {
-                        CanLoad = true,
-                        CanSave = true
-                    },
-                    Tags = {},
-                    ValueType = {
-                        Category = "Primitive",
-                        Name = "string"
-                    }
-                },
-                {
-                    Category = "Data",
-                    Class = "TextBox",
-                    Name = "ReturnKeyType",
-                    Security = {
-                        Read = "RobloxScriptSecurity",
-                        Write = "RobloxScriptSecurity"
-                    },
-                    Serialization = {
-                        CanLoad = false,
-                        CanSave = false
-                    },
-                    Tags = {
-                        Hidden = true,
-                        NotReplicated = true
-                    },
-                    ValueType = {
-                        Category = "Enum",
-                        Name = "ReturnKeyType"
-                    }
-                },
-                {
-                    Category = "Text",
-                    Class = "TextBox",
-                    Name = "RichText",
-                    Security = {
-                        Read = "None",
-                        Write = "None"
-                    },
-                    Serialization = {
-                        CanLoad = true,
-                        CanSave = true
-                    },
-                    Tags = {},
-                    ValueType = {
-                        Category = "Primitive",
-                        Name = "bool"
-                    }
-                },
-                {
-                    Category = "Data",
-                    Class = "TextBox",
-                    Name = "SelectionStart",
-                    Security = {
-                        Read = "None",
-                        Write = "None"
-                    },
-                    Serialization = {
-                        CanLoad = false,
-                        CanSave = false
-                    },
-                    Tags = {},
-                    ValueType = {
-                        Category = "Primitive",
-                        Name = "int"
-                    }
-                },
-                {
-                    Category = "Data",
-                    Class = "TextBox",
-                    Name = "ShouldEmitReturnEvents",
-                    Security = {
-                        Read = "RobloxScriptSecurity",
-                        Write = "RobloxScriptSecurity"
-                    },
-                    Serialization = {
-                        CanLoad = false,
-                        CanSave = false
-                    },
-                    Tags = {
-                        Hidden = true,
-                        NotReplicated = true
-                    },
-                    ValueType = {
-                        Category = "Primitive",
-                        Name = "bool"
-                    }
-                },
-                {
-                    Category = "Data",
-                    Class = "TextBox",
-                    Name = "ShouldEmitTabEvents",
-                    Security = {
-                        Read = "RobloxScriptSecurity",
-                        Write = "RobloxScriptSecurity"
-                    },
-                    Serialization = {
-                        CanLoad = false,
-                        CanSave = false
-                    },
-                    Tags = {
-                        Hidden = true,
-                        NotReplicated = true
-                    },
-                    ValueType = {
-                        Category = "Primitive",
-                        Name = "bool"
-                    }
-                },
-                {
-                    Category = "Data",
-                    Class = "TextBox",
-                    Name = "ShouldEmitUpAndDownArrowEvents",
-                    Security = {
-                        Read = "RobloxScriptSecurity",
-                        Write = "RobloxScriptSecurity"
-                    },
-                    Serialization = {
-                        CanLoad = false,
-                        CanSave = false
-                    },
-                    Tags = {
-                        Hidden = true,
-                        NotReplicated = true
-                    },
-                    ValueType = {
-                        Category = "Primitive",
-                        Name = "bool"
-                    }
-                },
-                {
-                    Category = "Data",
-                    Class = "TextBox",
-                    Name = "ShowNativeInput",
-                    Security = {
-                        Read = "None",
-                        Write = "None"
-                    },
-                    Serialization = {
-                        CanLoad = true,
-                        CanSave = true
-                    },
-                    Tags = {},
-                    ValueType = {
-                        Category = "Primitive",
-                        Name = "bool"
-                    }
-                },
-                {
-                    Category = "Text",
-                    Class = "TextBox",
-                    Name = "Text",
-                    Security = {
-                        Read = "None",
-                        Write = "None"
-                    },
-                    Serialization = {
-                        CanLoad = true,
-                        CanSave = true
-                    },
-                    Tags = {},
-                    ValueType = {
-                        Category = "Primitive",
-                        Name = "string"
-                    }
-                },
-                {
-                    Category = "Text",
-                    Class = "TextBox",
-                    Name = "TextBounds",
-                    Security = {
-                        Read = "None",
-                        Write = "None"
-                    },
-                    Serialization = {
-                        CanLoad = false,
-                        CanSave = false
-                    },
-                    Tags = {
-                        NotReplicated = true,
-                        ReadOnly = true
-                    },
-                    ValueType = {
-                        Category = "DataType",
-                        Name = "Vector2"
-                    }
-                },
-                {
-                    Category = "Text",
-                    Class = "TextBox",
-                    Name = "TextColor",
-                    Security = {
-                        Read = "None",
-                        Write = "None"
-                    },
-                    Serialization = {
-                        CanLoad = true,
-                        CanSave = false
-                    },
-                    Tags = {
-                        Deprecated = true,
-                        Hidden = true,
-                        NotReplicated = true
-                    },
-                    ValueType = {
-                        Category = "DataType",
-                        Name = "BrickColor"
-                    }
-                },
-                {
-                    Category = "Text",
-                    Class = "TextBox",
-                    Name = "TextColor3",
-                    Security = {
-                        Read = "None",
-                        Write = "None"
-                    },
-                    Serialization = {
-                        CanLoad = true,
-                        CanSave = true
-                    },
-                    Tags = {},
-                    ValueType = {
-                        Category = "DataType",
-                        Name = "Color3"
-                    }
-                },
-                {
-                    Category = "Text",
-                    Class = "TextBox",
-                    Name = "TextDirection",
-                    Security = {
-                        Read = "None",
-                        Write = "None"
-                    },
-                    Serialization = {
-                        CanLoad = true,
-                        CanSave = true
-                    },
-                    Tags = {},
-                    ValueType = {
-                        Category = "Enum",
-                        Name = "TextDirection"
-                    }
-                },
-                {
-                    Category = "Data",
-                    Class = "TextBox",
-                    Name = "TextEditable",
-                    Security = {
-                        Read = "None",
-                        Write = "None"
-                    },
-                    Serialization = {
-                        CanLoad = true,
-                        CanSave = true
-                    },
-                    Tags = {},
-                    ValueType = {
-                        Category = "Primitive",
-                        Name = "bool"
-                    }
-                },
-                {
-                    Category = "Text",
-                    Class = "TextBox",
-                    Name = "TextFits",
-                    Security = {
-                        Read = "None",
-                        Write = "None"
-                    },
-                    Serialization = {
-                        CanLoad = false,
-                        CanSave = false
-                    },
-                    Tags = {
-                        NotReplicated = true,
-                        ReadOnly = true
-                    },
-                    ValueType = {
-                        Category = "Primitive",
-                        Name = "bool"
-                    }
-                },
-                {
-                    Category = "Data",
-                    Class = "TextBox",
-                    Name = "TextInputType",
-                    Security = {
-                        Read = "RobloxScriptSecurity",
-                        Write = "RobloxScriptSecurity"
-                    },
-                    Serialization = {
-                        CanLoad = false,
-                        CanSave = false
-                    },
-                    Tags = {
-                        Hidden = true,
-                        NotReplicated = true
-                    },
-                    ValueType = {
-                        Category = "Enum",
-                        Name = "TextInputType"
-                    }
-                },
-                {
-                    Category = "Text",
-                    Class = "TextBox",
-                    Name = "TextScaled",
-                    Security = {
-                        Read = "None",
-                        Write = "None"
-                    },
-                    Serialization = {
-                        CanLoad = true,
-                        CanSave = true
-                    },
-                    Tags = {},
-                    ValueType = {
-                        Category = "Primitive",
-                        Name = "bool"
-                    }
-                },
-                {
-                    Category = "Text",
-                    Class = "TextBox",
-                    Name = "TextSize",
-                    Security = {
-                        Read = "None",
-                        Write = "None"
-                    },
-                    Serialization = {
-                        CanLoad = true,
-                        CanSave = true
-                    },
-                    Tags = {},
-                    ValueType = {
-                        Category = "Primitive",
-                        Name = "float"
-                    }
-                },
-                {
-                    Category = "Text",
-                    Class = "TextBox",
-                    Name = "TextStrokeColor3",
-                    Security = {
-                        Read = "None",
-                        Write = "None"
-                    },
-                    Serialization = {
-                        CanLoad = true,
-                        CanSave = true
-                    },
-                    Tags = {},
-                    ValueType = {
-                        Category = "DataType",
-                        Name = "Color3"
-                    }
-                },
-                {
-                    Category = "Text",
-                    Class = "TextBox",
-                    Name = "TextStrokeTransparency",
-                    Security = {
-                        Read = "None",
-                        Write = "None"
-                    },
-                    Serialization = {
-                        CanLoad = true,
-                        CanSave = true
-                    },
-                    Tags = {},
-                    ValueType = {
-                        Category = "Primitive",
-                        Name = "float"
-                    }
-                },
-                {
-                    Category = "Text",
-                    Class = "TextBox",
-                    Name = "TextTransparency",
-                    Security = {
-                        Read = "None",
-                        Write = "None"
-                    },
-                    Serialization = {
-                        CanLoad = true,
-                        CanSave = true
-                    },
-                    Tags = {},
-                    ValueType = {
-                        Category = "Primitive",
-                        Name = "float"
-                    }
-                },
-                {
-                    Category = "Text",
-                    Class = "TextBox",
-                    Name = "TextTruncate",
-                    Security = {
-                        Read = "None",
-                        Write = "None"
-                    },
-                    Serialization = {
-                        CanLoad = true,
-                        CanSave = true
-                    },
-                    Tags = {},
-                    ValueType = {
-                        Category = "Enum",
-                        Name = "TextTruncate"
-                    }
-                },
-                {
-                    Category = "Text",
-                    Class = "TextBox",
-                    Name = "TextWrap",
-                    Security = {
-                        Read = "None",
-                        Write = "None"
-                    },
-                    Serialization = {
-                        CanLoad = true,
-                        CanSave = false
-                    },
-                    Tags = {
-                        Deprecated = true,
-                        NotReplicated = true
-                    },
-                    ValueType = {
-                        Category = "Primitive",
-                        Name = "bool"
-                    }
-                },
-                {
-                    Category = "Text",
-                    Class = "TextBox",
-                    Name = "TextWrapped",
-                    Security = {
-                        Read = "None",
-                        Write = "None"
-                    },
-                    Serialization = {
-                        CanLoad = true,
-                        CanSave = true
-                    },
-                    Tags = {},
-                    ValueType = {
-                        Category = "Primitive",
-                        Name = "bool"
-                    }
-                },
-                {
-                    Category = "Text",
-                    Class = "TextBox",
-                    Name = "TextXAlignment",
-                    Security = {
-                        Read = "None",
-                        Write = "None"
-                    },
-                    Serialization = {
-                        CanLoad = true,
-                        CanSave = true
-                    },
-                    Tags = {},
-                    ValueType = {
-                        Category = "Enum",
-                        Name = "TextXAlignment"
-                    }
-                },
-                {
-                    Category = "Text",
-                    Class = "TextBox",
-                    Name = "TextYAlignment",
-                    Security = {
-                        Read = "None",
-                        Write = "None"
-                    },
-                    Serialization = {
-                        CanLoad = true,
-                        CanSave = true
-                    },
-                    Tags = {},
-                    ValueType = {
-                        Category = "Enum",
-                        Name = "TextYAlignment"
-                    }
-                }
-            },
-            Superclass = {
-                Callbacks = {},
-                Events = {
-                    {
-                        Class = "GuiObject",
-                        Name = "DragBegin",
-                        Parameters = {
-                            {
-                                Name = "initialPosition",
-                                Type = "UDim2"
-                            }
-                        },
-                        Security = "None",
-                        Tags = {
-                            Deprecated = true
-                        }
-                    },
-                    {
-                        Class = "GuiObject",
-                        Name = "DragStopped",
-                        Parameters = {
-                            {
-                                Name = "x",
-                                Type = "int"
-                            },
-                            {
-                                Name = "y",
-                                Type = "int"
-                            }
-                        },
-                        Security = "None",
-                        Tags = {
-                            Deprecated = true
-                        }
-                    },
-                    {
-                        Class = "GuiObject",
-                        Name = "InputBegan",
-                        Parameters = {
-                            {
-                                Name = "input",
-                                Type = "InputObject"
-                            }
-                        },
-                        Security = "None",
-                        Tags = {}
-                    },
-                    {
-                        Class = "GuiObject",
-                        Name = "InputChanged",
-                        Parameters = {
-                            {
-                                Name = "input",
-                                Type = "InputObject"
-                            }
-                        },
-                        Security = "None",
-                        Tags = {}
-                    },
-                    {
-                        Class = "GuiObject",
-                        Name = "InputEnded",
-                        Parameters = {
-                            {
-                                Name = "input",
-                                Type = "InputObject"
-                            }
-                        },
-                        Security = "None",
-                        Tags = {}
-                    },
-                    {
-                        Class = "GuiObject",
-                        Name = "MouseEnter",
-                        Parameters = {
-                            {
-                                Name = "x",
-                                Type = "int"
-                            },
-                            {
-                                Name = "y",
-                                Type = "int"
-                            }
-                        },
-                        Security = "None",
-                        Tags = {}
-                    },
-                    {
-                        Class = "GuiObject",
-                        Name = "MouseLeave",
-                        Parameters = {
-                            {
-                                Name = "x",
-                                Type = "int"
-                            },
-                            {
-                                Name = "y",
-                                Type = "int"
-                            }
-                        },
-                        Security = "None",
-                        Tags = {}
-                    },
-                    {
-                        Class = "GuiObject",
-                        Name = "MouseMoved",
-                        Parameters = {
-                            {
-                                Name = "x",
-                                Type = "int"
-                            },
-                            {
-                                Name = "y",
-                                Type = "int"
-                            }
-                        },
-                        Security = "None",
-                        Tags = {}
-                    },
-                    {
-                        Class = "GuiObject",
-                        Name = "MouseWheelBackward",
-                        Parameters = {
-                            {
-                                Name = "x",
-                                Type = "int"
-                            },
-                            {
-                                Name = "y",
-                                Type = "int"
-                            }
-                        },
-                        Security = "None",
-                        Tags = {}
-                    },
-                    {
-                        Class = "GuiObject",
-                        Name = "MouseWheelForward",
-                        Parameters = {
-                            {
-                                Name = "x",
-                                Type = "int"
-                            },
-                            {
-                                Name = "y",
-                                Type = "int"
-                            }
-                        },
-                        Security = "None",
-                        Tags = {}
-                    },
-                    {
-                        Class = "GuiObject",
-                        Name = "SelectionGained",
-                        Parameters = {},
-                        Security = "None",
-                        Tags = {}
-                    },
-                    {
-                        Class = "GuiObject",
-                        Name = "SelectionLost",
-                        Parameters = {},
-                        Security = "None",
-                        Tags = {}
-                    },
-                    {
-                        Class = "GuiObject",
-                        Name = "TouchLongPress",
-                        Parameters = {
-                            {
-                                Name = "touchPositions",
-                                Type = "Array"
-                            },
-                            {
-                                Name = "state",
-                                Type = "UserInputState"
-                            }
-                        },
-                        Security = "None",
-                        Tags = {}
-                    },
-                    {
-                        Class = "GuiObject",
-                        Name = "TouchPan",
-                        Parameters = {
-                            {
-                                Name = "touchPositions",
-                                Type = "Array"
-                            },
-                            {
-                                Name = "totalTranslation",
-                                Type = "Vector2"
-                            },
-                            {
-                                Name = "velocity",
-                                Type = "Vector2"
-                            },
-                            {
-                                Name = "state",
-                                Type = "UserInputState"
-                            }
-                        },
-                        Security = "None",
-                        Tags = {}
-                    },
-                    {
-                        Class = "GuiObject",
-                        Name = "TouchPinch",
-                        Parameters = {
-                            {
-                                Name = "touchPositions",
-                                Type = "Array"
-                            },
-                            {
-                                Name = "scale",
-                                Type = "float"
-                            },
-                            {
-                                Name = "velocity",
-                                Type = "float"
-                            },
-                            {
-                                Name = "state",
-                                Type = "UserInputState"
-                            }
-                        },
-                        Security = "None",
-                        Tags = {}
-                    },
-                    {
-                        Class = "GuiObject",
-                        Name = "TouchRotate",
-                        Parameters = {
-                            {
-                                Name = "touchPositions",
-                                Type = "Array"
-                            },
-                            {
-                                Name = "rotation",
-                                Type = "float"
-                            },
-                            {
-                                Name = "velocity",
-                                Type = "float"
-                            },
-                            {
-                                Name = "state",
-                                Type = "UserInputState"
-                            }
-                        },
-                        Security = "None",
-                        Tags = {}
-                    },
-                    {
-                        Class = "GuiObject",
-                        Name = "TouchSwipe",
-                        Parameters = {
-                            {
-                                Name = "swipeDirection",
-                                Type = "SwipeDirection"
-                            },
-                            {
-                                Name = "numberOfTouches",
-                                Type = "int"
-                            }
-                        },
-                        Security = "None",
-                        Tags = {}
-                    },
-                    {
-                        Class = "GuiObject",
-                        Name = "TouchTap",
-                        Parameters = {
-                            {
-                                Name = "touchPositions",
-                                Type = "Array"
-                            }
-                        },
-                        Security = "None",
-                        Tags = {}
-                    }
-                },
-                Functions = {
-                    {
-                        Class = "GuiObject",
-                        Name = "TweenPosition",
-                        Parameters = {
-                            {
-                                Name = "endPosition",
-                                Type = "UDim2"
-                            },
-                            {
-                                Name = "easingDirection",
-                                Type = "EasingDirection"
-                            },
-                            {
-                                Name = "easingStyle",
-                                Type = "EasingStyle"
-                            },
-                            {
-                                Name = "time",
-                                Type = "float"
-                            },
-                            {
-                                Name = "override",
-                                Type = "bool"
-                            },
-                            {
-                                Name = "callback",
-                                Type = "Function"
-                            }
-                        },
-                        ReturnType = "bool",
-                        Security = "None",
-                        Tags = {
-                            Deprecated = true
-                        }
-                    },
-                    {
-                        Class = "GuiObject",
-                        Name = "TweenPositionInternal",
-                        Parameters = {
-                            {
-                                Name = "endPosition",
-                                Type = "UDim2"
-                            },
-                            {
-                                Name = "easingDirection",
-                                Type = "EasingDirection"
-                            },
-                            {
-                                Name = "easingStyle",
-                                Type = "EasingStyle"
-                            },
-                            {
-                                Name = "time",
-                                Type = "float"
-                            },
-                            {
-                                Name = "override",
-                                Type = "bool"
-                            },
-                            {
-                                Name = "callback",
-                                Type = "Function"
-                            }
-                        },
-                        ReturnType = "bool",
-                        Security = "RobloxScriptSecurity",
-                        Tags = {}
-                    },
-                    {
-                        Class = "GuiObject",
-                        Name = "TweenSize",
-                        Parameters = {
-                            {
-                                Name = "endSize",
-                                Type = "UDim2"
-                            },
-                            {
-                                Name = "easingDirection",
-                                Type = "EasingDirection"
-                            },
-                            {
-                                Name = "easingStyle",
-                                Type = "EasingStyle"
-                            },
-                            {
-                                Name = "time",
-                                Type = "float"
-                            },
-                            {
-                                Name = "override",
-                                Type = "bool"
-                            },
-                            {
-                                Name = "callback",
-                                Type = "Function"
-                            }
-                        },
-                        ReturnType = "bool",
-                        Security = "None",
-                        Tags = {
-                            Deprecated = true
-                        }
-                    },
-                    {
-                        Class = "GuiObject",
-                        Name = "TweenSizeAndPosition",
-                        Parameters = {
-                            {
-                                Name = "endSize",
-                                Type = "UDim2"
-                            },
-                            {
-                                Name = "endPosition",
-                                Type = "UDim2"
-                            },
-                            {
-                                Name = "easingDirection",
-                                Type = "EasingDirection"
-                            },
-                            {
-                                Name = "easingStyle",
-                                Type = "EasingStyle"
-                            },
-                            {
-                                Name = "time",
-                                Type = "float"
-                            },
-                            {
-                                Name = "override",
-                                Type = "bool"
-                            },
-                            {
-                                Name = "callback",
-                                Type = "Function"
-                            }
-                        },
-                        ReturnType = "bool",
-                        Security = "None",
-                        Tags = {
-                            Deprecated = true
-                        }
-                    },
-                    {
-                        Class = "GuiObject",
-                        Name = "TweenSizeAndPositionInternal",
-                        Parameters = {
-                            {
-                                Name = "endSize",
-                                Type = "UDim2"
-                            },
-                            {
-                                Name = "endPosition",
-                                Type = "UDim2"
-                            },
-                            {
-                                Name = "easingDirection",
-                                Type = "EasingDirection"
-                            },
-                            {
-                                Name = "easingStyle",
-                                Type = "EasingStyle"
-                            },
-                            {
-                                Name = "time",
-                                Type = "float"
-                            },
-                            {
-                                Name = "override",
-                                Type = "bool"
-                            },
-                            {
-                                Name = "callback",
-                                Type = "Function"
-                            }
-                        },
-                        ReturnType = "bool",
-                        Security = "RobloxScriptSecurity",
-                        Tags = {}
-                    },
-                    {
-                        Class = "GuiObject",
-                        Name = "TweenSizeInternal",
-                        Parameters = {
-                            {
-                                Name = "endSize",
-                                Type = "UDim2"
-                            },
-                            {
-                                Name = "easingDirection",
-                                Type = "EasingDirection"
-                            },
-                            {
-                                Name = "easingStyle",
-                                Type = "EasingStyle"
-                            },
-                            {
-                                Name = "time",
-                                Type = "float"
-                            },
-                            {
-                                Name = "override",
-                                Type = "bool"
-                            },
-                            {
-                                Name = "callback",
-                                Type = "Function"
-                            }
-                        },
-                        ReturnType = "bool",
-                        Security = "RobloxScriptSecurity",
-                        Tags = {}
-                    }
-                },
-                Name = "GuiObject",
-                Properties = {
-                    {
-                        Category = "Data",
-                        Class = "GuiObject",
-                        Name = "Active",
-                        Security = {
-                            Read = "None",
-                            Write = "None"
-                        },
-                        Serialization = {
-                            CanLoad = true,
-                            CanSave = true
-                        },
-                        Tags = {},
-                        ValueType = {
-                            Category = "Primitive",
-                            Name = "bool"
-                        }
-                    },
-                    {
-                        Category = "Data",
-                        Class = "GuiObject",
-                        Name = "AnchorPoint",
-                        Security = {
-                            Read = "None",
-                            Write = "None"
-                        },
-                        Serialization = {
-                            CanLoad = true,
-                            CanSave = true
-                        },
-                        Tags = {},
-                        ValueType = {
-                            Category = "DataType",
-                            Name = "Vector2"
-                        }
-                    },
-                    {
-                        Category = "Data",
-                        Class = "GuiObject",
-                        Name = "AutomaticSize",
-                        Security = {
-                            Read = "None",
-                            Write = "None"
-                        },
-                        Serialization = {
-                            CanLoad = true,
-                            CanSave = true
-                        },
-                        Tags = {},
-                        ValueType = {
-                            Category = "Enum",
-                            Name = "AutomaticSize"
-                        }
-                    },
-                    {
-                        Category = "Data",
-                        Class = "GuiObject",
-                        Name = "BackgroundColor",
-                        Security = {
-                            Read = "None",
-                            Write = "None"
-                        },
-                        Serialization = {
-                            CanLoad = true,
-                            CanSave = false
-                        },
-                        Tags = {
-                            Deprecated = true,
-                            Hidden = true,
-                            NotReplicated = true
-                        },
-                        ValueType = {
-                            Category = "DataType",
-                            Name = "BrickColor"
-                        }
-                    },
-                    {
-                        Category = "Data",
-                        Class = "GuiObject",
-                        Name = "BackgroundColor3",
-                        Security = {
-                            Read = "None",
-                            Write = "None"
-                        },
-                        Serialization = {
-                            CanLoad = true,
-                            CanSave = true
-                        },
-                        Tags = {},
-                        ValueType = {
-                            Category = "DataType",
-                            Name = "Color3"
-                        }
-                    },
-                    {
-                        Category = "Data",
-                        Class = "GuiObject",
-                        Name = "BackgroundTransparency",
-                        Security = {
-                            Read = "None",
-                            Write = "None"
-                        },
-                        Serialization = {
-                            CanLoad = true,
-                            CanSave = true
-                        },
-                        Tags = {},
-                        ValueType = {
-                            Category = "Primitive",
-                            Name = "float"
-                        }
-                    },
-                    {
-                        Category = "Data",
-                        Class = "GuiObject",
-                        Name = "BorderColor",
-                        Security = {
-                            Read = "None",
-                            Write = "None"
-                        },
-                        Serialization = {
-                            CanLoad = true,
-                            CanSave = false
-                        },
-                        Tags = {
-                            Deprecated = true,
-                            Hidden = true,
-                            NotReplicated = true
-                        },
-                        ValueType = {
-                            Category = "DataType",
-                            Name = "BrickColor"
-                        }
-                    },
-                    {
-                        Category = "Data",
-                        Class = "GuiObject",
-                        Name = "BorderColor3",
-                        Security = {
-                            Read = "None",
-                            Write = "None"
-                        },
-                        Serialization = {
-                            CanLoad = true,
-                            CanSave = true
-                        },
-                        Tags = {},
-                        ValueType = {
-                            Category = "DataType",
-                            Name = "Color3"
-                        }
-                    },
-                    {
-                        Category = "Data",
-                        Class = "GuiObject",
-                        Name = "BorderMode",
-                        Security = {
-                            Read = "None",
-                            Write = "None"
-                        },
-                        Serialization = {
-                            CanLoad = true,
-                            CanSave = true
-                        },
-                        Tags = {},
-                        ValueType = {
-                            Category = "Enum",
-                            Name = "BorderMode"
-                        }
-                    },
-                    {
-                        Category = "Data",
-                        Class = "GuiObject",
-                        Name = "BorderSizePixel",
-                        Security = {
-                            Read = "None",
-                            Write = "None"
-                        },
-                        Serialization = {
-                            CanLoad = true,
-                            CanSave = true
-                        },
-                        Tags = {},
-                        ValueType = {
-                            Category = "Primitive",
-                            Name = "int"
-                        }
-                    },
-                    {
-                        Category = "Behavior",
-                        Class = "GuiObject",
-                        Name = "ClipsDescendants",
-                        Security = {
-                            Read = "None",
-                            Write = "None"
-                        },
-                        Serialization = {
-                            CanLoad = true,
-                            CanSave = true
-                        },
-                        Tags = {},
-                        ValueType = {
-                            Category = "Primitive",
-                            Name = "bool"
-                        }
-                    },
-                    {
-                        Category = "EventReplicator",
-                        Class = "GuiObject",
-                        Name = "DragBeginConnectionCount",
-                        Security = {
-                            Read = "None",
-                            Write = "None"
-                        },
-                        Serialization = {
-                            CanLoad = false,
-                            CanSave = false
-                        },
-                        Tags = {
-                            Hidden = true,
-                            NotScriptable = true
-                        },
-                        ValueType = {
-                            Category = "Primitive",
-                            Name = "int"
-                        }
-                    },
-                    {
-                        Category = "EventReplicator",
-                        Class = "GuiObject",
-                        Name = "DragStoppedConnectionCount",
-                        Security = {
-                            Read = "None",
-                            Write = "None"
-                        },
-                        Serialization = {
-                            CanLoad = false,
-                            CanSave = false
-                        },
-                        Tags = {
-                            Hidden = true,
-                            NotScriptable = true
-                        },
-                        ValueType = {
-                            Category = "Primitive",
-                            Name = "int"
-                        }
-                    },
-                    {
-                        Category = "Behavior",
-                        Class = "GuiObject",
-                        Name = "Draggable",
-                        Security = {
-                            Read = "None",
-                            Write = "None"
-                        },
-                        Serialization = {
-                            CanLoad = true,
-                            CanSave = true
-                        },
-                        Tags = {
-                            Deprecated = true
-                        },
-                        ValueType = {
-                            Category = "Primitive",
-                            Name = "bool"
-                        }
-                    },
-                    {
-                        Category = "State",
-                        Class = "GuiObject",
-                        Name = "GuiState",
-                        Security = {
-                            Read = "None",
-                            Write = "None"
-                        },
-                        Serialization = {
-                            CanLoad = false,
-                            CanSave = true
-                        },
-                        Tags = {
-                            NotReplicated = true,
-                            ReadOnly = true
-                        },
-                        ValueType = {
-                            Category = "Enum",
-                            Name = "GuiState"
-                        }
-                    },
-                    {
-                        Category = "Data",
-                        Class = "GuiObject",
-                        Name = "InputSink",
-                        Security = {
-                            Read = "None",
-                            Write = "None"
-                        },
-                        Serialization = {
-                            CanLoad = false,
-                            CanSave = false
-                        },
-                        Tags = {
-                            NotReplicated = true
-                        },
-                        ValueType = {
-                            Category = "Enum",
-                            Name = "InputSink"
-                        }
-                    },
-                    {
-                        Category = "Data",
-                        Class = "GuiObject",
-                        Name = "Interactable",
-                        Security = {
-                            Read = "None",
-                            Write = "None"
-                        },
-                        Serialization = {
-                            CanLoad = true,
-                            CanSave = true
-                        },
-                        Tags = {},
-                        ValueType = {
-                            Category = "Primitive",
-                            Name = "bool"
-                        }
-                    },
-                    {
-                        Category = "Data",
-                        Class = "GuiObject",
-                        Name = "LayoutOrder",
-                        Security = {
-                            Read = "None",
-                            Write = "None"
-                        },
-                        Serialization = {
-                            CanLoad = true,
-                            CanSave = true
-                        },
-                        Tags = {},
-                        ValueType = {
-                            Category = "Primitive",
-                            Name = "int"
-                        }
-                    },
-                    {
-                        Category = "EventReplicator",
-                        Class = "GuiObject",
-                        Name = "MouseEnterConnectionCount",
-                        Security = {
-                            Read = "None",
-                            Write = "None"
-                        },
-                        Serialization = {
-                            CanLoad = false,
-                            CanSave = false
-                        },
-                        Tags = {
-                            Hidden = true,
-                            NotScriptable = true
-                        },
-                        ValueType = {
-                            Category = "Primitive",
-                            Name = "int"
-                        }
-                    },
-                    {
-                        Category = "EventReplicator",
-                        Class = "GuiObject",
-                        Name = "MouseLeaveConnectionCount",
-                        Security = {
-                            Read = "None",
-                            Write = "None"
-                        },
-                        Serialization = {
-                            CanLoad = false,
-                            CanSave = false
-                        },
-                        Tags = {
-                            Hidden = true,
-                            NotScriptable = true
-                        },
-                        ValueType = {
-                            Category = "Primitive",
-                            Name = "int"
-                        }
-                    },
-                    {
-                        Category = "EventReplicator",
-                        Class = "GuiObject",
-                        Name = "MouseMovedConnectionCount",
-                        Security = {
-                            Read = "None",
-                            Write = "None"
-                        },
-                        Serialization = {
-                            CanLoad = false,
-                            CanSave = false
-                        },
-                        Tags = {
-                            Hidden = true,
-                            NotScriptable = true
-                        },
-                        ValueType = {
-                            Category = "Primitive",
-                            Name = "int"
-                        }
-                    },
-                    {
-                        Category = "EventReplicator",
-                        Class = "GuiObject",
-                        Name = "MouseWheelBackwardConnectionCount",
-                        Security = {
-                            Read = "None",
-                            Write = "None"
-                        },
-                        Serialization = {
-                            CanLoad = false,
-                            CanSave = false
-                        },
-                        Tags = {
-                            Hidden = true,
-                            NotScriptable = true
-                        },
-                        ValueType = {
-                            Category = "Primitive",
-                            Name = "int"
-                        }
-                    },
-                    {
-                        Category = "EventReplicator",
-                        Class = "GuiObject",
-                        Name = "MouseWheelForwardConnectionCount",
-                        Security = {
-                            Read = "None",
-                            Write = "None"
-                        },
-                        Serialization = {
-                            CanLoad = false,
-                            CanSave = false
-                        },
-                        Tags = {
-                            Hidden = true,
-                            NotScriptable = true
-                        },
-                        ValueType = {
-                            Category = "Primitive",
-                            Name = "int"
-                        }
-                    },
-                    {
-                        Category = "Selection",
-                        Class = "GuiObject",
-                        Name = "NextSelectionDown",
-                        Security = {
-                            Read = "None",
-                            Write = "None"
-                        },
-                        Serialization = {
-                            CanLoad = true,
-                            CanSave = true
-                        },
-                        Tags = {},
-                        ValueType = {
-                            Category = "Class",
-                            Name = "GuiObject"
-                        }
-                    },
-                    {
-                        Category = "Selection",
-                        Class = "GuiObject",
-                        Name = "NextSelectionLeft",
-                        Security = {
-                            Read = "None",
-                            Write = "None"
-                        },
-                        Serialization = {
-                            CanLoad = true,
-                            CanSave = true
-                        },
-                        Tags = {},
-                        ValueType = {
-                            Category = "Class",
-                            Name = "GuiObject"
-                        }
-                    },
-                    {
-                        Category = "Selection",
-                        Class = "GuiObject",
-                        Name = "NextSelectionRight",
-                        Security = {
-                            Read = "None",
-                            Write = "None"
-                        },
-                        Serialization = {
-                            CanLoad = true,
-                            CanSave = true
-                        },
-                        Tags = {},
-                        ValueType = {
-                            Category = "Class",
-                            Name = "GuiObject"
-                        }
-                    },
-                    {
-                        Category = "Selection",
-                        Class = "GuiObject",
-                        Name = "NextSelectionUp",
-                        Security = {
-                            Read = "None",
-                            Write = "None"
-                        },
-                        Serialization = {
-                            CanLoad = true,
-                            CanSave = true
-                        },
-                        Tags = {},
-                        ValueType = {
-                            Category = "Class",
-                            Name = "GuiObject"
-                        }
-                    },
-                    {
-                        Category = "Data",
-                        Class = "GuiObject",
-                        Name = "Position",
-                        Security = {
-                            Read = "None",
-                            Write = "None"
-                        },
-                        Serialization = {
-                            CanLoad = true,
-                            CanSave = true
-                        },
-                        Tags = {},
-                        ValueType = {
-                            Category = "DataType",
-                            Name = "UDim2"
-                        }
-                    },
-                    {
-                        Category = "Data",
-                        Class = "GuiObject",
-                        Name = "Rotation",
-                        Security = {
-                            Read = "None",
-                            Write = "None"
-                        },
-                        Serialization = {
-                            CanLoad = true,
-                            CanSave = true
-                        },
-                        Tags = {},
-                        ValueType = {
-                            Category = "Primitive",
-                            Name = "float"
-                        }
-                    },
-                    {
-                        Category = "Selection",
-                        Class = "GuiObject",
-                        Name = "Selectable",
-                        Security = {
-                            Read = "None",
-                            Write = "None"
-                        },
-                        Serialization = {
-                            CanLoad = true,
-                            CanSave = true
-                        },
-                        Tags = {},
-                        ValueType = {
-                            Category = "Primitive",
-                            Name = "bool"
-                        }
-                    },
-                    {
-                        Category = "Appearance",
-                        Class = "GuiObject",
-                        Name = "SelectionImageObject",
-                        Security = {
-                            Read = "None",
-                            Write = "None"
-                        },
-                        Serialization = {
-                            CanLoad = true,
-                            CanSave = true
-                        },
-                        Tags = {},
-                        ValueType = {
-                            Category = "Class",
-                            Name = "GuiObject"
-                        }
-                    },
-                    {
-                        Category = "Selection",
-                        Class = "GuiObject",
-                        Name = "SelectionOrder",
-                        Security = {
-                            Read = "None",
-                            Write = "None"
-                        },
-                        Serialization = {
-                            CanLoad = true,
-                            CanSave = true
-                        },
-                        Tags = {},
-                        ValueType = {
-                            Category = "Primitive",
-                            Name = "int"
-                        }
-                    },
-                    {
-                        Category = "Data",
-                        Class = "GuiObject",
-                        Name = "SelectionRect2D",
-                        Security = {
-                            Read = "RobloxScriptSecurity",
-                            Write = "RobloxScriptSecurity"
-                        },
-                        Serialization = {
-                            CanLoad = false,
-                            CanSave = false
-                        },
-                        Tags = {
-                            Hidden = true,
-                            NotReplicated = true,
-                            ReadOnly = true
-                        },
-                        ValueType = {
-                            Category = "DataType",
-                            Name = "Rect"
-                        }
-                    },
-                    {
-                        Category = "Data",
-                        Class = "GuiObject",
-                        Name = "Sink",
-                        Security = {
-                            Read = "RobloxSecurity",
-                            Write = "None"
-                        },
-                        Serialization = {
-                            CanLoad = true,
-                            CanSave = true
-                        },
-                        Tags = {
-                            Hidden = true,
-                            NotScriptable = true
-                        },
-                        ValueType = {
-                            Category = "Enum",
-                            Name = "InputSink"
-                        }
-                    },
-                    {
-                        Category = "Data",
-                        Class = "GuiObject",
-                        Name = "Size",
-                        Security = {
-                            Read = "None",
-                            Write = "None"
-                        },
-                        Serialization = {
-                            CanLoad = true,
-                            CanSave = true
-                        },
-                        Tags = {},
-                        ValueType = {
-                            Category = "DataType",
-                            Name = "UDim2"
-                        }
-                    },
-                    {
-                        Category = "Data",
-                        Class = "GuiObject",
-                        Name = "SizeConstraint",
-                        Security = {
-                            Read = "None",
-                            Write = "None"
-                        },
-                        Serialization = {
-                            CanLoad = true,
-                            CanSave = true
-                        },
-                        Tags = {},
-                        ValueType = {
-                            Category = "Enum",
-                            Name = "SizeConstraint"
-                        }
-                    },
-                    {
-                        Category = "Data",
-                        Class = "GuiObject",
-                        Name = "Transparency",
-                        Security = {
-                            Read = "None",
-                            Write = "None"
-                        },
-                        Serialization = {
-                            CanLoad = true,
-                            CanSave = false
-                        },
-                        Tags = {
-                            Deprecated = true,
-                            Hidden = true,
-                            NotReplicated = true
-                        },
-                        ValueType = {
-                            Category = "Primitive",
-                            Name = "float"
-                        }
-                    },
-                    {
-                        Category = "Data",
-                        Class = "GuiObject",
-                        Name = "Visible",
-                        Security = {
-                            Read = "None",
-                            Write = "None"
-                        },
-                        Serialization = {
-                            CanLoad = true,
-                            CanSave = true
-                        },
-                        Tags = {},
-                        ValueType = {
-                            Category = "Primitive",
-                            Name = "bool"
-                        }
-                    },
-                    {
-                        Category = "Data",
-                        Class = "GuiObject",
-                        Name = "ZIndex",
-                        Security = {
-                            Read = "None",
-                            Write = "None"
-                        },
-                        Serialization = {
-                            CanLoad = true,
-                            CanSave = true
-                        },
-                        Tags = {},
-                        ValueType = {
-                            Category = "Primitive",
-                            Name = "int"
-                        }
-                    }
-                },
-                Superclass = {
-                    Callbacks = {},
-                    Events = {
+                    Class = "Instance",
+                    Name = "FindFirstAncestor",
+                    Parameters = {
                         {
-                            Class = "GuiBase2d",
-                            Name = "SelectionChanged",
-                            Parameters = {
-                                {
-                                    Name = "amISelected",
-                                    Type = "bool"
-                                },
-                                {
-                                    Name = "previousSelection",
-                                    Type = "GuiObject"
-                                },
-                                {
-                                    Name = "newSelection",
-                                    Type = "GuiObject"
-                                }
-                            },
-                            Security = "None",
-                            Tags = {}
+                            Name = "name",
+                            Type = "string"
                         }
                     },
-                    Functions = {},
-                    Name = "GuiBase2d",
-                    Properties = {
+                    ReturnType = "Instance",
+                    Security = "None",
+                    Tags = {}
+                },
+                {
+                    Class = "Instance",
+                    Name = "FindFirstAncestorOfClass",
+                    Parameters = {
                         {
-                            Category = "Data",
-                            Class = "GuiBase2d",
-                            Name = "AbsolutePosition",
-                            Security = {
-                                Read = "None",
-                                Write = "None"
-                            },
-                            Serialization = {
-                                CanLoad = false,
-                                CanSave = false
-                            },
-                            Tags = {
-                                NotReplicated = true,
-                                ReadOnly = true
-                            },
-                            ValueType = {
-                                Category = "DataType",
-                                Name = "Vector2"
-                            }
+                            Name = "className",
+                            Type = "string"
+                        }
+                    },
+                    ReturnType = "Instance",
+                    Security = "None",
+                    Tags = {}
+                },
+                {
+                    Class = "Instance",
+                    Name = "FindFirstAncestorWhichIsA",
+                    Parameters = {
+                        {
+                            Name = "className",
+                            Type = "string"
+                        }
+                    },
+                    ReturnType = "Instance",
+                    Security = "None",
+                    Tags = {}
+                },
+                {
+                    Class = "Instance",
+                    Name = "FindFirstChild",
+                    Parameters = {
+                        {
+                            Name = "name",
+                            Type = "string"
                         },
                         {
-                            Category = "Data",
-                            Class = "GuiBase2d",
-                            Name = "AbsoluteRotation",
-                            Security = {
-                                Read = "None",
-                                Write = "None"
-                            },
-                            Serialization = {
-                                CanLoad = false,
-                                CanSave = false
-                            },
-                            Tags = {
-                                NotReplicated = true,
-                                ReadOnly = true
-                            },
-                            ValueType = {
-                                Category = "Primitive",
-                                Name = "float"
-                            }
+                            Name = "recursive",
+                            Type = "bool"
+                        }
+                    },
+                    ReturnType = "Instance",
+                    Security = "None",
+                    Tags = {}
+                },
+                {
+                    Class = "Instance",
+                    Name = "FindFirstChildOfClass",
+                    Parameters = {
+                        {
+                            Name = "className",
+                            Type = "string"
+                        }
+                    },
+                    ReturnType = "Instance",
+                    Security = "None",
+                    Tags = {}
+                },
+                {
+                    Class = "Instance",
+                    Name = "FindFirstChildWhichIsA",
+                    Parameters = {
+                        {
+                            Name = "className",
+                            Type = "string"
                         },
                         {
-                            Category = "Data",
-                            Class = "GuiBase2d",
-                            Name = "AbsoluteSize",
-                            Security = {
-                                Read = "None",
-                                Write = "None"
-                            },
-                            Serialization = {
-                                CanLoad = false,
-                                CanSave = false
-                            },
-                            Tags = {
-                                NotReplicated = true,
-                                ReadOnly = true
-                            },
-                            ValueType = {
-                                Category = "DataType",
-                                Name = "Vector2"
-                            }
+                            Name = "recursive",
+                            Type = "bool"
+                        }
+                    },
+                    ReturnType = "Instance",
+                    Security = "None",
+                    Tags = {}
+                },
+                {
+                    Class = "Instance",
+                    Name = "FindFirstDescendant",
+                    Parameters = {
+                        {
+                            Name = "name",
+                            Type = "string"
+                        }
+                    },
+                    ReturnType = "Instance",
+                    Security = "None",
+                    Tags = {}
+                },
+                {
+                    Class = "Instance",
+                    Name = "GetActor",
+                    Parameters = {},
+                    ReturnType = "Actor",
+                    Security = "None",
+                    Tags = {}
+                },
+                {
+                    Class = "Instance",
+                    Name = "GetAttribute",
+                    Parameters = {
+                        {
+                            Name = "attribute",
+                            Type = "string"
+                        }
+                    },
+                    ReturnType = "Variant",
+                    Security = "None",
+                    Tags = {}
+                },
+                {
+                    Class = "Instance",
+                    Name = "GetAttributeChangedSignal",
+                    Parameters = {
+                        {
+                            Name = "attribute",
+                            Type = "string"
+                        }
+                    },
+                    ReturnType = "RBXScriptSignal",
+                    Security = "None",
+                    Tags = {}
+                },
+                {
+                    Class = "Instance",
+                    Name = "GetAttributes",
+                    Parameters = {},
+                    ReturnType = "Dictionary",
+                    Security = "None",
+                    Tags = {
+                        CustomLuaState = true
+                    }
+                },
+                {
+                    Class = "Instance",
+                    Name = "GetChildren",
+                    Parameters = {},
+                    ReturnType = "Instances",
+                    Security = "None",
+                    Tags = {}
+                },
+                {
+                    Class = "Instance",
+                    Name = "GetDebugId",
+                    Parameters = {
+                        {
+                            Name = "scopeLength",
+                            Type = "int"
+                        }
+                    },
+                    ReturnType = "string",
+                    Security = "PluginSecurity",
+                    Tags = {
+                        NotBrowsable = true
+                    }
+                },
+                {
+                    Class = "Instance",
+                    Name = "GetDescendants",
+                    Parameters = {},
+                    ReturnType = "Instances",
+                    Security = "None",
+                    Tags = {
+                        CustomLuaState = true
+                    }
+                },
+                {
+                    Class = "Instance",
+                    Name = "GetFullName",
+                    Parameters = {},
+                    ReturnType = "string",
+                    Security = "None",
+                    Tags = {}
+                },
+                {
+                    Class = "Instance",
+                    Name = "GetStyled",
+                    Parameters = {
+                        {
+                            Name = "name",
+                            Type = "string"
                         },
                         {
-                            Category = "Data",
-                            Class = "GuiBase2d",
-                            Name = "ActiveQueryNames",
-                            Security = {
-                                Read = "RobloxScriptSecurity",
-                                Write = "RobloxScriptSecurity"
-                            },
-                            Serialization = {
-                                CanLoad = false,
-                                CanSave = false
-                            },
-                            Tags = {
-                                Hidden = true,
-                                NotReplicated = true,
-                                NotScriptable = true
-                            },
-                            ValueType = {
-                                Category = "Primitive",
-                                Name = "string"
-                            }
-                        },
-                        {
-                            Category = "Localization",
-                            Class = "GuiBase2d",
-                            Name = "AutoLocalize",
-                            Security = {
-                                Read = "None",
-                                Write = "None"
-                            },
-                            Serialization = {
-                                CanLoad = true,
-                                CanSave = true
-                            },
-                            Tags = {},
-                            ValueType = {
-                                Category = "Primitive",
-                                Name = "bool"
-                            }
-                        },
-                        {
-                            Category = "Debugging",
-                            Class = "GuiBase2d",
-                            Name = "ClippedRect",
-                            Security = {
-                                Read = "RobloxScriptSecurity",
-                                Write = "RobloxScriptSecurity"
-                            },
-                            Serialization = {
-                                CanLoad = false,
-                                CanSave = false
-                            },
-                            Tags = {
-                                Hidden = true,
-                                NotReplicated = true,
-                                ReadOnly = true
-                            },
-                            ValueType = {
-                                Category = "DataType",
-                                Name = "Rect"
-                            }
-                        },
-                        {
-                            Category = "Debugging",
-                            Class = "GuiBase2d",
-                            Name = "IsNotOccluded",
-                            Security = {
-                                Read = "RobloxScriptSecurity",
-                                Write = "RobloxScriptSecurity"
-                            },
-                            Serialization = {
-                                CanLoad = false,
-                                CanSave = false
-                            },
-                            Tags = {
-                                Hidden = true,
-                                NotReplicated = true,
-                                ReadOnly = true
-                            },
-                            ValueType = {
-                                Category = "Primitive",
-                                Name = "bool"
-                            }
-                        },
-                        {
-                            Category = "Localization",
-                            Class = "GuiBase2d",
-                            Name = "Localize",
-                            Security = {
-                                Read = "None",
-                                Write = "None"
-                            },
-                            Serialization = {
-                                CanLoad = true,
-                                CanSave = false
-                            },
-                            Tags = {
-                                Deprecated = true,
-                                Hidden = true,
-                                NotReplicated = true
-                            },
-                            ValueType = {
-                                Category = "Primitive",
-                                Name = "bool"
-                            }
-                        },
-                        {
-                            Category = "Debugging",
-                            Class = "GuiBase2d",
-                            Name = "RawRect2D",
-                            Security = {
-                                ...[truncatedasitwastoolong]
+                            Name = "selector",
+                            Type = "string?",
+                            ...[truncatedasitwastoolong]
