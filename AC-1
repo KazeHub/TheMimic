@@ -1,0 +1,2890 @@
+{
+    Matches = {
+        {
+            Index = "fireproximityprompt",
+            LocationType = "Table Index",
+            Value = true,
+            ValueName = "fireproximityprompt",
+            ValueType = "boolean"
+        },
+        {
+            Index = "Name",
+            LocationType = "Table Index",
+            Value = "fireproximityprompt",
+            ValueName = "Name",
+            ValueType = "string"
+        },
+        {
+            Index = "fireproximityprompt",
+            LocationType = "Table Index",
+            Value = {
+                line = -1,
+                name = "fireproximityprompt",
+                numparams = 0,
+                source = "[C]",
+                vargs = true
+            },
+            ValueName = "fireproximityprompt",
+            ValueType = "function"
+        }
+    },
+    Name = "table: 0x09ad12ed9db24840",
+    Ref = {
+        [2325] = {
+            line = 266,
+            name = "",
+            numparams = 0,
+            source = "rPtbOdFGGQOOcaMliZjalQHJe",
+            vargs = false
+        },
+        [182511] = {
+            Category = "Text",
+            Class = "TextBox",
+            Name = "OpenTypeFeaturesError",
+            Security = {
+                Read = "None",
+                Write = "None"
+            },
+            Serialization = {
+                CanLoad = false,
+                CanSave = true
+            },
+            Tags = {
+                NotReplicated = true,
+                ReadOnly = true
+            },
+            ValueType = {
+                Category = "Primitive",
+                Name = "string"
+            }
+        },
+        [182512] = {},
+        [182513] = {
+            Category = "Text",
+            Class = "TextBox",
+            Name = "OpenTypeFeatures",
+            Security = {
+                Read = "None",
+                Write = "None"
+            },
+            Serialization = {
+                CanLoad = true,
+                CanSave = true
+            },
+            Tags = {},
+            ValueType = {
+                Category = "Primitive",
+                Name = "string"
+            }
+        },
+        [182510] = {
+            NotReplicated = true,
+            ReadOnly = true
+        },
+        [182508] = {
+            Hidden = true,
+            NotReplicated = true
+        },
+        [182509] = {
+            Category = "Data",
+            Class = "TextBox",
+            Name = "OverlayNativeInput",
+            Security = {
+                Read = "RobloxScriptSecurity",
+                Write = "RobloxScriptSecurity"
+            },
+            Serialization = {
+                CanLoad = false,
+                CanSave = false
+            },
+            Tags = {
+                Hidden = true,
+                NotReplicated = true
+            },
+            ValueType = {
+                Category = "Primitive",
+                Name = "bool"
+            }
+        },
+        [182507] = {
+            Category = "Text",
+            Class = "TextBox",
+            Name = "PlaceholderColor3",
+            Security = {
+                Read = "None",
+                Write = "None"
+            },
+            Serialization = {
+                CanLoad = true,
+                CanSave = true
+            },
+            Tags = {},
+            ValueType = {
+                Category = "DataType",
+                Name = "Color3"
+            }
+        },
+        [182506] = {},
+        [182514] = {},
+        [182516] = {},
+        [182521] = {
+            Category = "Text",
+            Class = "TextBox",
+            Name = "LocalizedPlaceholderText",
+            Security = {
+                Read = "RobloxSecurity",
+                Write = "RobloxSecurity"
+            },
+            Serialization = {
+                CanLoad = false,
+                CanSave = false
+            },
+            Tags = {
+                Hidden = true,
+                NotReplicated = true,
+                NotScriptable = true,
+                ReadOnly = true
+            },
+            ValueType = {
+                Category = "Primitive",
+                Name = "string"
+            }
+        },
+        [182522] = {
+            Hidden = true,
+            NotReplicated = true
+        },
+        [182515] = {
+            Category = "Data",
+            Class = "TextBox",
+            Name = "MultiLine",
+            Security = {
+                Read = "None",
+                Write = "None"
+            },
+            Serialization = {
+                CanLoad = true,
+                CanSave = true
+            },
+            Tags = {},
+            ValueType = {
+                Category = "Primitive",
+                Name = "bool"
+            }
+        },
+        [182520] = {
+            Hidden = true,
+            NotReplicated = true,
+            NotScriptable = true,
+            ReadOnly = true
+        },
+        [182518] = {
+            Hidden = true,
+            NotReplicated = true
+        },
+        [182519] = {
+            Category = "Data",
+            Class = "TextBox",
+            Name = "ManualFocusRelease",
+            Security = {
+                Read = "RobloxScriptSecurity",
+                Write = "RobloxScriptSecurity"
+            },
+            Serialization = {
+                CanLoad = false,
+                CanSave = false
+            },
+            Tags = {
+                Hidden = true,
+                NotReplicated = true
+            },
+            ValueType = {
+                Category = "Primitive",
+                Name = "bool"
+            }
+        },
+        [182517] = {
+            Category = "Text",
+            Class = "TextBox",
+            Name = "MaxVisibleGraphemes",
+            Security = {
+                Read = "None",
+                Write = "None"
+            },
+            Serialization = {
+                CanLoad = true,
+                CanSave = true
+            },
+            Tags = {},
+            ValueType = {
+                Category = "Primitive",
+                Name = "int"
+            }
+        },
+        [182523] = {
+            Category = "Text",
+            Class = "TextBox",
+            Name = "LocalizationMatchedSourceText",
+            Security = {
+                Read = "RobloxScriptSecurity",
+                Write = "RobloxScriptSecurity"
+            },
+            Serialization = {
+                CanLoad = true,
+                CanSave = true
+            },
+            Tags = {
+                Hidden = true,
+                NotReplicated = true
+            },
+            ValueType = {
+                Category = "Primitive",
+                Name = "string"
+            }
+        },
+        [182505] = {
+            Category = "Text",
+            Class = "TextBox",
+            Name = "PlaceholderText",
+            Security = {
+                Read = "None",
+                Write = "None"
+            },
+            Serialization = {
+                CanLoad = true,
+                CanSave = true
+            },
+            Tags = {},
+            ValueType = {
+                Category = "Primitive",
+                Name = "string"
+            }
+        },
+        [182503] = {
+            Category = "Data",
+            Class = "TextBox",
+            Name = "ReturnKeyType",
+            Security = {
+                Read = "RobloxScriptSecurity",
+                Write = "RobloxScriptSecurity"
+            },
+            Serialization = {
+                CanLoad = false,
+                CanSave = false
+            },
+            Tags = {
+                Hidden = true,
+                NotReplicated = true
+            },
+            ValueType = {
+                Category = "Enum",
+                Name = "ReturnKeyType"
+            }
+        },
+        [182492] = {
+            Hidden = true,
+            NotReplicated = true
+        },
+        [182493] = {
+            Category = "Data",
+            Class = "TextBox",
+            Name = "ShouldEmitUpAndDownArrowEvents",
+            Security = {
+                Read = "RobloxScriptSecurity",
+                Write = "RobloxScriptSecurity"
+            },
+            Serialization = {
+                CanLoad = false,
+                CanSave = false
+            },
+            Tags = {
+                Hidden = true,
+                NotReplicated = true
+            },
+            ValueType = {
+                Category = "Primitive",
+                Name = "bool"
+            }
+        },
+        [182494] = {
+            Hidden = true,
+            NotReplicated = true
+        },
+        [182491] = {
+            Category = "Data",
+            Class = "TextBox",
+            Name = "ShowNativeInput",
+            Security = {
+                Read = "None",
+                Write = "None"
+            },
+            Serialization = {
+                CanLoad = true,
+                CanSave = true
+            },
+            Tags = {},
+            ValueType = {
+                Category = "Primitive",
+                Name = "bool"
+            }
+        },
+        [182489] = {
+            Category = "Text",
+            Class = "TextBox",
+            Name = "Text",
+            Security = {
+                Read = "None",
+                Write = "None"
+            },
+            Serialization = {
+                CanLoad = true,
+                CanSave = true
+            },
+            Tags = {},
+            ValueType = {
+                Category = "Primitive",
+                Name = "string"
+            }
+        },
+        [182490] = {},
+        [182488] = {},
+        [182504] = {},
+        [182495] = {
+            Category = "Data",
+            Class = "TextBox",
+            Name = "ShouldEmitTabEvents",
+            Security = {
+                Read = "RobloxScriptSecurity",
+                Write = "RobloxScriptSecurity"
+            },
+            Serialization = {
+                CanLoad = false,
+                CanSave = false
+            },
+            Tags = {
+                Hidden = true,
+                NotReplicated = true
+            },
+            ValueType = {
+                Category = "Primitive",
+                Name = "bool"
+            }
+        },
+        [182497] = {
+            Category = "Data",
+            Class = "TextBox",
+            Name = "ShouldEmitReturnEvents",
+            Security = {
+                Read = "RobloxScriptSecurity",
+                Write = "RobloxScriptSecurity"
+            },
+            Serialization = {
+                CanLoad = false,
+                CanSave = false
+            },
+            Tags = {
+                Hidden = true,
+                NotReplicated = true
+            },
+            ValueType = {
+                Category = "Primitive",
+                Name = "bool"
+            }
+        },
+        [182501] = {
+            Category = "Text",
+            Class = "TextBox",
+            Name = "RichText",
+            Security = {
+                Read = "None",
+                Write = "None"
+            },
+            Serialization = {
+                CanLoad = true,
+                CanSave = true
+            },
+            Tags = {},
+            ValueType = {
+                Category = "Primitive",
+                Name = "bool"
+            }
+        },
+        [182502] = {
+            Hidden = true,
+            NotReplicated = true
+        },
+        [182496] = {
+            Hidden = true,
+            NotReplicated = true
+        },
+        [182500] = {},
+        [182498] = {},
+        [182499] = {
+            Category = "Data",
+            Class = "TextBox",
+            Name = "SelectionStart",
+            Security = {
+                Read = "None",
+                Write = "None"
+            },
+            Serialization = {
+                CanLoad = false,
+                CanSave = false
+            },
+            Tags = {},
+            ValueType = {
+                Category = "Primitive",
+                Name = "int"
+            }
+        },
+        [182487] = {
+            Category = "Text",
+            Class = "TextBox",
+            Name = "TextBounds",
+            Security = {
+                Read = "None",
+                Write = "None"
+            },
+            Serialization = {
+                CanLoad = false,
+                CanSave = false
+            },
+            Tags = {
+                NotReplicated = true,
+                ReadOnly = true
+            },
+            ValueType = {
+                Category = "DataType",
+                Name = "Vector2"
+            }
+        },
+        [182524] = {
+            Hidden = true,
+            NotReplicated = true
+        },
+        [182526] = {},
+        [182550] = {},
+        [182551] = {},
+        [182552] = {
+            Class = "ScrollingFrame",
+            Name = "ScrollToTop",
+            Parameters = {},
+            ReturnType = "null",
+            Security = "RobloxScriptSecurity",
+            Tags = {}
+        },
+        [182549] = {
+            Callbacks = {},
+            Events = {
+                {
+                    Class = "TextBox",
+                    Name = "FocusLost",
+                    Parameters = {
+                        {
+                            Name = "enterPressed",
+                            Type = "bool"
+                        },
+                        {
+                            Name = "inputThatCausedFocusLoss",
+                            Type = "InputObject"
+                        }
+                    },
+                    Security = "None",
+                    Tags = {}
+                },
+                {
+                    Class = "TextBox",
+                    Name = "Focused",
+                    Parameters = {},
+                    Security = "None",
+                    Tags = {}
+                },
+                {
+                    Class = "TextBox",
+                    Name = "ReturnPressedFromOnScreenKeyboard",
+                    Parameters = {},
+                    Security = "None",
+                    Tags = {}
+                }
+            },
+            Functions = {
+                {
+                    Class = "TextBox",
+                    Name = "CaptureFocus",
+                    Parameters = {},
+                    ReturnType = "null",
+                    Security = "None",
+                    Tags = {}
+                },
+                {
+                    Class = "TextBox",
+                    Name = "IsFocused",
+                    Parameters = {},
+                    ReturnType = "bool",
+                    Security = "None",
+                    Tags = {}
+                },
+                {
+                    Class = "TextBox",
+                    Name = "ReleaseFocus",
+                    Parameters = {
+                        {
+                            Name = "submitted",
+                            Type = "bool"
+                        }
+                    },
+                    ReturnType = "null",
+                    Security = "None",
+                    Tags = {}
+                },
+                {
+                    Class = "TextBox",
+                    Name = "ResetKeyboardMode",
+                    Parameters = {},
+                    ReturnType = "null",
+                    Security = "RobloxScriptSecurity",
+                    Tags = {}
+                },
+                {
+                    Class = "TextBox",
+                    Name = "SetTextFromInput",
+                    Parameters = {
+                        {
+                            Name = "text",
+                            Type = "string"
+                        }
+                    },
+                    ReturnType = "null",
+                    Security = "RobloxScriptSecurity",
+                    Tags = {}
+                }
+            },
+            Name = "TextBox",
+            Properties = {
+                {
+                    Category = "Data",
+                    Class = "TextBox",
+                    Name = "ClearTextOnFocus",
+                    Security = {
+                        Read = "None",
+                        Write = "None"
+                    },
+                    Serialization = {
+                        CanLoad = true,
+                        CanSave = true
+                    },
+                    Tags = {},
+                    ValueType = {
+                        Category = "Primitive",
+                        Name = "bool"
+                    }
+                },
+                {
+                    Category = "Data",
+                    Class = "TextBox",
+                    Name = "Confidential",
+                    Security = {
+                        Read = "RobloxSecurity",
+                        Write = "RobloxSecurity"
+                    },
+                    Serialization = {
+                        CanLoad = false,
+                        CanSave = false
+                    },
+                    Tags = {
+                        Hidden = true,
+                        NotReplicated = true,
+                        NotScriptable = true
+                    },
+                    ValueType = {
+                        Category = "Primitive",
+                        Name = "bool"
+                    }
+                },
+                {
+                    Category = "Text",
+                    Class = "TextBox",
+                    Name = "ContentText",
+                    Security = {
+                        Read = "None",
+                        Write = "None"
+                    },
+                    Serialization = {
+                        CanLoad = false,
+                        CanSave = false
+                    },
+                    Tags = {
+                        NotReplicated = true,
+                        ReadOnly = true
+                    },
+                    ValueType = {
+                        Category = "Primitive",
+                        Name = "string"
+                    }
+                },
+                {
+                    Category = "Data",
+                    Class = "TextBox",
+                    Name = "CursorPosition",
+                    Security = {
+                        Read = "None",
+                        Write = "None"
+                    },
+                    Serialization = {
+                        CanLoad = false,
+                        CanSave = false
+                    },
+                    Tags = {},
+                    ValueType = {
+                        Category = "Primitive",
+                        Name = "int"
+                    }
+                },
+                {
+                    Category = "Text",
+                    Class = "TextBox",
+                    Name = "Font",
+                    Security = {
+                        Read = "None",
+                        Write = "None"
+                    },
+                    Serialization = {
+                        CanLoad = true,
+                        CanSave = false
+                    },
+                    Tags = {
+                        Hidden = true,
+                        NotReplicated = true
+                    },
+                    ValueType = {
+                        Category = "Enum",
+                        Name = "Font"
+                    }
+                },
+                {
+                    Category = "Text",
+                    Class = "TextBox",
+                    Name = "FontFace",
+                    Security = {
+                        Read = "None",
+                        Write = "None"
+                    },
+                    Serialization = {
+                        CanLoad = true,
+                        CanSave = true
+                    },
+                    Tags = {},
+                    ValueType = {
+                        Category = "DataType",
+                        Name = "Font"
+                    }
+                },
+                {
+                    Category = "Text",
+                    Class = "TextBox",
+                    Name = "FontSize",
+                    Security = {
+                        Read = "None",
+                        Write = "None"
+                    },
+                    Serialization = {
+                        CanLoad = true,
+                        CanSave = false
+                    },
+                    Tags = {
+                        Deprecated = true,
+                        NotReplicated = true
+                    },
+                    ValueType = {
+                        Category = "Enum",
+                        Name = "FontSize"
+                    }
+                },
+                {
+                    Category = "Data",
+                    Class = "TextBox",
+                    Name = "HasFocus",
+                    Security = {
+                        Read = "RobloxSecurity",
+                        Write = "RobloxSecurity"
+                    },
+                    Serialization = {
+                        CanLoad = false,
+                        CanSave = false
+                    },
+                    Tags = {
+                        Hidden = true,
+                        NotReplicated = true,
+                        NotScriptable = true,
+                        ReadOnly = true
+                    },
+                    ValueType = {
+                        Category = "Primitive",
+                        Name = "bool"
+                    }
+                },
+                {
+                    Category = "Text",
+                    Class = "TextBox",
+                    Name = "LineHeight",
+                    Security = {
+                        Read = "None",
+                        Write = "None"
+                    },
+                    Serialization = {
+                        CanLoad = true,
+                        CanSave = true
+                    },
+                    Tags = {},
+                    ValueType = {
+                        Category = "Primitive",
+                        Name = "float"
+                    }
+                },
+                {
+                    Category = "Text",
+                    Class = "TextBox",
+                    Name = "LocalizationMatchIdentifier",
+                    Security = {
+                        Read = "RobloxScriptSecurity",
+                        Write = "RobloxScriptSecurity"
+                    },
+                    Serialization = {
+                        CanLoad = true,
+                        CanSave = true
+                    },
+                    Tags = {
+                        Hidden = true,
+                        NotReplicated = true
+                    },
+                    ValueType = {
+                        Category = "Primitive",
+                        Name = "string"
+                    }
+                },
+                {
+                    Category = "Text",
+                    Class = "TextBox",
+                    Name = "LocalizationMatchedSourceText",
+                    Security = {
+                        Read = "RobloxScriptSecurity",
+                        Write = "RobloxScriptSecurity"
+                    },
+                    Serialization = {
+                        CanLoad = true,
+                        CanSave = true
+                    },
+                    Tags = {
+                        Hidden = true,
+                        NotReplicated = true
+                    },
+                    ValueType = {
+                        Category = "Primitive",
+                        Name = "string"
+                    }
+                },
+                {
+                    Category = "Text",
+                    Class = "TextBox",
+                    Name = "LocalizedPlaceholderText",
+                    Security = {
+                        Read = "RobloxSecurity",
+                        Write = "RobloxSecurity"
+                    },
+                    Serialization = {
+                        CanLoad = false,
+                        CanSave = false
+                    },
+                    Tags = {
+                        Hidden = true,
+                        NotReplicated = true,
+                        NotScriptable = true,
+                        ReadOnly = true
+                    },
+                    ValueType = {
+                        Category = "Primitive",
+                        Name = "string"
+                    }
+                },
+                {
+                    Category = "Data",
+                    Class = "TextBox",
+                    Name = "ManualFocusRelease",
+                    Security = {
+                        Read = "RobloxScriptSecurity",
+                        Write = "RobloxScriptSecurity"
+                    },
+                    Serialization = {
+                        CanLoad = false,
+                        CanSave = false
+                    },
+                    Tags = {
+                        Hidden = true,
+                        NotReplicated = true
+                    },
+                    ValueType = {
+                        Category = "Primitive",
+                        Name = "bool"
+                    }
+                },
+                {
+                    Category = "Text",
+                    Class = "TextBox",
+                    Name = "MaxVisibleGraphemes",
+                    Security = {
+                        Read = "None",
+                        Write = "None"
+                    },
+                    Serialization = {
+                        CanLoad = true,
+                        CanSave = true
+                    },
+                    Tags = {},
+                    ValueType = {
+                        Category = "Primitive",
+                        Name = "int"
+                    }
+                },
+                {
+                    Category = "Data",
+                    Class = "TextBox",
+                    Name = "MultiLine",
+                    Security = {
+                        Read = "None",
+                        Write = "None"
+                    },
+                    Serialization = {
+                        CanLoad = true,
+                        CanSave = true
+                    },
+                    Tags = {},
+                    ValueType = {
+                        Category = "Primitive",
+                        Name = "bool"
+                    }
+                },
+                {
+                    Category = "Text",
+                    Class = "TextBox",
+                    Name = "OpenTypeFeatures",
+                    Security = {
+                        Read = "None",
+                        Write = "None"
+                    },
+                    Serialization = {
+                        CanLoad = true,
+                        CanSave = true
+                    },
+                    Tags = {},
+                    ValueType = {
+                        Category = "Primitive",
+                        Name = "string"
+                    }
+                },
+                {
+                    Category = "Text",
+                    Class = "TextBox",
+                    Name = "OpenTypeFeaturesError",
+                    Security = {
+                        Read = "None",
+                        Write = "None"
+                    },
+                    Serialization = {
+                        CanLoad = false,
+                        CanSave = true
+                    },
+                    Tags = {
+                        NotReplicated = true,
+                        ReadOnly = true
+                    },
+                    ValueType = {
+                        Category = "Primitive",
+                        Name = "string"
+                    }
+                },
+                {
+                    Category = "Data",
+                    Class = "TextBox",
+                    Name = "OverlayNativeInput",
+                    Security = {
+                        Read = "RobloxScriptSecurity",
+                        Write = "RobloxScriptSecurity"
+                    },
+                    Serialization = {
+                        CanLoad = false,
+                        CanSave = false
+                    },
+                    Tags = {
+                        Hidden = true,
+                        NotReplicated = true
+                    },
+                    ValueType = {
+                        Category = "Primitive",
+                        Name = "bool"
+                    }
+                },
+                {
+                    Category = "Text",
+                    Class = "TextBox",
+                    Name = "PlaceholderColor3",
+                    Security = {
+                        Read = "None",
+                        Write = "None"
+                    },
+                    Serialization = {
+                        CanLoad = true,
+                        CanSave = true
+                    },
+                    Tags = {},
+                    ValueType = {
+                        Category = "DataType",
+                        Name = "Color3"
+                    }
+                },
+                {
+                    Category = "Text",
+                    Class = "TextBox",
+                    Name = "PlaceholderText",
+                    Security = {
+                        Read = "None",
+                        Write = "None"
+                    },
+                    Serialization = {
+                        CanLoad = true,
+                        CanSave = true
+                    },
+                    Tags = {},
+                    ValueType = {
+                        Category = "Primitive",
+                        Name = "string"
+                    }
+                },
+                {
+                    Category = "Data",
+                    Class = "TextBox",
+                    Name = "ReturnKeyType",
+                    Security = {
+                        Read = "RobloxScriptSecurity",
+                        Write = "RobloxScriptSecurity"
+                    },
+                    Serialization = {
+                        CanLoad = false,
+                        CanSave = false
+                    },
+                    Tags = {
+                        Hidden = true,
+                        NotReplicated = true
+                    },
+                    ValueType = {
+                        Category = "Enum",
+                        Name = "ReturnKeyType"
+                    }
+                },
+                {
+                    Category = "Text",
+                    Class = "TextBox",
+                    Name = "RichText",
+                    Security = {
+                        Read = "None",
+                        Write = "None"
+                    },
+                    Serialization = {
+                        CanLoad = true,
+                        CanSave = true
+                    },
+                    Tags = {},
+                    ValueType = {
+                        Category = "Primitive",
+                        Name = "bool"
+                    }
+                },
+                {
+                    Category = "Data",
+                    Class = "TextBox",
+                    Name = "SelectionStart",
+                    Security = {
+                        Read = "None",
+                        Write = "None"
+                    },
+                    Serialization = {
+                        CanLoad = false,
+                        CanSave = false
+                    },
+                    Tags = {},
+                    ValueType = {
+                        Category = "Primitive",
+                        Name = "int"
+                    }
+                },
+                {
+                    Category = "Data",
+                    Class = "TextBox",
+                    Name = "ShouldEmitReturnEvents",
+                    Security = {
+                        Read = "RobloxScriptSecurity",
+                        Write = "RobloxScriptSecurity"
+                    },
+                    Serialization = {
+                        CanLoad = false,
+                        CanSave = false
+                    },
+                    Tags = {
+                        Hidden = true,
+                        NotReplicated = true
+                    },
+                    ValueType = {
+                        Category = "Primitive",
+                        Name = "bool"
+                    }
+                },
+                {
+                    Category = "Data",
+                    Class = "TextBox",
+                    Name = "ShouldEmitTabEvents",
+                    Security = {
+                        Read = "RobloxScriptSecurity",
+                        Write = "RobloxScriptSecurity"
+                    },
+                    Serialization = {
+                        CanLoad = false,
+                        CanSave = false
+                    },
+                    Tags = {
+                        Hidden = true,
+                        NotReplicated = true
+                    },
+                    ValueType = {
+                        Category = "Primitive",
+                        Name = "bool"
+                    }
+                },
+                {
+                    Category = "Data",
+                    Class = "TextBox",
+                    Name = "ShouldEmitUpAndDownArrowEvents",
+                    Security = {
+                        Read = "RobloxScriptSecurity",
+                        Write = "RobloxScriptSecurity"
+                    },
+                    Serialization = {
+                        CanLoad = false,
+                        CanSave = false
+                    },
+                    Tags = {
+                        Hidden = true,
+                        NotReplicated = true
+                    },
+                    ValueType = {
+                        Category = "Primitive",
+                        Name = "bool"
+                    }
+                },
+                {
+                    Category = "Data",
+                    Class = "TextBox",
+                    Name = "ShowNativeInput",
+                    Security = {
+                        Read = "None",
+                        Write = "None"
+                    },
+                    Serialization = {
+                        CanLoad = true,
+                        CanSave = true
+                    },
+                    Tags = {},
+                    ValueType = {
+                        Category = "Primitive",
+                        Name = "bool"
+                    }
+                },
+                {
+                    Category = "Text",
+                    Class = "TextBox",
+                    Name = "Text",
+                    Security = {
+                        Read = "None",
+                        Write = "None"
+                    },
+                    Serialization = {
+                        CanLoad = true,
+                        CanSave = true
+                    },
+                    Tags = {},
+                    ValueType = {
+                        Category = "Primitive",
+                        Name = "string"
+                    }
+                },
+                {
+                    Category = "Text",
+                    Class = "TextBox",
+                    Name = "TextBounds",
+                    Security = {
+                        Read = "None",
+                        Write = "None"
+                    },
+                    Serialization = {
+                        CanLoad = false,
+                        CanSave = false
+                    },
+                    Tags = {
+                        NotReplicated = true,
+                        ReadOnly = true
+                    },
+                    ValueType = {
+                        Category = "DataType",
+                        Name = "Vector2"
+                    }
+                },
+                {
+                    Category = "Text",
+                    Class = "TextBox",
+                    Name = "TextColor",
+                    Security = {
+                        Read = "None",
+                        Write = "None"
+                    },
+                    Serialization = {
+                        CanLoad = true,
+                        CanSave = false
+                    },
+                    Tags = {
+                        Deprecated = true,
+                        Hidden = true,
+                        NotReplicated = true
+                    },
+                    ValueType = {
+                        Category = "DataType",
+                        Name = "BrickColor"
+                    }
+                },
+                {
+                    Category = "Text",
+                    Class = "TextBox",
+                    Name = "TextColor3",
+                    Security = {
+                        Read = "None",
+                        Write = "None"
+                    },
+                    Serialization = {
+                        CanLoad = true,
+                        CanSave = true
+                    },
+                    Tags = {},
+                    ValueType = {
+                        Category = "DataType",
+                        Name = "Color3"
+                    }
+                },
+                {
+                    Category = "Text",
+                    Class = "TextBox",
+                    Name = "TextDirection",
+                    Security = {
+                        Read = "None",
+                        Write = "None"
+                    },
+                    Serialization = {
+                        CanLoad = true,
+                        CanSave = true
+                    },
+                    Tags = {},
+                    ValueType = {
+                        Category = "Enum",
+                        Name = "TextDirection"
+                    }
+                },
+                {
+                    Category = "Data",
+                    Class = "TextBox",
+                    Name = "TextEditable",
+                    Security = {
+                        Read = "None",
+                        Write = "None"
+                    },
+                    Serialization = {
+                        CanLoad = true,
+                        CanSave = true
+                    },
+                    Tags = {},
+                    ValueType = {
+                        Category = "Primitive",
+                        Name = "bool"
+                    }
+                },
+                {
+                    Category = "Text",
+                    Class = "TextBox",
+                    Name = "TextFits",
+                    Security = {
+                        Read = "None",
+                        Write = "None"
+                    },
+                    Serialization = {
+                        CanLoad = false,
+                        CanSave = false
+                    },
+                    Tags = {
+                        NotReplicated = true,
+                        ReadOnly = true
+                    },
+                    ValueType = {
+                        Category = "Primitive",
+                        Name = "bool"
+                    }
+                },
+                {
+                    Category = "Data",
+                    Class = "TextBox",
+                    Name = "TextInputType",
+                    Security = {
+                        Read = "RobloxScriptSecurity",
+                        Write = "RobloxScriptSecurity"
+                    },
+                    Serialization = {
+                        CanLoad = false,
+                        CanSave = false
+                    },
+                    Tags = {
+                        Hidden = true,
+                        NotReplicated = true
+                    },
+                    ValueType = {
+                        Category = "Enum",
+                        Name = "TextInputType"
+                    }
+                },
+                {
+                    Category = "Text",
+                    Class = "TextBox",
+                    Name = "TextScaled",
+                    Security = {
+                        Read = "None",
+                        Write = "None"
+                    },
+                    Serialization = {
+                        CanLoad = true,
+                        CanSave = true
+                    },
+                    Tags = {},
+                    ValueType = {
+                        Category = "Primitive",
+                        Name = "bool"
+                    }
+                },
+                {
+                    Category = "Text",
+                    Class = "TextBox",
+                    Name = "TextSize",
+                    Security = {
+                        Read = "None",
+                        Write = "None"
+                    },
+                    Serialization = {
+                        CanLoad = true,
+                        CanSave = true
+                    },
+                    Tags = {},
+                    ValueType = {
+                        Category = "Primitive",
+                        Name = "float"
+                    }
+                },
+                {
+                    Category = "Text",
+                    Class = "TextBox",
+                    Name = "TextStrokeColor3",
+                    Security = {
+                        Read = "None",
+                        Write = "None"
+                    },
+                    Serialization = {
+                        CanLoad = true,
+                        CanSave = true
+                    },
+                    Tags = {},
+                    ValueType = {
+                        Category = "DataType",
+                        Name = "Color3"
+                    }
+                },
+                {
+                    Category = "Text",
+                    Class = "TextBox",
+                    Name = "TextStrokeTransparency",
+                    Security = {
+                        Read = "None",
+                        Write = "None"
+                    },
+                    Serialization = {
+                        CanLoad = true,
+                        CanSave = true
+                    },
+                    Tags = {},
+                    ValueType = {
+                        Category = "Primitive",
+                        Name = "float"
+                    }
+                },
+                {
+                    Category = "Text",
+                    Class = "TextBox",
+                    Name = "TextTransparency",
+                    Security = {
+                        Read = "None",
+                        Write = "None"
+                    },
+                    Serialization = {
+                        CanLoad = true,
+                        CanSave = true
+                    },
+                    Tags = {},
+                    ValueType = {
+                        Category = "Primitive",
+                        Name = "float"
+                    }
+                },
+                {
+                    Category = "Text",
+                    Class = "TextBox",
+                    Name = "TextTruncate",
+                    Security = {
+                        Read = "None",
+                        Write = "None"
+                    },
+                    Serialization = {
+                        CanLoad = true,
+                        CanSave = true
+                    },
+                    Tags = {},
+                    ValueType = {
+                        Category = "Enum",
+                        Name = "TextTruncate"
+                    }
+                },
+                {
+                    Category = "Text",
+                    Class = "TextBox",
+                    Name = "TextWrap",
+                    Security = {
+                        Read = "None",
+                        Write = "None"
+                    },
+                    Serialization = {
+                        CanLoad = true,
+                        CanSave = false
+                    },
+                    Tags = {
+                        Deprecated = true,
+                        NotReplicated = true
+                    },
+                    ValueType = {
+                        Category = "Primitive",
+                        Name = "bool"
+                    }
+                },
+                {
+                    Category = "Text",
+                    Class = "TextBox",
+                    Name = "TextWrapped",
+                    Security = {
+                        Read = "None",
+                        Write = "None"
+                    },
+                    Serialization = {
+                        CanLoad = true,
+                        CanSave = true
+                    },
+                    Tags = {},
+                    ValueType = {
+                        Category = "Primitive",
+                        Name = "bool"
+                    }
+                },
+                {
+                    Category = "Text",
+                    Class = "TextBox",
+                    Name = "TextXAlignment",
+                    Security = {
+                        Read = "None",
+                        Write = "None"
+                    },
+                    Serialization = {
+                        CanLoad = true,
+                        CanSave = true
+                    },
+                    Tags = {},
+                    ValueType = {
+                        Category = "Enum",
+                        Name = "TextXAlignment"
+                    }
+                },
+                {
+                    Category = "Text",
+                    Class = "TextBox",
+                    Name = "TextYAlignment",
+                    Security = {
+                        Read = "None",
+                        Write = "None"
+                    },
+                    Serialization = {
+                        CanLoad = true,
+                        CanSave = true
+                    },
+                    Tags = {},
+                    ValueType = {
+                        Category = "Enum",
+                        Name = "TextYAlignment"
+                    }
+                }
+            },
+            Superclass = {
+                Callbacks = {},
+                Events = {
+                    {
+                        Class = "GuiObject",
+                        Name = "DragBegin",
+                        Parameters = {
+                            {
+                                Name = "initialPosition",
+                                Type = "UDim2"
+                            }
+                        },
+                        Security = "None",
+                        Tags = {
+                            Deprecated = true
+                        }
+                    },
+                    {
+                        Class = "GuiObject",
+                        Name = "DragStopped",
+                        Parameters = {
+                            {
+                                Name = "x",
+                                Type = "int"
+                            },
+                            {
+                                Name = "y",
+                                Type = "int"
+                            }
+                        },
+                        Security = "None",
+                        Tags = {
+                            Deprecated = true
+                        }
+                    },
+                    {
+                        Class = "GuiObject",
+                        Name = "InputBegan",
+                        Parameters = {
+                            {
+                                Name = "input",
+                                Type = "InputObject"
+                            }
+                        },
+                        Security = "None",
+                        Tags = {}
+                    },
+                    {
+                        Class = "GuiObject",
+                        Name = "InputChanged",
+                        Parameters = {
+                            {
+                                Name = "input",
+                                Type = "InputObject"
+                            }
+                        },
+                        Security = "None",
+                        Tags = {}
+                    },
+                    {
+                        Class = "GuiObject",
+                        Name = "InputEnded",
+                        Parameters = {
+                            {
+                                Name = "input",
+                                Type = "InputObject"
+                            }
+                        },
+                        Security = "None",
+                        Tags = {}
+                    },
+                    {
+                        Class = "GuiObject",
+                        Name = "MouseEnter",
+                        Parameters = {
+                            {
+                                Name = "x",
+                                Type = "int"
+                            },
+                            {
+                                Name = "y",
+                                Type = "int"
+                            }
+                        },
+                        Security = "None",
+                        Tags = {}
+                    },
+                    {
+                        Class = "GuiObject",
+                        Name = "MouseLeave",
+                        Parameters = {
+                            {
+                                Name = "x",
+                                Type = "int"
+                            },
+                            {
+                                Name = "y",
+                                Type = "int"
+                            }
+                        },
+                        Security = "None",
+                        Tags = {}
+                    },
+                    {
+                        Class = "GuiObject",
+                        Name = "MouseMoved",
+                        Parameters = {
+                            {
+                                Name = "x",
+                                Type = "int"
+                            },
+                            {
+                                Name = "y",
+                                Type = "int"
+                            }
+                        },
+                        Security = "None",
+                        Tags = {}
+                    },
+                    {
+                        Class = "GuiObject",
+                        Name = "MouseWheelBackward",
+                        Parameters = {
+                            {
+                                Name = "x",
+                                Type = "int"
+                            },
+                            {
+                                Name = "y",
+                                Type = "int"
+                            }
+                        },
+                        Security = "None",
+                        Tags = {}
+                    },
+                    {
+                        Class = "GuiObject",
+                        Name = "MouseWheelForward",
+                        Parameters = {
+                            {
+                                Name = "x",
+                                Type = "int"
+                            },
+                            {
+                                Name = "y",
+                                Type = "int"
+                            }
+                        },
+                        Security = "None",
+                        Tags = {}
+                    },
+                    {
+                        Class = "GuiObject",
+                        Name = "SelectionGained",
+                        Parameters = {},
+                        Security = "None",
+                        Tags = {}
+                    },
+                    {
+                        Class = "GuiObject",
+                        Name = "SelectionLost",
+                        Parameters = {},
+                        Security = "None",
+                        Tags = {}
+                    },
+                    {
+                        Class = "GuiObject",
+                        Name = "TouchLongPress",
+                        Parameters = {
+                            {
+                                Name = "touchPositions",
+                                Type = "Array"
+                            },
+                            {
+                                Name = "state",
+                                Type = "UserInputState"
+                            }
+                        },
+                        Security = "None",
+                        Tags = {}
+                    },
+                    {
+                        Class = "GuiObject",
+                        Name = "TouchPan",
+                        Parameters = {
+                            {
+                                Name = "touchPositions",
+                                Type = "Array"
+                            },
+                            {
+                                Name = "totalTranslation",
+                                Type = "Vector2"
+                            },
+                            {
+                                Name = "velocity",
+                                Type = "Vector2"
+                            },
+                            {
+                                Name = "state",
+                                Type = "UserInputState"
+                            }
+                        },
+                        Security = "None",
+                        Tags = {}
+                    },
+                    {
+                        Class = "GuiObject",
+                        Name = "TouchPinch",
+                        Parameters = {
+                            {
+                                Name = "touchPositions",
+                                Type = "Array"
+                            },
+                            {
+                                Name = "scale",
+                                Type = "float"
+                            },
+                            {
+                                Name = "velocity",
+                                Type = "float"
+                            },
+                            {
+                                Name = "state",
+                                Type = "UserInputState"
+                            }
+                        },
+                        Security = "None",
+                        Tags = {}
+                    },
+                    {
+                        Class = "GuiObject",
+                        Name = "TouchRotate",
+                        Parameters = {
+                            {
+                                Name = "touchPositions",
+                                Type = "Array"
+                            },
+                            {
+                                Name = "rotation",
+                                Type = "float"
+                            },
+                            {
+                                Name = "velocity",
+                                Type = "float"
+                            },
+                            {
+                                Name = "state",
+                                Type = "UserInputState"
+                            }
+                        },
+                        Security = "None",
+                        Tags = {}
+                    },
+                    {
+                        Class = "GuiObject",
+                        Name = "TouchSwipe",
+                        Parameters = {
+                            {
+                                Name = "swipeDirection",
+                                Type = "SwipeDirection"
+                            },
+                            {
+                                Name = "numberOfTouches",
+                                Type = "int"
+                            }
+                        },
+                        Security = "None",
+                        Tags = {}
+                    },
+                    {
+                        Class = "GuiObject",
+                        Name = "TouchTap",
+                        Parameters = {
+                            {
+                                Name = "touchPositions",
+                                Type = "Array"
+                            }
+                        },
+                        Security = "None",
+                        Tags = {}
+                    }
+                },
+                Functions = {
+                    {
+                        Class = "GuiObject",
+                        Name = "TweenPosition",
+                        Parameters = {
+                            {
+                                Name = "endPosition",
+                                Type = "UDim2"
+                            },
+                            {
+                                Name = "easingDirection",
+                                Type = "EasingDirection"
+                            },
+                            {
+                                Name = "easingStyle",
+                                Type = "EasingStyle"
+                            },
+                            {
+                                Name = "time",
+                                Type = "float"
+                            },
+                            {
+                                Name = "override",
+                                Type = "bool"
+                            },
+                            {
+                                Name = "callback",
+                                Type = "Function"
+                            }
+                        },
+                        ReturnType = "bool",
+                        Security = "None",
+                        Tags = {
+                            Deprecated = true
+                        }
+                    },
+                    {
+                        Class = "GuiObject",
+                        Name = "TweenPositionInternal",
+                        Parameters = {
+                            {
+                                Name = "endPosition",
+                                Type = "UDim2"
+                            },
+                            {
+                                Name = "easingDirection",
+                                Type = "EasingDirection"
+                            },
+                            {
+                                Name = "easingStyle",
+                                Type = "EasingStyle"
+                            },
+                            {
+                                Name = "time",
+                                Type = "float"
+                            },
+                            {
+                                Name = "override",
+                                Type = "bool"
+                            },
+                            {
+                                Name = "callback",
+                                Type = "Function"
+                            }
+                        },
+                        ReturnType = "bool",
+                        Security = "RobloxScriptSecurity",
+                        Tags = {}
+                    },
+                    {
+                        Class = "GuiObject",
+                        Name = "TweenSize",
+                        Parameters = {
+                            {
+                                Name = "endSize",
+                                Type = "UDim2"
+                            },
+                            {
+                                Name = "easingDirection",
+                                Type = "EasingDirection"
+                            },
+                            {
+                                Name = "easingStyle",
+                                Type = "EasingStyle"
+                            },
+                            {
+                                Name = "time",
+                                Type = "float"
+                            },
+                            {
+                                Name = "override",
+                                Type = "bool"
+                            },
+                            {
+                                Name = "callback",
+                                Type = "Function"
+                            }
+                        },
+                        ReturnType = "bool",
+                        Security = "None",
+                        Tags = {
+                            Deprecated = true
+                        }
+                    },
+                    {
+                        Class = "GuiObject",
+                        Name = "TweenSizeAndPosition",
+                        Parameters = {
+                            {
+                                Name = "endSize",
+                                Type = "UDim2"
+                            },
+                            {
+                                Name = "endPosition",
+                                Type = "UDim2"
+                            },
+                            {
+                                Name = "easingDirection",
+                                Type = "EasingDirection"
+                            },
+                            {
+                                Name = "easingStyle",
+                                Type = "EasingStyle"
+                            },
+                            {
+                                Name = "time",
+                                Type = "float"
+                            },
+                            {
+                                Name = "override",
+                                Type = "bool"
+                            },
+                            {
+                                Name = "callback",
+                                Type = "Function"
+                            }
+                        },
+                        ReturnType = "bool",
+                        Security = "None",
+                        Tags = {
+                            Deprecated = true
+                        }
+                    },
+                    {
+                        Class = "GuiObject",
+                        Name = "TweenSizeAndPositionInternal",
+                        Parameters = {
+                            {
+                                Name = "endSize",
+                                Type = "UDim2"
+                            },
+                            {
+                                Name = "endPosition",
+                                Type = "UDim2"
+                            },
+                            {
+                                Name = "easingDirection",
+                                Type = "EasingDirection"
+                            },
+                            {
+                                Name = "easingStyle",
+                                Type = "EasingStyle"
+                            },
+                            {
+                                Name = "time",
+                                Type = "float"
+                            },
+                            {
+                                Name = "override",
+                                Type = "bool"
+                            },
+                            {
+                                Name = "callback",
+                                Type = "Function"
+                            }
+                        },
+                        ReturnType = "bool",
+                        Security = "RobloxScriptSecurity",
+                        Tags = {}
+                    },
+                    {
+                        Class = "GuiObject",
+                        Name = "TweenSizeInternal",
+                        Parameters = {
+                            {
+                                Name = "endSize",
+                                Type = "UDim2"
+                            },
+                            {
+                                Name = "easingDirection",
+                                Type = "EasingDirection"
+                            },
+                            {
+                                Name = "easingStyle",
+                                Type = "EasingStyle"
+                            },
+                            {
+                                Name = "time",
+                                Type = "float"
+                            },
+                            {
+                                Name = "override",
+                                Type = "bool"
+                            },
+                            {
+                                Name = "callback",
+                                Type = "Function"
+                            }
+                        },
+                        ReturnType = "bool",
+                        Security = "RobloxScriptSecurity",
+                        Tags = {}
+                    }
+                },
+                Name = "GuiObject",
+                Properties = {
+                    {
+                        Category = "Data",
+                        Class = "GuiObject",
+                        Name = "Active",
+                        Security = {
+                            Read = "None",
+                            Write = "None"
+                        },
+                        Serialization = {
+                            CanLoad = true,
+                            CanSave = true
+                        },
+                        Tags = {},
+                        ValueType = {
+                            Category = "Primitive",
+                            Name = "bool"
+                        }
+                    },
+                    {
+                        Category = "Data",
+                        Class = "GuiObject",
+                        Name = "AnchorPoint",
+                        Security = {
+                            Read = "None",
+                            Write = "None"
+                        },
+                        Serialization = {
+                            CanLoad = true,
+                            CanSave = true
+                        },
+                        Tags = {},
+                        ValueType = {
+                            Category = "DataType",
+                            Name = "Vector2"
+                        }
+                    },
+                    {
+                        Category = "Data",
+                        Class = "GuiObject",
+                        Name = "AutomaticSize",
+                        Security = {
+                            Read = "None",
+                            Write = "None"
+                        },
+                        Serialization = {
+                            CanLoad = true,
+                            CanSave = true
+                        },
+                        Tags = {},
+                        ValueType = {
+                            Category = "Enum",
+                            Name = "AutomaticSize"
+                        }
+                    },
+                    {
+                        Category = "Data",
+                        Class = "GuiObject",
+                        Name = "BackgroundColor",
+                        Security = {
+                            Read = "None",
+                            Write = "None"
+                        },
+                        Serialization = {
+                            CanLoad = true,
+                            CanSave = false
+                        },
+                        Tags = {
+                            Deprecated = true,
+                            Hidden = true,
+                            NotReplicated = true
+                        },
+                        ValueType = {
+                            Category = "DataType",
+                            Name = "BrickColor"
+                        }
+                    },
+                    {
+                        Category = "Data",
+                        Class = "GuiObject",
+                        Name = "BackgroundColor3",
+                        Security = {
+                            Read = "None",
+                            Write = "None"
+                        },
+                        Serialization = {
+                            CanLoad = true,
+                            CanSave = true
+                        },
+                        Tags = {},
+                        ValueType = {
+                            Category = "DataType",
+                            Name = "Color3"
+                        }
+                    },
+                    {
+                        Category = "Data",
+                        Class = "GuiObject",
+                        Name = "BackgroundTransparency",
+                        Security = {
+                            Read = "None",
+                            Write = "None"
+                        },
+                        Serialization = {
+                            CanLoad = true,
+                            CanSave = true
+                        },
+                        Tags = {},
+                        ValueType = {
+                            Category = "Primitive",
+                            Name = "float"
+                        }
+                    },
+                    {
+                        Category = "Data",
+                        Class = "GuiObject",
+                        Name = "BorderColor",
+                        Security = {
+                            Read = "None",
+                            Write = "None"
+                        },
+                        Serialization = {
+                            CanLoad = true,
+                            CanSave = false
+                        },
+                        Tags = {
+                            Deprecated = true,
+                            Hidden = true,
+                            NotReplicated = true
+                        },
+                        ValueType = {
+                            Category = "DataType",
+                            Name = "BrickColor"
+                        }
+                    },
+                    {
+                        Category = "Data",
+                        Class = "GuiObject",
+                        Name = "BorderColor3",
+                        Security = {
+                            Read = "None",
+                            Write = "None"
+                        },
+                        Serialization = {
+                            CanLoad = true,
+                            CanSave = true
+                        },
+                        Tags = {},
+                        ValueType = {
+                            Category = "DataType",
+                            Name = "Color3"
+                        }
+                    },
+                    {
+                        Category = "Data",
+                        Class = "GuiObject",
+                        Name = "BorderMode",
+                        Security = {
+                            Read = "None",
+                            Write = "None"
+                        },
+                        Serialization = {
+                            CanLoad = true,
+                            CanSave = true
+                        },
+                        Tags = {},
+                        ValueType = {
+                            Category = "Enum",
+                            Name = "BorderMode"
+                        }
+                    },
+                    {
+                        Category = "Data",
+                        Class = "GuiObject",
+                        Name = "BorderSizePixel",
+                        Security = {
+                            Read = "None",
+                            Write = "None"
+                        },
+                        Serialization = {
+                            CanLoad = true,
+                            CanSave = true
+                        },
+                        Tags = {},
+                        ValueType = {
+                            Category = "Primitive",
+                            Name = "int"
+                        }
+                    },
+                    {
+                        Category = "Behavior",
+                        Class = "GuiObject",
+                        Name = "ClipsDescendants",
+                        Security = {
+                            Read = "None",
+                            Write = "None"
+                        },
+                        Serialization = {
+                            CanLoad = true,
+                            CanSave = true
+                        },
+                        Tags = {},
+                        ValueType = {
+                            Category = "Primitive",
+                            Name = "bool"
+                        }
+                    },
+                    {
+                        Category = "EventReplicator",
+                        Class = "GuiObject",
+                        Name = "DragBeginConnectionCount",
+                        Security = {
+                            Read = "None",
+                            Write = "None"
+                        },
+                        Serialization = {
+                            CanLoad = false,
+                            CanSave = false
+                        },
+                        Tags = {
+                            Hidden = true,
+                            NotScriptable = true
+                        },
+                        ValueType = {
+                            Category = "Primitive",
+                            Name = "int"
+                        }
+                    },
+                    {
+                        Category = "EventReplicator",
+                        Class = "GuiObject",
+                        Name = "DragStoppedConnectionCount",
+                        Security = {
+                            Read = "None",
+                            Write = "None"
+                        },
+                        Serialization = {
+                            CanLoad = false,
+                            CanSave = false
+                        },
+                        Tags = {
+                            Hidden = true,
+                            NotScriptable = true
+                        },
+                        ValueType = {
+                            Category = "Primitive",
+                            Name = "int"
+                        }
+                    },
+                    {
+                        Category = "Behavior",
+                        Class = "GuiObject",
+                        Name = "Draggable",
+                        Security = {
+                            Read = "None",
+                            Write = "None"
+                        },
+                        Serialization = {
+                            CanLoad = true,
+                            CanSave = true
+                        },
+                        Tags = {
+                            Deprecated = true
+                        },
+                        ValueType = {
+                            Category = "Primitive",
+                            Name = "bool"
+                        }
+                    },
+                    {
+                        Category = "State",
+                        Class = "GuiObject",
+                        Name = "GuiState",
+                        Security = {
+                            Read = "None",
+                            Write = "None"
+                        },
+                        Serialization = {
+                            CanLoad = false,
+                            CanSave = true
+                        },
+                        Tags = {
+                            NotReplicated = true,
+                            ReadOnly = true
+                        },
+                        ValueType = {
+                            Category = "Enum",
+                            Name = "GuiState"
+                        }
+                    },
+                    {
+                        Category = "Data",
+                        Class = "GuiObject",
+                        Name = "InputSink",
+                        Security = {
+                            Read = "None",
+                            Write = "None"
+                        },
+                        Serialization = {
+                            CanLoad = false,
+                            CanSave = false
+                        },
+                        Tags = {
+                            NotReplicated = true
+                        },
+                        ValueType = {
+                            Category = "Enum",
+                            Name = "InputSink"
+                        }
+                    },
+                    {
+                        Category = "Data",
+                        Class = "GuiObject",
+                        Name = "Interactable",
+                        Security = {
+                            Read = "None",
+                            Write = "None"
+                        },
+                        Serialization = {
+                            CanLoad = true,
+                            CanSave = true
+                        },
+                        Tags = {},
+                        ValueType = {
+                            Category = "Primitive",
+                            Name = "bool"
+                        }
+                    },
+                    {
+                        Category = "Data",
+                        Class = "GuiObject",
+                        Name = "LayoutOrder",
+                        Security = {
+                            Read = "None",
+                            Write = "None"
+                        },
+                        Serialization = {
+                            CanLoad = true,
+                            CanSave = true
+                        },
+                        Tags = {},
+                        ValueType = {
+                            Category = "Primitive",
+                            Name = "int"
+                        }
+                    },
+                    {
+                        Category = "EventReplicator",
+                        Class = "GuiObject",
+                        Name = "MouseEnterConnectionCount",
+                        Security = {
+                            Read = "None",
+                            Write = "None"
+                        },
+                        Serialization = {
+                            CanLoad = false,
+                            CanSave = false
+                        },
+                        Tags = {
+                            Hidden = true,
+                            NotScriptable = true
+                        },
+                        ValueType = {
+                            Category = "Primitive",
+                            Name = "int"
+                        }
+                    },
+                    {
+                        Category = "EventReplicator",
+                        Class = "GuiObject",
+                        Name = "MouseLeaveConnectionCount",
+                        Security = {
+                            Read = "None",
+                            Write = "None"
+                        },
+                        Serialization = {
+                            CanLoad = false,
+                            CanSave = false
+                        },
+                        Tags = {
+                            Hidden = true,
+                            NotScriptable = true
+                        },
+                        ValueType = {
+                            Category = "Primitive",
+                            Name = "int"
+                        }
+                    },
+                    {
+                        Category = "EventReplicator",
+                        Class = "GuiObject",
+                        Name = "MouseMovedConnectionCount",
+                        Security = {
+                            Read = "None",
+                            Write = "None"
+                        },
+                        Serialization = {
+                            CanLoad = false,
+                            CanSave = false
+                        },
+                        Tags = {
+                            Hidden = true,
+                            NotScriptable = true
+                        },
+                        ValueType = {
+                            Category = "Primitive",
+                            Name = "int"
+                        }
+                    },
+                    {
+                        Category = "EventReplicator",
+                        Class = "GuiObject",
+                        Name = "MouseWheelBackwardConnectionCount",
+                        Security = {
+                            Read = "None",
+                            Write = "None"
+                        },
+                        Serialization = {
+                            CanLoad = false,
+                            CanSave = false
+                        },
+                        Tags = {
+                            Hidden = true,
+                            NotScriptable = true
+                        },
+                        ValueType = {
+                            Category = "Primitive",
+                            Name = "int"
+                        }
+                    },
+                    {
+                        Category = "EventReplicator",
+                        Class = "GuiObject",
+                        Name = "MouseWheelForwardConnectionCount",
+                        Security = {
+                            Read = "None",
+                            Write = "None"
+                        },
+                        Serialization = {
+                            CanLoad = false,
+                            CanSave = false
+                        },
+                        Tags = {
+                            Hidden = true,
+                            NotScriptable = true
+                        },
+                        ValueType = {
+                            Category = "Primitive",
+                            Name = "int"
+                        }
+                    },
+                    {
+                        Category = "Selection",
+                        Class = "GuiObject",
+                        Name = "NextSelectionDown",
+                        Security = {
+                            Read = "None",
+                            Write = "None"
+                        },
+                        Serialization = {
+                            CanLoad = true,
+                            CanSave = true
+                        },
+                        Tags = {},
+                        ValueType = {
+                            Category = "Class",
+                            Name = "GuiObject"
+                        }
+                    },
+                    {
+                        Category = "Selection",
+                        Class = "GuiObject",
+                        Name = "NextSelectionLeft",
+                        Security = {
+                            Read = "None",
+                            Write = "None"
+                        },
+                        Serialization = {
+                            CanLoad = true,
+                            CanSave = true
+                        },
+                        Tags = {},
+                        ValueType = {
+                            Category = "Class",
+                            Name = "GuiObject"
+                        }
+                    },
+                    {
+                        Category = "Selection",
+                        Class = "GuiObject",
+                        Name = "NextSelectionRight",
+                        Security = {
+                            Read = "None",
+                            Write = "None"
+                        },
+                        Serialization = {
+                            CanLoad = true,
+                            CanSave = true
+                        },
+                        Tags = {},
+                        ValueType = {
+                            Category = "Class",
+                            Name = "GuiObject"
+                        }
+                    },
+                    {
+                        Category = "Selection",
+                        Class = "GuiObject",
+                        Name = "NextSelectionUp",
+                        Security = {
+                            Read = "None",
+                            Write = "None"
+                        },
+                        Serialization = {
+                            CanLoad = true,
+                            CanSave = true
+                        },
+                        Tags = {},
+                        ValueType = {
+                            Category = "Class",
+                            Name = "GuiObject"
+                        }
+                    },
+                    {
+                        Category = "Data",
+                        Class = "GuiObject",
+                        Name = "Position",
+                        Security = {
+                            Read = "None",
+                            Write = "None"
+                        },
+                        Serialization = {
+                            CanLoad = true,
+                            CanSave = true
+                        },
+                        Tags = {},
+                        ValueType = {
+                            Category = "DataType",
+                            Name = "UDim2"
+                        }
+                    },
+                    {
+                        Category = "Data",
+                        Class = "GuiObject",
+                        Name = "Rotation",
+                        Security = {
+                            Read = "None",
+                            Write = "None"
+                        },
+                        Serialization = {
+                            CanLoad = true,
+                            CanSave = true
+                        },
+                        Tags = {},
+                        ValueType = {
+                            Category = "Primitive",
+                            Name = "float"
+                        }
+                    },
+                    {
+                        Category = "Selection",
+                        Class = "GuiObject",
+                        Name = "Selectable",
+                        Security = {
+                            Read = "None",
+                            Write = "None"
+                        },
+                        Serialization = {
+                            CanLoad = true,
+                            CanSave = true
+                        },
+                        Tags = {},
+                        ValueType = {
+                            Category = "Primitive",
+                            Name = "bool"
+                        }
+                    },
+                    {
+                        Category = "Appearance",
+                        Class = "GuiObject",
+                        Name = "SelectionImageObject",
+                        Security = {
+                            Read = "None",
+                            Write = "None"
+                        },
+                        Serialization = {
+                            CanLoad = true,
+                            CanSave = true
+                        },
+                        Tags = {},
+                        ValueType = {
+                            Category = "Class",
+                            Name = "GuiObject"
+                        }
+                    },
+                    {
+                        Category = "Selection",
+                        Class = "GuiObject",
+                        Name = "SelectionOrder",
+                        Security = {
+                            Read = "None",
+                            Write = "None"
+                        },
+                        Serialization = {
+                            CanLoad = true,
+                            CanSave = true
+                        },
+                        Tags = {},
+                        ValueType = {
+                            Category = "Primitive",
+                            Name = "int"
+                        }
+                    },
+                    {
+                        Category = "Data",
+                        Class = "GuiObject",
+                        Name = "SelectionRect2D",
+                        Security = {
+                            Read = "RobloxScriptSecurity",
+                            Write = "RobloxScriptSecurity"
+                        },
+                        Serialization = {
+                            CanLoad = false,
+                            CanSave = false
+                        },
+                        Tags = {
+                            Hidden = true,
+                            NotReplicated = true,
+                            ReadOnly = true
+                        },
+                        ValueType = {
+                            Category = "DataType",
+                            Name = "Rect"
+                        }
+                    },
+                    {
+                        Category = "Data",
+                        Class = "GuiObject",
+                        Name = "Sink",
+                        Security = {
+                            Read = "RobloxSecurity",
+                            Write = "None"
+                        },
+                        Serialization = {
+                            CanLoad = true,
+                            CanSave = true
+                        },
+                        Tags = {
+                            Hidden = true,
+                            NotScriptable = true
+                        },
+                        ValueType = {
+                            Category = "Enum",
+                            Name = "InputSink"
+                        }
+                    },
+                    {
+                        Category = "Data",
+                        Class = "GuiObject",
+                        Name = "Size",
+                        Security = {
+                            Read = "None",
+                            Write = "None"
+                        },
+                        Serialization = {
+                            CanLoad = true,
+                            CanSave = true
+                        },
+                        Tags = {},
+                        ValueType = {
+                            Category = "DataType",
+                            Name = "UDim2"
+                        }
+                    },
+                    {
+                        Category = "Data",
+                        Class = "GuiObject",
+                        Name = "SizeConstraint",
+                        Security = {
+                            Read = "None",
+                            Write = "None"
+                        },
+                        Serialization = {
+                            CanLoad = true,
+                            CanSave = true
+                        },
+                        Tags = {},
+                        ValueType = {
+                            Category = "Enum",
+                            Name = "SizeConstraint"
+                        }
+                    },
+                    {
+                        Category = "Data",
+                        Class = "GuiObject",
+                        Name = "Transparency",
+                        Security = {
+                            Read = "None",
+                            Write = "None"
+                        },
+                        Serialization = {
+                            CanLoad = true,
+                            CanSave = false
+                        },
+                        Tags = {
+                            Deprecated = true,
+                            Hidden = true,
+                            NotReplicated = true
+                        },
+                        ValueType = {
+                            Category = "Primitive",
+                            Name = "float"
+                        }
+                    },
+                    {
+                        Category = "Data",
+                        Class = "GuiObject",
+                        Name = "Visible",
+                        Security = {
+                            Read = "None",
+                            Write = "None"
+                        },
+                        Serialization = {
+                            CanLoad = true,
+                            CanSave = true
+                        },
+                        Tags = {},
+                        ValueType = {
+                            Category = "Primitive",
+                            Name = "bool"
+                        }
+                    },
+                    {
+                        Category = "Data",
+                        Class = "GuiObject",
+                        Name = "ZIndex",
+                        Security = {
+                            Read = "None",
+                            Write = "None"
+                        },
+                        Serialization = {
+                            CanLoad = true,
+                            CanSave = true
+                        },
+                        Tags = {},
+                        ValueType = {
+                            Category = "Primitive",
+                            Name = "int"
+                        }
+                    }
+                },
+                Superclass = {
+                    Callbacks = {},
+                    Events = {
+                        {
+                            Class = "GuiBase2d",
+                            Name = "SelectionChanged",
+                            Parameters = {
+                                {
+                                    Name = "amISelected",
+                                    Type = "bool"
+                                },
+                                {
+                                    Name = "previousSelection",
+                                    Type = "GuiObject"
+                                },
+                                {
+                                    Name = "newSelection",
+                                    Type = "GuiObject"
+                                }
+                            },
+                            Security = "None",
+                            Tags = {}
+                        }
+                    },
+                    Functions = {},
+                    Name = "GuiBase2d",
+                    Properties = {
+                        {
+                            Category = "Data",
+                            Class = "GuiBase2d",
+                            Name = "AbsolutePosition",
+                            Security = {
+                                Read = "None",
+                                Write = "None"
+                            },
+                            Serialization = {
+                                CanLoad = false,
+                                CanSave = false
+                            },
+                            Tags = {
+                                NotReplicated = true,
+                                ReadOnly = true
+                            },
+                            ValueType = {
+                                Category = "DataType",
+                                Name = "Vector2"
+                            }
+                        },
+                        {
+                            Category = "Data",
+                            Class = "GuiBase2d",
+                            Name = "AbsoluteRotation",
+                            Security = {
+                                Read = "None",
+                                Write = "None"
+                            },
+                            Serialization = {
+                                CanLoad = false,
+                                CanSave = false
+                            },
+                            Tags = {
+                                NotReplicated = true,
+                                ReadOnly = true
+                            },
+                            ValueType = {
+                                Category = "Primitive",
+                                Name = "float"
+                            }
+                        },
+                        {
+                            Category = "Data",
+                            Class = "GuiBase2d",
+                            Name = "AbsoluteSize",
+                            Security = {
+                                Read = "None",
+                                Write = "None"
+                            },
+                            Serialization = {
+                                CanLoad = false,
+                                CanSave = false
+                            },
+                            Tags = {
+                                NotReplicated = true,
+                                ReadOnly = true
+                            },
+                            ValueType = {
+                                Category = "DataType",
+                                Name = "Vector2"
+                            }
+                        },
+                        {
+                            Category = "Data",
+                            Class = "GuiBase2d",
+                            Name = "ActiveQueryNames",
+                            Security = {
+                                Read = "RobloxScriptSecurity",
+                                Write = "RobloxScriptSecurity"
+                            },
+                            Serialization = {
+                                CanLoad = false,
+                                CanSave = false
+                            },
+                            Tags = {
+                                Hidden = true,
+                                NotReplicated = true,
+                                NotScriptable = true
+                            },
+                            ValueType = {
+                                Category = "Primitive",
+                                Name = "string"
+                            }
+                        },
+                        {
+                            Category = "Localization",
+                            Class = "GuiBase2d",
+                            Name = "AutoLocalize",
+                            Security = {
+                                Read = "None",
+                                Write = "None"
+                            },
+                            Serialization = {
+                                CanLoad = true,
+                                CanSave = true
+                            },
+                            Tags = {},
+                            ValueType = {
+                                Category = "Primitive",
+                                Name = "bool"
+                            }
+                        },
+                        {
+                            Category = "Debugging",
+                            Class = "GuiBase2d",
+                            Name = "ClippedRect",
+                            Security = {
+                                Read = "RobloxScriptSecurity",
+                                Write = "RobloxScriptSecurity"
+                            },
+                            Serialization = {
+                                CanLoad = false,
+                                CanSave = false
+                            },
+                            Tags = {
+                                Hidden = true,
+                                NotReplicated = true,
+                                ReadOnly = true
+                            },
+                            ValueType = {
+                                Category = "DataType",
+                                Name = "Rect"
+                            }
+                        },
+                        {
+                            Category = "Debugging",
+                            Class = "GuiBase2d",
+                            Name = "IsNotOccluded",
+                            Security = {
+                                Read = "RobloxScriptSecurity",
+                                Write = "RobloxScriptSecurity"
+                            },
+                            Serialization = {
+                                CanLoad = false,
+                                CanSave = false
+                            },
+                            Tags = {
+                                Hidden = true,
+                                NotReplicated = true,
+                                ReadOnly = true
+                            },
+                            ValueType = {
+                                Category = "Primitive",
+                                Name = "bool"
+                            }
+                        },
+                        {
+                            Category = "Localization",
+                            Class = "GuiBase2d",
+                            Name = "Localize",
+                            Security = {
+                                Read = "None",
+                                Write = "None"
+                            },
+                            Serialization = {
+                                CanLoad = true,
+                                CanSave = false
+                            },
+                            Tags = {
+                                Deprecated = true,
+                                Hidden = true,
+                                NotReplicated = true
+                            },
+                            ValueType = {
+                                Category = "Primitive",
+                                Name = "bool"
+                            }
+                        },
+                        {
+                            Category = "Debugging",
+                            Class = "GuiBase2d",
+                            Name = "RawRect2D",
+                            Security = {
+                                ...[truncatedasitwastoolong]
