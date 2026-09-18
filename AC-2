@@ -1,0 +1,2833 @@
+{
+    [15796] = {
+        line = 266,
+        name = "",
+        numparams = 0,
+        source = "dEwBhjlhblvIRQJKcetsjmOay",
+        vargs = false
+    },
+    [231506] = {
+        {
+            Name = "name",
+            Type = "string"
+        },
+        {
+            Name = "preset",
+            Type = "Dictionary"
+        }
+    },
+    [231507] = {},
+    [231508] = {
+        Class = "AssetImportService",
+        Name = "SavePreset",
+        Parameters = {
+            {
+                Name = "name",
+                Type = "string"
+            },
+            {
+                Name = "preset",
+                Type = "Dictionary"
+            }
+        },
+        ReturnType = "bool",
+        Security = "RobloxScriptSecurity",
+        Tags = {}
+    },
+    [231505] = {
+        Name = "name",
+        Type = "string"
+    },
+    [231503] = {
+        Class = "AssetImportService",
+        Name = "StartSessionWithPath",
+        Parameters = {
+            {
+                Name = "filePath",
+                Type = "string"
+            }
+        },
+        ReturnType = "AssetImportSession",
+        Security = "RobloxScriptSecurity",
+        Tags = {}
+    },
+    [231504] = {
+        Name = "preset",
+        Type = "Dictionary"
+    },
+    [231502] = {},
+    [231509] = {
+        Name = "name",
+        Type = "string"
+    },
+    [231511] = {},
+    [231515] = {},
+    [231510] = {
+        {
+            Name = "name",
+            Type = "string"
+        }
+    },
+    [231514] = {
+        {
+            Name = "name",
+            Type = "string"
+        }
+    },
+    [231512] = {
+        Class = "AssetImportService",
+        Name = "RemovePreset",
+        Parameters = {
+            {
+                Name = "name",
+                Type = "string"
+            }
+        },
+        ReturnType = "null",
+        Security = "RobloxScriptSecurity",
+        Tags = {}
+    },
+    [231513] = {
+        Name = "name",
+        Type = "string"
+    },
+    [231516] = {
+        Class = "AssetImportService",
+        Name = "GetPreset",
+        Parameters = {
+            {
+                Name = "name",
+                Type = "string"
+            }
+        },
+        ReturnType = "Dictionary",
+        Security = "RobloxScriptSecurity",
+        Tags = {}
+    },
+    [231501] = {
+        {
+            Name = "filePath",
+            Type = "string"
+        }
+    },
+    [231499] = {
+        Class = "AssetImportService",
+        Name = "StartSingleFileWatch",
+        Parameters = {
+            {
+                Name = "filePath",
+                Type = "string"
+            }
+        },
+        ReturnType = "null",
+        Security = "RobloxScriptSecurity",
+        Tags = {}
+    },
+    [231490] = {
+        Yields = true
+    },
+    [231491] = {
+        Class = "AssetImportService",
+        Name = "GetFilesInDirAsync",
+        Parameters = {
+            {
+                Name = "path",
+                Type = "string"
+            }
+        },
+        ReturnType = "Array",
+        Security = "RobloxScriptSecurity",
+        Tags = {
+            Yields = true
+        }
+    },
+    [231489] = {
+        {
+            Name = "path",
+            Type = "string"
+        }
+    },
+    [231487] = {
+        Class = "AssetImportService",
+        Name = "PickFileWithPromptAsync",
+        Parameters = {},
+        ReturnType = "string",
+        Security = "RobloxScriptSecurity",
+        Tags = {
+            Yields = true
+        }
+    },
+    [231488] = {
+        Name = "path",
+        Type = "string"
+    },
+    [231500] = {
+        Name = "filePath",
+        Type = "string"
+    },
+    [231492] = {
+        Name = "filePath",
+        Type = "string"
+    },
+    [231494] = {},
+    [231498] = {},
+    [231493] = {
+        {
+            Name = "filePath",
+            Type = "string"
+        }
+    },
+    [231497] = {
+        {
+            Name = "filePath",
+            Type = "string"
+        }
+    },
+    [231495] = {
+        Class = "AssetImportService",
+        Name = "StopSingleFileWatch",
+        Parameters = {
+            {
+                Name = "filePath",
+                Type = "string"
+            }
+        },
+        ReturnType = "null",
+        Security = "RobloxScriptSecurity",
+        Tags = {}
+    },
+    [231496] = {
+        Name = "filePath",
+        Type = "string"
+    },
+    [231486] = {
+        Yields = true
+    },
+    [231517] = {},
+    [231519] = {
+        Class = "AssetImportService",
+        Name = "GetAllPresets",
+        Parameters = {},
+        ReturnType = "Dictionary",
+        Security = "RobloxScriptSecurity",
+        Tags = {}
+    },
+    [231539] = {},
+    [231540] = {},
+    [231538] = {
+        NotCreatable = true,
+        NotReplicated = true,
+        Service = true
+    },
+    [231536] = {
+        {
+            Category = "Data",
+            Class = "AssetDeliveryProxy",
+            Name = "Interface",
+            Security = {
+                Read = "None",
+                Write = "None"
+            },
+            Serialization = {
+                CanLoad = true,
+                CanSave = true
+            },
+            Tags = {},
+            ValueType = {
+                Category = "Primitive",
+                Name = "string"
+            }
+        },
+        {
+            Category = "Data",
+            Class = "AssetDeliveryProxy",
+            Name = "Port",
+            Security = {
+                Read = "None",
+                Write = "None"
+            },
+            Serialization = {
+                CanLoad = true,
+                CanSave = true
+            },
+            Tags = {},
+            ValueType = {
+                Category = "Primitive",
+                Name = "int"
+            }
+        },
+        {
+            Category = "Data",
+            Class = "AssetDeliveryProxy",
+            Name = "StartServer",
+            Security = {
+                Read = "None",
+                Write = "None"
+            },
+            Serialization = {
+                CanLoad = true,
+                CanSave = true
+            },
+            Tags = {},
+            ValueType = {
+                Category = "Primitive",
+                Name = "bool"
+            }
+        }
+    },
+    [231537] = {
+        Callbacks = {},
+        Events = {},
+        Functions = {},
+        Name = "AssetDeliveryProxy",
+        Properties = {
+            {
+                Category = "Data",
+                Class = "AssetDeliveryProxy",
+                Name = "Interface",
+                Security = {
+                    Read = "None",
+                    Write = "None"
+                },
+                Serialization = {
+                    CanLoad = true,
+                    CanSave = true
+                },
+                Tags = {},
+                ValueType = {
+                    Category = "Primitive",
+                    Name = "string"
+                }
+            },
+            {
+                Category = "Data",
+                Class = "AssetDeliveryProxy",
+                Name = "Port",
+                Security = {
+                    Read = "None",
+                    Write = "None"
+                },
+                Serialization = {
+                    CanLoad = true,
+                    CanSave = true
+                },
+                Tags = {},
+                ValueType = {
+                    Category = "Primitive",
+                    Name = "int"
+                }
+            },
+            {
+                Category = "Data",
+                Class = "AssetDeliveryProxy",
+                Name = "StartServer",
+                Security = {
+                    Read = "None",
+                    Write = "None"
+                },
+                Serialization = {
+                    CanLoad = true,
+                    CanSave = true
+                },
+                Tags = {},
+                ValueType = {
+                    Category = "Primitive",
+                    Name = "bool"
+                }
+            }
+        },
+        Superclass = {
+            Callbacks = {},
+            Events = {
+                {
+                    Class = "Instance",
+                    Name = "AncestryChanged",
+                    Parameters = {
+                        {
+                            Name = "child",
+                            Type = "Instance"
+                        },
+                        {
+                            Name = "parent",
+                            Type = "Instance"
+                        }
+                    },
+                    Security = "None",
+                    Tags = {}
+                },
+                {
+                    Class = "Instance",
+                    Name = "AttributeChanged",
+                    Parameters = {
+                        {
+                            Name = "attribute",
+                            Type = "string"
+                        }
+                    },
+                    Security = "None",
+                    Tags = {}
+                },
+                {
+                    Class = "Instance",
+                    Name = "ChildAdded",
+                    Parameters = {
+                        {
+                            Name = "child",
+                            Type = "Instance"
+                        }
+                    },
+                    Security = "None",
+                    Tags = {}
+                },
+                {
+                    Class = "Instance",
+                    Name = "ChildRemoved",
+                    Parameters = {
+                        {
+                            Name = "child",
+                            Type = "Instance"
+                        }
+                    },
+                    Security = "None",
+                    Tags = {}
+                },
+                {
+                    Class = "Instance",
+                    Name = "DescendantAdded",
+                    Parameters = {
+                        {
+                            Name = "descendant",
+                            Type = "Instance"
+                        }
+                    },
+                    Security = "None",
+                    Tags = {}
+                },
+                {
+                    Class = "Instance",
+                    Name = "DescendantRemoving",
+                    Parameters = {
+                        {
+                            Name = "descendant",
+                            Type = "Instance"
+                        }
+                    },
+                    Security = "None",
+                    Tags = {}
+                },
+                {
+                    Class = "Instance",
+                    Name = "Destroying",
+                    Parameters = {},
+                    Security = "None",
+                    Tags = {}
+                },
+                {
+                    Class = "Instance",
+                    Name = "StyledPropertiesChanged",
+                    Parameters = {},
+                    Security = "None",
+                    Tags = {}
+                },
+                {
+                    Class = "Instance",
+                    Name = "childAdded",
+                    Parameters = {
+                        {
+                            Name = "child",
+                            Type = "Instance"
+                        }
+                    },
+                    Security = "None",
+                    Tags = {
+                        Deprecated = true
+                    }
+                }
+            },
+            Functions = {
+                {
+                    Class = "Instance",
+                    Name = "AddTag",
+                    Parameters = {
+                        {
+                            Name = "tag",
+                            Type = "string"
+                        }
+                    },
+                    ReturnType = "null",
+                    Security = "None",
+                    Tags = {}
+                },
+                {
+                    Class = "Instance",
+                    Name = "ClearAllChildren",
+                    Parameters = {},
+                    ReturnType = "null",
+                    Security = "None",
+                    Tags = {}
+                },
+                {
+                    Class = "Instance",
+                    Name = "Clone",
+                    Parameters = {},
+                    ReturnType = "Instance",
+                    Security = "None",
+                    Tags = {}
+                },
+                {
+                    Class = "Instance",
+                    Name = "Destroy",
+                    Parameters = {},
+                    ReturnType = "null",
+                    Security = "None",
+                    Tags = {}
+                },
+                {
+                    Class = "Instance",
+                    Name = "FindFirstAncestor",
+                    Parameters = {
+                        {
+                            Name = "name",
+                            Type = "string"
+                        }
+                    },
+                    ReturnType = "Instance",
+                    Security = "None",
+                    Tags = {}
+                },
+                {
+                    Class = "Instance",
+                    Name = "FindFirstAncestorOfClass",
+                    Parameters = {
+                        {
+                            Name = "className",
+                            Type = "string"
+                        }
+                    },
+                    ReturnType = "Instance",
+                    Security = "None",
+                    Tags = {}
+                },
+                {
+                    Class = "Instance",
+                    Name = "FindFirstAncestorWhichIsA",
+                    Parameters = {
+                        {
+                            Name = "className",
+                            Type = "string"
+                        }
+                    },
+                    ReturnType = "Instance",
+                    Security = "None",
+                    Tags = {}
+                },
+                {
+                    Class = "Instance",
+                    Name = "FindFirstChild",
+                    Parameters = {
+                        {
+                            Name = "name",
+                            Type = "string"
+                        },
+                        {
+                            Name = "recursive",
+                            Type = "bool"
+                        }
+                    },
+                    ReturnType = "Instance",
+                    Security = "None",
+                    Tags = {}
+                },
+                {
+                    Class = "Instance",
+                    Name = "FindFirstChildOfClass",
+                    Parameters = {
+                        {
+                            Name = "className",
+                            Type = "string"
+                        }
+                    },
+                    ReturnType = "Instance",
+                    Security = "None",
+                    Tags = {}
+                },
+                {
+                    Class = "Instance",
+                    Name = "FindFirstChildWhichIsA",
+                    Parameters = {
+                        {
+                            Name = "className",
+                            Type = "string"
+                        },
+                        {
+                            Name = "recursive",
+                            Type = "bool"
+                        }
+                    },
+                    ReturnType = "Instance",
+                    Security = "None",
+                    Tags = {}
+                },
+                {
+                    Class = "Instance",
+                    Name = "FindFirstDescendant",
+                    Parameters = {
+                        {
+                            Name = "name",
+                            Type = "string"
+                        }
+                    },
+                    ReturnType = "Instance",
+                    Security = "None",
+                    Tags = {}
+                },
+                {
+                    Class = "Instance",
+                    Name = "GetActor",
+                    Parameters = {},
+                    ReturnType = "Actor",
+                    Security = "None",
+                    Tags = {}
+                },
+                {
+                    Class = "Instance",
+                    Name = "GetAttribute",
+                    Parameters = {
+                        {
+                            Name = "attribute",
+                            Type = "string"
+                        }
+                    },
+                    ReturnType = "Variant",
+                    Security = "None",
+                    Tags = {}
+                },
+                {
+                    Class = "Instance",
+                    Name = "GetAttributeChangedSignal",
+                    Parameters = {
+                        {
+                            Name = "attribute",
+                            Type = "string"
+                        }
+                    },
+                    ReturnType = "RBXScriptSignal",
+                    Security = "None",
+                    Tags = {}
+                },
+                {
+                    Class = "Instance",
+                    Name = "GetAttributes",
+                    Parameters = {},
+                    ReturnType = "Dictionary",
+                    Security = "None",
+                    Tags = {
+                        CustomLuaState = true
+                    }
+                },
+                {
+                    Class = "Instance",
+                    Name = "GetChildren",
+                    Parameters = {},
+                    ReturnType = "Instances",
+                    Security = "None",
+                    Tags = {}
+                },
+                {
+                    Class = "Instance",
+                    Name = "GetDebugId",
+                    Parameters = {
+                        {
+                            Name = "scopeLength",
+                            Type = "int"
+                        }
+                    },
+                    ReturnType = "string",
+                    Security = "PluginSecurity",
+                    Tags = {
+                        NotBrowsable = true
+                    }
+                },
+                {
+                    Class = "Instance",
+                    Name = "GetDescendants",
+                    Parameters = {},
+                    ReturnType = "Instances",
+                    Security = "None",
+                    Tags = {
+                        CustomLuaState = true
+                    }
+                },
+                {
+                    Class = "Instance",
+                    Name = "GetFullName",
+                    Parameters = {},
+                    ReturnType = "string",
+                    Security = "None",
+                    Tags = {}
+                },
+                {
+                    Class = "Instance",
+                    Name = "GetStyled",
+                    Parameters = {
+                        {
+                            Name = "name",
+                            Type = "string"
+                        },
+                        {
+                            Name = "selector",
+                            Type = "string?"
+                        }
+                    },
+                    ReturnType = "Variant",
+                    Security = "None",
+                    Tags = {}
+                },
+                {
+                    Class = "Instance",
+                    Name = "GetStyledPropertyChangedSignal",
+                    Parameters = {
+                        {
+                            Name = "property",
+                            Type = "string"
+                        }
+                    },
+                    ReturnType = "RBXScriptSignal",
+                    Security = "None",
+                    Tags = {}
+                },
+                {
+                    Class = "Instance",
+                    Name = "GetTags",
+                    Parameters = {},
+                    ReturnType = "Array",
+                    Security = "None",
+                    Tags = {}
+                },
+                {
+                    Class = "Instance",
+                    Name = "HasTag",
+                    Parameters = {
+                        {
+                            Name = "tag",
+                            Type = "string"
+                        }
+                    },
+                    ReturnType = "bool",
+                    Security = "None",
+                    Tags = {}
+                },
+                {
+                    Class = "Instance",
+                    Name = "IsAncestorOf",
+                    Parameters = {
+                        {
+                            Name = "descendant",
+                            Type = "Instance"
+                        }
+                    },
+                    ReturnType = "bool",
+                    Security = "None",
+                    Tags = {}
+                },
+                {
+                    Class = "Instance",
+                    Name = "IsDescendantOf",
+                    Parameters = {
+                        {
+                            Name = "ancestor",
+                            Type = "Instance"
+                        }
+                    },
+                    ReturnType = "bool",
+                    Security = "None",
+                    Tags = {}
+                },
+                {
+                    Class = "Instance",
+                    Name = "IsPropertyModified",
+                    Parameters = {
+                        {
+                            Name = "property",
+                            Type = "string"
+                        }
+                    },
+                    ReturnType = "bool",
+                    Security = "None",
+                    Tags = {}
+                },
+                {
+                    Class = "Instance",
+                    Name = "QueryDescendants",
+                    Parameters = {
+                        {
+                            Name = "selector",
+                            Type = "string"
+                        }
+                    },
+                    ReturnType = "Instances",
+                    Security = "None",
+                    Tags = {
+                        CustomLuaState = true
+                    }
+                },
+                {
+                    Class = "Instance",
+                    Name = "Remove",
+                    Parameters = {},
+                    ReturnType = "null",
+                    Security = "None",
+                    Tags = {
+                        Deprecated = true
+                    }
+                },
+                {
+                    Class = "Instance",
+                    Name = "RemoveTag",
+                    Parameters = {
+                        {
+                            Name = "tag",
+                            Type = "string"
+                        }
+                    },
+                    ReturnType = "null",
+                    Security = "None",
+                    Tags = {}
+                },
+                {
+                    Class = "Instance",
+                    Name = "ResetPropertyToDefault",
+                    Parameters = {
+                        {
+                            Name = "property",
+                            Type = "string"
+                        }
+                    },
+                    ReturnType = "null",
+                    Security = "None",
+                    Tags = {}
+                },
+                {
+                    Class = "Instance",
+                    Name = "SetAttribute",
+                    Parameters = {
+                        {
+                            Name = "attribute",
+                            Type = "string"
+                        },
+                        {
+                            Name = "value",
+                            Type = "Variant"
+                        }
+                    },
+                    ReturnType = "null",
+                    Security = "None",
+                    Tags = {}
+                },
+                {
+                    Class = "Instance",
+                    Name = "WaitForChild",
+                    Parameters = {
+                        {
+                            Name = "childName",
+                            Type = "string"
+                        },
+                        {
+                            Name = "timeOut",
+                            Type = "double"
+                        }
+                    },
+                    ReturnType = "Instance",
+                    Security = "None",
+                    Tags = {
+                        CanYield = true,
+                        CustomLuaState = true
+                    }
+                },
+                {
+                    Class = "Instance",
+                    Name = "children",
+                    Parameters = {},
+                    ReturnType = "Instances",
+                    Security = "None",
+                    Tags = {
+                        Deprecated = true
+                    }
+                },
+                {
+                    Class = "Instance",
+                    Name = "clone",
+                    Parameters = {},
+                    ReturnType = "Instance",
+                    Security = "None",
+                    Tags = {
+                        Deprecated = true
+                    }
+                },
+                {
+                    Class = "Instance",
+                    Name = "destroy",
+                    Parameters = {},
+                    ReturnType = "null",
+                    Security = "None",
+                    Tags = {
+                        Deprecated = true
+                    }
+                },
+                {
+                    Class = "Instance",
+                    Name = "findFirstChild",
+                    Parameters = {
+                        {
+                            Name = "name",
+                            Type = "string"
+                        },
+                        {
+                            Name = "recursive",
+                            Type = "bool"
+                        }
+                    },
+                    ReturnType = "Instance",
+                    Security = "None",
+                    Tags = {
+                        Deprecated = true
+                    }
+                },
+                {
+                    Class = "Instance",
+                    Name = "getChildren",
+                    Parameters = {},
+                    ReturnType = "Instances",
+                    Security = "None",
+                    Tags = {
+                        Deprecated = true
+                    }
+                },
+                {
+                    Class = "Instance",
+                    Name = "isDescendantOf",
+                    Parameters = {
+                        {
+                            Name = "ancestor",
+                            Type = "Instance"
+                        }
+                    },
+                    ReturnType = "bool",
+                    Security = "None",
+                    Tags = {
+                        Deprecated = true
+                    }
+                },
+                {
+                    Class = "Instance",
+                    Name = "remove",
+                    Parameters = {},
+                    ReturnType = "null",
+                    Security = "None",
+                    Tags = {
+                        Deprecated = true
+                    }
+                }
+            },
+            Name = "Instance",
+            Properties = {
+                {
+                    Category = "Behavior",
+                    Class = "Instance",
+                    Name = "Archivable",
+                    Security = {
+                        Read = "None",
+                        Write = "None"
+                    },
+                    Serialization = {
+                        CanLoad = false,
+                        CanSave = false
+                    },
+                    Tags = {},
+                    ValueType = {
+                        Category = "Primitive",
+                        Name = "bool"
+                    }
+                },
+                {
+                    Category = "Data",
+                    Class = "Instance",
+                    Name = "Attributes",
+                    Security = {
+                        Read = "RobloxSecurity",
+                        Write = "RobloxSecurity"
+                    },
+                    Serialization = {
+                        CanLoad = false,
+                        CanSave = false
+                    },
+                    Tags = {
+                        Hidden = true,
+                        NotReplicated = true,
+                        NotScriptable = true,
+                        ReadOnly = true
+                    },
+                    ValueType = {
+                        Category = "Primitive",
+                        Name = "string"
+                    }
+                },
+                {
+                    Category = "Data",
+                    Class = "Instance",
+                    Name = "AttributesReplicate",
+                    Security = {
+                        Read = "RobloxSecurity",
+                        Write = "RobloxSecurity"
+                    },
+                    Serialization = {
+                        CanLoad = false,
+                        CanSave = false
+                    },
+                    Tags = {
+                        Hidden = true,
+                        NotScriptable = true
+                    },
+                    ValueType = {
+                        Category = "Primitive",
+                        Name = "string"
+                    }
+                },
+                {
+                    Category = "Data",
+                    Class = "Instance",
+                    Name = "AttributesSerialize",
+                    Security = {
+                        Read = "RobloxSecurity",
+                        Write = "RobloxSecurity"
+                    },
+                    Serialization = {
+                        CanLoad = true,
+                        CanSave = true
+                    },
+                    Tags = {
+                        Hidden = true,
+                        NotReplicated = true,
+                        NotScriptable = true
+                    },
+                    ValueType = {
+                        Category = "DataType",
+                        Name = "BinaryString"
+                    }
+                },
+                {
+                    Category = "Permissions",
+                    Class = "Instance",
+                    Name = "Capabilities",
+                    Security = {
+                        Read = "None",
+                        Write = "None"
+                    },
+                    Serialization = {
+                        CanLoad = true,
+                        CanSave = true
+                    },
+                    Tags = {},
+                    ValueType = {
+                        Category = "DataType",
+                        Name = "SecurityCapabilities"
+                    }
+                },
+                {
+                    Category = "Data",
+                    Class = "Instance",
+                    Name = "DataCost",
+                    Security = {
+                        Read = "LocalUserSecurity",
+                        Write = "LocalUserSecurity"
+                    },
+                    Serialization = {
+                        CanLoad = false,
+                        CanSave = false
+                    },
+                    Tags = {
+                        Deprecated = true,
+                        Hidden = true,
+                        NotReplicated = true,
+                        ReadOnly = true
+                    },
+                    ValueType = {
+                        Category = "Primitive",
+                        Name = "int"
+                    }
+                },
+                {
+                    Category = "Permissions",
+                    Class = "Instance",
+                    Name = "DefinesCapabilities",
+                    Security = {
+                        Read = "RobloxSecurity",
+                        Write = "RobloxSecurity"
+                    },
+                    Serialization = {
+                        CanLoad = true,
+                        CanSave = true
+                    },
+                    Tags = {
+                        Hidden = true,
+                        NotScriptable = true
+                    },
+                    ValueType = {
+                        Category = "Primitive",
+                        Name = "bool"
+                    }
+                },
+                {
+                    Category = "Data",
+                    Class = "Instance",
+                    Name = "HistoryId",
+                    Security = {
+                        Read = "RobloxSecurity",
+                        Write = "RobloxSecurity"
+                    },
+                    Serialization = {
+                        CanLoad = true,
+                        CanSave = true
+                    },
+                    Tags = {
+                        Hidden = true,
+                        NotReplicated = true,
+                        NotScriptable = true
+                    },
+                    ValueType = {
+                        Category = "DataType",
+                        Name = "UniqueId"
+                    }
+                },
+                {
+                    Category = "Permissions",
+                    Class = "Instance",
+                    Name = "IsInSandbox",
+                    Security = {
+                        Read = "None",
+                        Write = "None"
+                    },
+                    Serialization = {
+                        CanLoad = false,
+                        CanSave = false
+                    },
+                    Tags = {
+                        NotReplicated = true,
+                        NotScriptable = true,
+                        ReadOnly = true
+                    },
+                    ValueType = {
+                        Category = "Primitive",
+                        Name = "bool"
+                    }
+                },
+                {
+                    Category = "Data",
+                    Class = "Instance",
+                    Name = "Name",
+                    Security = {
+                        Read = "None",
+                        Write = "None"
+                    },
+                    Serialization = {
+                        CanLoad = true,
+                        CanSave = true
+                    },
+                    Tags = {},
+                    ValueType = {
+                        Category = "Primitive",
+                        Name = "string"
+                    }
+                },
+                {
+                    Category = "Data",
+                    Class = "Instance",
+                    Name = "Parent",
+                    Security = {
+                        Read = "None",
+                        Write = "None"
+                    },
+                    Serialization = {
+                        CanLoad = true,
+                        CanSave = false
+                    },
+                    Tags = {
+                        NotReplicated = true
+                    },
+                    ValueType = {
+                        Category = "Class",
+                        Name = "Instance"
+                    }
+                },
+                {
+                    Category = "Data",
+                    Class = "Instance",
+                    Name = "PredictionMode",
+                    Security = {
+                        Read = "None",
+                        Write = "None"
+                    },
+                    Serialization = {
+                        CanLoad = false,
+                        CanSave = false
+                    },
+                    Tags = {
+                        NotReplicated = true,
+                        NotScriptable = true,
+                        ReadOnly = true
+                    },
+                    ValueType = {
+                        Category = "Enum",
+                        Name = "PredictionMode"
+                    }
+                },
+                {
+                    Category = "Data",
+                    Class = "Instance",
+                    Name = "PropertyStatusStudio",
+                    Security = {
+                        Read = "RobloxSecurity",
+                        Write = "RobloxSecurity"
+                    },
+                    Serialization = {
+                        CanLoad = false,
+                        CanSave = false
+                    },
+                    Tags = {
+                        Hidden = true,
+                        NotReplicated = true,
+                        NotScriptable = true,
+                        ReadOnly = true
+                    },
+                    ValueType = {
+                        Category = "Enum",
+                        Name = "PropertyStatus"
+                    }
+                },
+                {
+                    Category = "Data",
+                    Class = "Instance",
+                    Name = "RobloxLocked",
+                    Security = {
+                        Read = "PluginSecurity",
+                        Write = "PluginSecurity"
+                    },
+                    Serialization = {
+                        CanLoad = false,
+                        CanSave = false
+                    },
+                    Tags = {
+                        Hidden = true
+                    },
+                    ValueType = {
+                        Category = "Primitive",
+                        Name = "bool"
+                    }
+                },
+                {
+                    Category = "Permissions",
+                    Class = "Instance",
+                    Name = "Sandboxed",
+                    Security = {
+                        Read = "None",
+                        Write = "None"
+                    },
+                    Serialization = {
+                        CanLoad = false,
+                        CanSave = false
+                    },
+                    Tags = {
+                        NotReplicated = true
+                    },
+                    ValueType = {
+                        Category = "Primitive",
+                        Name = "bool"
+                    }
+                },
+                {
+                    Category = "Data",
+                    Class = "Instance",
+                    Name = "SerializedOverrides",
+                    Security = {
+                        Read = "RobloxSecurity",
+                        Write = "RobloxSecurity"
+                    },
+                    Serialization = {
+                        CanLoad = true,
+                        CanSave = true
+                    },
+                    Tags = {
+                        Hidden = true,
+                        NotReplicated = true,
+                        NotScriptable = true
+                    },
+                    ValueType = {
+                        Category = "DataType",
+                        Name = "BinaryString"
+                    }
+                },
+                {
+                    Category = "Data",
+                    Class = "Instance",
+                    Name = "SourceAssetId",
+                    Security = {
+                        Read = "RobloxScriptSecurity",
+                        Write = "RobloxScriptSecurity"
+                    },
+                    Serialization = {
+                        CanLoad = true,
+                        CanSave = true
+                    },
+                    Tags = {
+                        Hidden = true
+                    },
+                    ValueType = {
+                        Category = "Primitive",
+                        Name = "int64"
+                    }
+                },
+                {
+                    Category = "Data",
+                    Class = "Instance",
+                    Name = "Tags",
+                    Security = {
+                        Read = "RobloxSecurity",
+                        Write = "RobloxSecurity"
+                    },
+                    Serialization = {
+                        CanLoad = true,
+                        CanSave = true
+                    },
+                    Tags = {
+                        Hidden = true,
+                        NotScriptable = true
+                    },
+                    ValueType = {
+                        Category = "DataType",
+                        Name = "SharedString"
+                    }
+                },
+                {
+                    Category = "Data",
+                    Class = "Instance",
+                    Name = "UniqueId",
+                    Security = {
+                        Read = "RobloxScriptSecurity",
+                        Write = "RobloxSecurity"
+                    },
+                    Serialization = {
+                        CanLoad = true,
+                        CanSave = true
+                    },
+                    Tags = {
+                        NotReplicated = true
+                    },
+                    ValueType = {
+                        Category = "DataType",
+                        Name = "UniqueId"
+                    }
+                },
+                {
+                    Category = "Behavior",
+                    Class = "Instance",
+                    Name = "archivable",
+                    Security = {
+                        Read = "None",
+                        Write = "None"
+                    },
+                    Serialization = {
+                        CanLoad = true,
+                        CanSave = false
+                    },
+                    Tags = {
+                        Deprecated = true,
+                        Hidden = true,
+                        NotReplicated = true
+                    },
+                    ValueType = {
+                        Category = "Primitive",
+                        Name = "bool"
+                    }
+                },
+                {
+                    Category = "Data",
+                    Class = "Instance",
+                    Name = "numExpectedDirectChildren",
+                    Security = {
+                        Read = "None",
+                        Write = "None"
+                    },
+                    Serialization = {
+                        CanLoad = false,
+                        CanSave = false
+                    },
+                    Tags = {
+                        Hidden = true,
+                        NotScriptable = true
+                    },
+                    ValueType = {
+                        Category = "Primitive",
+                        Name = "int"
+                    }
+                }
+            },
+            Superclass = {
+                Callbacks = {},
+                Events = {
+                    {
+                        Class = "Object",
+                        Name = "Changed",
+                        Parameters = {
+                            {
+                                Name = "property",
+                                Type = "string"
+                            }
+                        },
+                        Security = "None",
+                        Tags = {}
+                    }
+                },
+                Functions = {
+                    {
+                        Class = "Object",
+                        Name = "GetPropertyChangedSignal",
+                        Parameters = {
+                            {
+                                Name = "property",
+                                Type = "string"
+                            }
+                        },
+                        ReturnType = "RBXScriptSignal",
+                        Security = "None",
+                        Tags = {}
+                    },
+                    {
+                        Class = "Object",
+                        Name = "IsA",
+                        Parameters = {
+                            {
+                                Name = "className",
+                                Type = "string"
+                            }
+                        },
+                        ReturnType = "bool",
+                        Security = "None",
+                        Tags = {
+                            CustomLuaState = true
+                        }
+                    },
+                    {
+                        Class = "Object",
+                        Name = "isA",
+                        Parameters = {
+                            {
+                                Name = "className",
+                                Type = "string"
+                            }
+                        },
+                        ReturnType = "bool",
+                        Security = "None",
+                        Tags = {
+                            CustomLuaState = true,
+                            Deprecated = true
+                        }
+                    }
+                },
+                Name = "Object",
+                Properties = {
+                    {
+                        Category = "Data",
+                        Class = "Object",
+                        Name = "ClassName",
+                        Security = {
+                            Read = "None",
+                            Write = "None"
+                        },
+                        Serialization = {
+                            CanLoad = false,
+                            CanSave = false
+                        },
+                        Tags = {
+                            NotReplicated = true,
+                            ReadOnly = true
+                        },
+                        ValueType = {
+                            Category = "Primitive",
+                            Name = "string"
+                        }
+                    },
+                    {
+                        Category = "Data",
+                        Class = "Object",
+                        Name = "className",
+                        Security = {
+                            Read = "None",
+                            Write = "None"
+                        },
+                        Serialization = {
+                            CanLoad = false,
+                            CanSave = false
+                        },
+                        Tags = {
+                            Deprecated = true,
+                            NotReplicated = true,
+                            ReadOnly = true
+                        },
+                        ValueType = {
+                            Category = "Primitive",
+                            Name = "string"
+                        }
+                    }
+                },
+                Tags = {
+                    NotCreatable = true,
+                    NotReplicated = true
+                }
+            },
+            Tags = {
+                NotBrowsable = true,
+                NotCreatable = true
+            }
+        },
+        Tags = {
+            NotCreatable = true,
+            NotReplicated = true,
+            Service = true
+        }
+    },
+    [231535] = {},
+    [231541] = {},
+    [231543] = {
+        Callbacks = {},
+        Events = {},
+        Functions = {},
+        Name = "AssetCounterService",
+        Properties = {},
+        Superclass = {
+            Callbacks = {},
+            Events = {
+                {
+                    Class = "Instance",
+                    Name = "AncestryChanged",
+                    Parameters = {
+                        {
+                            Name = "child",
+                            Type = "Instance"
+                        },
+                        {
+                            Name = "parent",
+                            Type = "Instance"
+                        }
+                    },
+                    Security = "None",
+                    Tags = {}
+                },
+                {
+                    Class = "Instance",
+                    Name = "AttributeChanged",
+                    Parameters = {
+                        {
+                            Name = "attribute",
+                            Type = "string"
+                        }
+                    },
+                    Security = "None",
+                    Tags = {}
+                },
+                {
+                    Class = "Instance",
+                    Name = "ChildAdded",
+                    Parameters = {
+                        {
+                            Name = "child",
+                            Type = "Instance"
+                        }
+                    },
+                    Security = "None",
+                    Tags = {}
+                },
+                {
+                    Class = "Instance",
+                    Name = "ChildRemoved",
+                    Parameters = {
+                        {
+                            Name = "child",
+                            Type = "Instance"
+                        }
+                    },
+                    Security = "None",
+                    Tags = {}
+                },
+                {
+                    Class = "Instance",
+                    Name = "DescendantAdded",
+                    Parameters = {
+                        {
+                            Name = "descendant",
+                            Type = "Instance"
+                        }
+                    },
+                    Security = "None",
+                    Tags = {}
+                },
+                {
+                    Class = "Instance",
+                    Name = "DescendantRemoving",
+                    Parameters = {
+                        {
+                            Name = "descendant",
+                            Type = "Instance"
+                        }
+                    },
+                    Security = "None",
+                    Tags = {}
+                },
+                {
+                    Class = "Instance",
+                    Name = "Destroying",
+                    Parameters = {},
+                    Security = "None",
+                    Tags = {}
+                },
+                {
+                    Class = "Instance",
+                    Name = "StyledPropertiesChanged",
+                    Parameters = {},
+                    Security = "None",
+                    Tags = {}
+                },
+                {
+                    Class = "Instance",
+                    Name = "childAdded",
+                    Parameters = {
+                        {
+                            Name = "child",
+                            Type = "Instance"
+                        }
+                    },
+                    Security = "None",
+                    Tags = {
+                        Deprecated = true
+                    }
+                }
+            },
+            Functions = {
+                {
+                    Class = "Instance",
+                    Name = "AddTag",
+                    Parameters = {
+                        {
+                            Name = "tag",
+                            Type = "string"
+                        }
+                    },
+                    ReturnType = "null",
+                    Security = "None",
+                    Tags = {}
+                },
+                {
+                    Class = "Instance",
+                    Name = "ClearAllChildren",
+                    Parameters = {},
+                    ReturnType = "null",
+                    Security = "None",
+                    Tags = {}
+                },
+                {
+                    Class = "Instance",
+                    Name = "Clone",
+                    Parameters = {},
+                    ReturnType = "Instance",
+                    Security = "None",
+                    Tags = {}
+                },
+                {
+                    Class = "Instance",
+                    Name = "Destroy",
+                    Parameters = {},
+                    ReturnType = "null",
+                    Security = "None",
+                    Tags = {}
+                },
+                {
+                    Class = "Instance",
+                    Name = "FindFirstAncestor",
+                    Parameters = {
+                        {
+                            Name = "name",
+                            Type = "string"
+                        }
+                    },
+                    ReturnType = "Instance",
+                    Security = "None",
+                    Tags = {}
+                },
+                {
+                    Class = "Instance",
+                    Name = "FindFirstAncestorOfClass",
+                    Parameters = {
+                        {
+                            Name = "className",
+                            Type = "string"
+                        }
+                    },
+                    ReturnType = "Instance",
+                    Security = "None",
+                    Tags = {}
+                },
+                {
+                    Class = "Instance",
+                    Name = "FindFirstAncestorWhichIsA",
+                    Parameters = {
+                        {
+                            Name = "className",
+                            Type = "string"
+                        }
+                    },
+                    ReturnType = "Instance",
+                    Security = "None",
+                    Tags = {}
+                },
+                {
+                    Class = "Instance",
+                    Name = "FindFirstChild",
+                    Parameters = {
+                        {
+                            Name = "name",
+                            Type = "string"
+                        },
+                        {
+                            Name = "recursive",
+                            Type = "bool"
+                        }
+                    },
+                    ReturnType = "Instance",
+                    Security = "None",
+                    Tags = {}
+                },
+                {
+                    Class = "Instance",
+                    Name = "FindFirstChildOfClass",
+                    Parameters = {
+                        {
+                            Name = "className",
+                            Type = "string"
+                        }
+                    },
+                    ReturnType = "Instance",
+                    Security = "None",
+                    Tags = {}
+                },
+                {
+                    Class = "Instance",
+                    Name = "FindFirstChildWhichIsA",
+                    Parameters = {
+                        {
+                            Name = "className",
+                            Type = "string"
+                        },
+                        {
+                            Name = "recursive",
+                            Type = "bool"
+                        }
+                    },
+                    ReturnType = "Instance",
+                    Security = "None",
+                    Tags = {}
+                },
+                {
+                    Class = "Instance",
+                    Name = "FindFirstDescendant",
+                    Parameters = {
+                        {
+                            Name = "name",
+                            Type = "string"
+                        }
+                    },
+                    ReturnType = "Instance",
+                    Security = "None",
+                    Tags = {}
+                },
+                {
+                    Class = "Instance",
+                    Name = "GetActor",
+                    Parameters = {},
+                    ReturnType = "Actor",
+                    Security = "None",
+                    Tags = {}
+                },
+                {
+                    Class = "Instance",
+                    Name = "GetAttribute",
+                    Parameters = {
+                        {
+                            Name = "attribute",
+                            Type = "string"
+                        }
+                    },
+                    ReturnType = "Variant",
+                    Security = "None",
+                    Tags = {}
+                },
+                {
+                    Class = "Instance",
+                    Name = "GetAttributeChangedSignal",
+                    Parameters = {
+                        {
+                            Name = "attribute",
+                            Type = "string"
+                        }
+                    },
+                    ReturnType = "RBXScriptSignal",
+                    Security = "None",
+                    Tags = {}
+                },
+                {
+                    Class = "Instance",
+                    Name = "GetAttributes",
+                    Parameters = {},
+                    ReturnType = "Dictionary",
+                    Security = "None",
+                    Tags = {
+                        CustomLuaState = true
+                    }
+                },
+                {
+                    Class = "Instance",
+                    Name = "GetChildren",
+                    Parameters = {},
+                    ReturnType = "Instances",
+                    Security = "None",
+                    Tags = {}
+                },
+                {
+                    Class = "Instance",
+                    Name = "GetDebugId",
+                    Parameters = {
+                        {
+                            Name = "scopeLength",
+                            Type = "int"
+                        }
+                    },
+                    ReturnType = "string",
+                    Security = "PluginSecurity",
+                    Tags = {
+                        NotBrowsable = true
+                    }
+                },
+                {
+                    Class = "Instance",
+                    Name = "GetDescendants",
+                    Parameters = {},
+                    ReturnType = "Instances",
+                    Security = "None",
+                    Tags = {
+                        CustomLuaState = true
+                    }
+                },
+                {
+                    Class = "Instance",
+                    Name = "GetFullName",
+                    Parameters = {},
+                    ReturnType = "string",
+                    Security = "None",
+                    Tags = {}
+                },
+                {
+                    Class = "Instance",
+                    Name = "GetStyled",
+                    Parameters = {
+                        {
+                            Name = "name",
+                            Type = "string"
+                        },
+                        {
+                            Name = "selector",
+                            Type = "string?"
+                        }
+                    },
+                    ReturnType = "Variant",
+                    Security = "None",
+                    Tags = {}
+                },
+                {
+                    Class = "Instance",
+                    Name = "GetStyledPropertyChangedSignal",
+                    Parameters = {
+                        {
+                            Name = "property",
+                            Type = "string"
+                        }
+                    },
+                    ReturnType = "RBXScriptSignal",
+                    Security = "None",
+                    Tags = {}
+                },
+                {
+                    Class = "Instance",
+                    Name = "GetTags",
+                    Parameters = {},
+                    ReturnType = "Array",
+                    Security = "None",
+                    Tags = {}
+                },
+                {
+                    Class = "Instance",
+                    Name = "HasTag",
+                    Parameters = {
+                        {
+                            Name = "tag",
+                            Type = "string"
+                        }
+                    },
+                    ReturnType = "bool",
+                    Security = "None",
+                    Tags = {}
+                },
+                {
+                    Class = "Instance",
+                    Name = "IsAncestorOf",
+                    Parameters = {
+                        {
+                            Name = "descendant",
+                            Type = "Instance"
+                        }
+                    },
+                    ReturnType = "bool",
+                    Security = "None",
+                    Tags = {}
+                },
+                {
+                    Class = "Instance",
+                    Name = "IsDescendantOf",
+                    Parameters = {
+                        {
+                            Name = "ancestor",
+                            Type = "Instance"
+                        }
+                    },
+                    ReturnType = "bool",
+                    Security = "None",
+                    Tags = {}
+                },
+                {
+                    Class = "Instance",
+                    Name = "IsPropertyModified",
+                    Parameters = {
+                        {
+                            Name = "property",
+                            Type = "string"
+                        }
+                    },
+                    ReturnType = "bool",
+                    Security = "None",
+                    Tags = {}
+                },
+                {
+                    Class = "Instance",
+                    Name = "QueryDescendants",
+                    Parameters = {
+                        {
+                            Name = "selector",
+                            Type = "string"
+                        }
+                    },
+                    ReturnType = "Instances",
+                    Security = "None",
+                    Tags = {
+                        CustomLuaState = true
+                    }
+                },
+                {
+                    Class = "Instance",
+                    Name = "Remove",
+                    Parameters = {},
+                    ReturnType = "null",
+                    Security = "None",
+                    Tags = {
+                        Deprecated = true
+                    }
+                },
+                {
+                    Class = "Instance",
+                    Name = "RemoveTag",
+                    Parameters = {
+                        {
+                            Name = "tag",
+                            Type = "string"
+                        }
+                    },
+                    ReturnType = "null",
+                    Security = "None",
+                    Tags = {}
+                },
+                {
+                    Class = "Instance",
+                    Name = "ResetPropertyToDefault",
+                    Parameters = {
+                        {
+                            Name = "property",
+                            Type = "string"
+                        }
+                    },
+                    ReturnType = "null",
+                    Security = "None",
+                    Tags = {}
+                },
+                {
+                    Class = "Instance",
+                    Name = "SetAttribute",
+                    Parameters = {
+                        {
+                            Name = "attribute",
+                            Type = "string"
+                        },
+                        {
+                            Name = "value",
+                            Type = "Variant"
+                        }
+                    },
+                    ReturnType = "null",
+                    Security = "None",
+                    Tags = {}
+                },
+                {
+                    Class = "Instance",
+                    Name = "WaitForChild",
+                    Parameters = {
+                        {
+                            Name = "childName",
+                            Type = "string"
+                        },
+                        {
+                            Name = "timeOut",
+                            Type = "double"
+                        }
+                    },
+                    ReturnType = "Instance",
+                    Security = "None",
+                    Tags = {
+                        CanYield = true,
+                        CustomLuaState = true
+                    }
+                },
+                {
+                    Class = "Instance",
+                    Name = "children",
+                    Parameters = {},
+                    ReturnType = "Instances",
+                    Security = "None",
+                    Tags = {
+                        Deprecated = true
+                    }
+                },
+                {
+                    Class = "Instance",
+                    Name = "clone",
+                    Parameters = {},
+                    ReturnType = "Instance",
+                    Security = "None",
+                    Tags = {
+                        Deprecated = true
+                    }
+                },
+                {
+                    Class = "Instance",
+                    Name = "destroy",
+                    Parameters = {},
+                    ReturnType = "null",
+                    Security = "None",
+                    Tags = {
+                        Deprecated = true
+                    }
+                },
+                {
+                    Class = "Instance",
+                    Name = "findFirstChild",
+                    Parameters = {
+                        {
+                            Name = "name",
+                            Type = "string"
+                        },
+                        {
+                            Name = "recursive",
+                            Type = "bool"
+                        }
+                    },
+                    ReturnType = "Instance",
+                    Security = "None",
+                    Tags = {
+                        Deprecated = true
+                    }
+                },
+                {
+                    Class = "Instance",
+                    Name = "getChildren",
+                    Parameters = {},
+                    ReturnType = "Instances",
+                    Security = "None",
+                    Tags = {
+                        Deprecated = true
+                    }
+                },
+                {
+                    Class = "Instance",
+                    Name = "isDescendantOf",
+                    Parameters = {
+                        {
+                            Name = "ancestor",
+                            Type = "Instance"
+                        }
+                    },
+                    ReturnType = "bool",
+                    Security = "None",
+                    Tags = {
+                        Deprecated = true
+                    }
+                },
+                {
+                    Class = "Instance",
+                    Name = "remove",
+                    Parameters = {},
+                    ReturnType = "null",
+                    Security = "None",
+                    Tags = {
+                        Deprecated = true
+                    }
+                }
+            },
+            Name = "Instance",
+            Properties = {
+                {
+                    Category = "Behavior",
+                    Class = "Instance",
+                    Name = "Archivable",
+                    Security = {
+                        Read = "None",
+                        Write = "None"
+                    },
+                    Serialization = {
+                        CanLoad = false,
+                        CanSave = false
+                    },
+                    Tags = {},
+                    ValueType = {
+                        Category = "Primitive",
+                        Name = "bool"
+                    }
+                },
+                {
+                    Category = "Data",
+                    Class = "Instance",
+                    Name = "Attributes",
+                    Security = {
+                        Read = "RobloxSecurity",
+                        Write = "RobloxSecurity"
+                    },
+                    Serialization = {
+                        CanLoad = false,
+                        CanSave = false
+                    },
+                    Tags = {
+                        Hidden = true,
+                        NotReplicated = true,
+                        NotScriptable = true,
+                        ReadOnly = true
+                    },
+                    ValueType = {
+                        Category = "Primitive",
+                        Name = "string"
+                    }
+                },
+                {
+                    Category = "Data",
+                    Class = "Instance",
+                    Name = "AttributesReplicate",
+                    Security = {
+                        Read = "RobloxSecurity",
+                        Write = "RobloxSecurity"
+                    },
+                    Serialization = {
+                        CanLoad = false,
+                        CanSave = false
+                    },
+                    Tags = {
+                        Hidden = true,
+                        NotScriptable = true
+                    },
+                    ValueType = {
+                        Category = "Primitive",
+                        Name = "string"
+                    }
+                },
+                {
+                    Category = "Data",
+                    Class = "Instance",
+                    Name = "AttributesSerialize",
+                    Security = {
+                        Read = "RobloxSecurity",
+                        Write = "RobloxSecurity"
+                    },
+                    Serialization = {
+                        CanLoad = true,
+                        CanSave = true
+                    },
+                    Tags = {
+                        Hidden = true,
+                        NotReplicated = true,
+                        NotScriptable = true
+                    },
+                    ValueType = {
+                        Category = "DataType",
+                        Name = "BinaryString"
+                    }
+                },
+                {
+                    Category = "Permissions",
+                    Class = "Instance",
+                    Name = "Capabilities",
+                    Security = {
+                        Read = "None",
+                        Write = "None"
+                    },
+                    Serialization = {
+                        CanLoad = true,
+                        CanSave = true
+                    },
+                    Tags = {},
+                    ValueType = {
+                        Category = "DataType",
+                        Name = "SecurityCapabilities"
+                    }
+                },
+                {
+                    Category = "Data",
+                    Class = "Instance",
+                    Name = "DataCost",
+                    Security = {
+                        Read = "LocalUserSecurity",
+                        Write = "LocalUserSecurity"
+                    },
+                    Serialization = {
+                        CanLoad = false,
+                        CanSave = false
+                    },
+                    Tags = {
+                        Deprecated = true,
+                        Hidden = true,
+                        NotReplicated = true,
+                        ReadOnly = true
+                    },
+                    ValueType = {
+                        Category = "Primitive",
+                        Name = "int"
+                    }
+                },
+                {
+                    Category = "Permissions",
+                    Class = "Instance",
+                    Name = "DefinesCapabilities",
+                    Security = {
+                        Read = "RobloxSecurity",
+                        Write = "RobloxSecurity"
+                    },
+                    Serialization = {
+                        CanLoad = true,
+                        CanSave = true
+                    },
+                    Tags = {
+                        Hidden = true,
+                        NotScriptable = true
+                    },
+                    ValueType = {
+                        Category = "Primitive",
+                        Name = "bool"
+                    }
+                },
+                {
+                    Category = "Data",
+                    Class = "Instance",
+                    Name = "HistoryId",
+                    Security = {
+                        Read = "RobloxSecurity",
+                        Write = "RobloxSecurity"
+                    },
+                    Serialization = {
+                        CanLoad = true,
+                        CanSave = true
+                    },
+                    Tags = {
+                        Hidden = true,
+                        NotReplicated = true,
+                        NotScriptable = true
+                    },
+                    ValueType = {
+                        Category = "DataType",
+                        Name = "UniqueId"
+                    }
+                },
+                {
+                    Category = "Permissions",
+                    Class = "Instance",
+                    Name = "IsInSandbox",
+                    Security = {
+                        Read = "None",
+                        Write = "None"
+                    },
+                    Serialization = {
+                        CanLoad = false,
+                        CanSave = false
+                    },
+                    Tags = {
+                        NotReplicated = true,
+                        NotScriptable = true,
+                        ReadOnly = true
+                    },
+                    ValueType = {
+                        Category = "Primitive",
+                        Name = "bool"
+                    }
+                },
+                {
+                    Category = "Data",
+                    Class = "Instance",
+                    Name = "Name",
+                    Security = {
+                        Read = "None",
+                        Write = "None"
+                    },
+                    Serialization = {
+                        CanLoad = true,
+                        CanSave = true
+                    },
+                    Tags = {},
+                    ValueType = {
+                        Category = "Primitive",
+                        Name = "string"
+                    }
+                },
+                {
+                    Category = "Data",
+                    Class = "Instance",
+                    Name = "Parent",
+                    Security = {
+                        Read = "None",
+                        Write = "None"
+                    },
+                    Serialization = {
+                        CanLoad = true,
+                        CanSave = false
+                    },
+                    Tags = {
+                        NotReplicated = true
+                    },
+                    ValueType = {
+                        Category = "Class",
+                        Name = "Instance"
+                    }
+                },
+                {
+                    Category = "Data",
+                    Class = "Instance",
+                    Name = "PredictionMode",
+                    Security = {
+                        Read = "None",
+                        Write = "None"
+                    },
+                    Serialization = {
+                        CanLoad = false,
+                        CanSave = false
+                    },
+                    Tags = {
+                        NotReplicated = true,
+                        NotScriptable = true,
+                        ReadOnly = true
+                    },
+                    ValueType = {
+                        Category = "Enum",
+                        Name = "PredictionMode"
+                    }
+                },
+                {
+                    Category = "Data",
+                    Class = "Instance",
+                    Name = "PropertyStatusStudio",
+                    Security = {
+                        Read = "RobloxSecurity",
+                        Write = "RobloxSecurity"
+                    },
+                    Serialization = {
+                        CanLoad = false,
+                        CanSave = false
+                    },
+                    Tags = {
+                        Hidden = true,
+                        NotReplicated = true,
+                        NotScriptable = true,
+                        ReadOnly = true
+                    },
+                    ValueType = {
+                        Category = "Enum",
+                        Name = "PropertyStatus"
+                    }
+                },
+                {
+                    Category = "Data",
+                    Class = "Instance",
+                    Name = "RobloxLocked",
+                    Security = {
+                        Read = "PluginSecurity",
+                        Write = "PluginSecurity"
+                    },
+                    Serialization = {
+                        CanLoad = false,
+                        CanSave = false
+                    },
+                    Tags = {
+                        Hidden = true
+                    },
+                    ValueType = {
+                        Category = "Primitive",
+                        Name = "bool"
+                    }
+                },
+                {
+                    Category = "Permissions",
+                    Class = "Instance",
+                    Name = "Sandboxed",
+                    Security = {
+                        Read = "None",
+                        Write = "None"
+                    },
+                    Serialization = {
+                        CanLoad = false,
+                        CanSave = false
+                    },
+                    Tags = {
+                        NotReplicated = true
+                    },
+                    ValueType = {
+                        Category = "Primitive",
+                        Name = "bool"
+                    }
+                },
+                {
+                    Category = "Data",
+                    Class = "Instance",
+                    Name = "SerializedOverrides",
+                    Security = {
+                        Read = "RobloxSecurity",
+                        Write = "RobloxSecurity"
+                    },
+                    Serialization = {
+                        CanLoad = true,
+                        CanSave = true
+                    },
+                    Tags = {
+                        Hidden = true,
+                        NotReplicated = true,
+                        NotScriptable = true
+                    },
+                    ValueType = {
+                        Category = "DataType",
+                        Name = "BinaryString"
+                    }
+                },
+                {
+                    Category = "Data",
+                    Class = "Instance",
+                    Name = "SourceAssetId",
+                    Security = {
+                        Read = "RobloxScriptSecurity",
+                        Write = "RobloxScriptSecurity"
+                    },
+                    Serialization = {
+                        CanLoad = true,
+                        CanSave = true
+                    },
+                    Tags = {
+                        Hidden = true
+                    },
+                    ValueType = {
+                        Category = "Primitive",
+                        Name = "int64"
+                    }
+                },
+                {
+                    Category = "Data",
+                    Class = "Instance",
+                    Name = "Tags",
+                    Security = {
+                        Read = "RobloxSecurity",
+                        Write = "RobloxSecurity"
+                    },
+                    Serialization = {
+                        CanLoad = true,
+                        CanSave = true
+                    },
+                    Tags = {
+                        Hidden = true,
+                        NotScriptable = true
+                    },
+                    ValueType = {
+                        Category = "DataType",
+                        Name = "SharedString"
+                    }
+                },
+                {
+                    Category = "Data",
+                    Class = "Instance",
+                    Name = "UniqueId",
+                    Security = {
+                        Read = "RobloxScriptSecurity",
+                        Write = "RobloxSecurity"
+                    },
+                    Serialization = {
+                        CanLoad = true,
+                        CanSave = true
+                    },
+                    Tags = {
+                        NotReplicated = true
+                    },
+                    ValueType = {
+                        Category = "DataType",
+                        Name = "UniqueId"
+                    }
+                },
+                {
+                    Category = "Behavior",
+                    Class = "Instance",
+                    Name = "archivable",
+                    Security = {
+                        Read = "None",
+                        Write = "None"
+                    },
+                    Serialization = {
+                        CanLoad = true,
+                        CanSave = false
+                    },
+                    Tags = {
+                        Deprecated = true,
+                        Hidden = true,
+                        NotReplicated = true
+                    },
+                    ValueType = {
+                        Category = "Primitive",
+                        Name = "bool"
+                    }
+                },
+                {
+                    Category = "Data",
+                    Class = "Instance",
+                    Name = "numExpectedDirectChildren",
+                    Security = {
+                        Read = "None",
+                        Write = "None"
+                    },
+                    Serialization = {
+                        CanLoad = false,
+                        CanSave = false
+                    },
+                    Tags = {
+                        Hidden = true,
+                        NotScriptable = true
+                    },
+                    ValueType = {
+                        Category = "Primitive",
+                        Name = "int"
+                    }
+                }
+            },
+            Superclass = {
+                Callbacks = {},
+                Events = {
+                    {
+                        Class = "Object",
+                        Name = "Changed",
+                        Parameters = {
+                            {
+                                Name = "property",
+                                Type = "string"
+                            }
+                        },
+                        Security = "None",
+                        Tags = {}
+                    }
+                },
+                Functions = {
+                    {
+                        Class = "Object",
+                        Name = "GetPropertyChangedSignal",
+                        Parameters = {
+                            {
+                                Name = "property",
+                                Type = "string"
+                            }
+                        },
+                        ReturnType = "RBXScriptSignal",
+                        Security = "None",
+                        Tags = {}
+                    },
+                    {
+                        Class = "Object",
+                        Name = "IsA",
+                        Parameters = {
+                            {
+                                Name = "className",
+                                Type = "string"
+                            }
+                        },
+                        ReturnType = "bool",
+                        Security = "None",
+                        Tags = {
+                            CustomLuaState = true
+                        }
+                    },
+                    {
+                        Class = "Object",
+                        Name = "isA",
+                        Parameters = {
+                            {
+                                Name = "className",
+                                Type = "string"
+                            }
+                        },
+                        ReturnType = "bool",
+                        Security = "None",
+                        Tags = {
+                            CustomLuaState = true,
+                            Deprecated = true
+                        }
+                    }
+                },
+                Name = "Object",
+                Properties = {
+                    {
+                        Category = "Data",
+                        Class = "Object",
+                        Name = "ClassName",
+                        Security = {
+                            Read = "None",
+                            Write = "None"
+                        },
+                        Serialization = {
+                            CanLoad = false,
+                            CanSave = false
+                        },
+                        Tags = {
+                            NotReplicated = true,
+                            ReadOnly = true
+                        },
+                        ValueType = {
+                            Category = "Primitive",
+                            Name = "string"
+                        }
+                    },
+                    {
+                        Category = "Data",
+                        Class = "Object",
+                        Name = "className",
+                        Security = {
+                            Read = "None",
+                            Write = "None"
+                        },
+                        Serialization = {
+                            CanLoad = false,
+                            CanSave = false
+                        },
+                        Tags = {
+                            Deprecated = true,
+                            NotReplicated = true,
+                            ReadOnly = true
+                        },
+                        ValueType = {
+                            Category = "Primitive",
+                            Name = "string"
+                        }
+                    }
+                },
+                Tags = {
+                    NotCreatable = true,
+                    NotReplicated = true
+                }
+            },
+            Tags = {
+                NotBrowsable = true,
+                NotCreatable = true
+            }
+        },
+        Tags = {
+            NotCreatable = true,
+            NotReplicated = true,
+            Service = true
+        }
+    },
+    [231547] = {},
+    [231542] = {},
+    [231546] = {
+        Class = "AppUpdateService",
+        Name = "PerformManagedUpdate",
+        Parameters = {},
+        ReturnType = "bool",
+        Security = "RobloxScriptSecurity",
+        Tags = {}
+    },
+    [231544] = {},
+    [231545] = {},
+    [231518] = {},
+    [231534] = {},
+    [231532] = {
+        NotCreatable = true,
+        NotReplicated = true,
+        Service = true
+    },
+    [231523] = {
+        {
+            Class = "AssetImportService",
+            Name = "GetAllPresets",
+            Parameters = {},
+            ReturnType = "Dictionary",
+            Security = "RobloxScriptSecurity",
+            Tags = {}
+        },
+        {
+            Class = "AssetImportService",
+            Name = "GetPreset",
+            Parameters = {
+                {
+                    Name = "name",
+                    Type = "string"
+                }
+            },
+            ReturnType = "Dictionary",
+            Security = "RobloxScriptSecurity",
+            Tags = {}
+        },
+        {
+            Class = "AssetImportService",
+            Name = "RemovePreset",
+            Parameters = {
+                {
+                    Name = "name",
+                    Type = "string"
+                }
+            },
+            ReturnType = "null",
+            Security = "RobloxScriptSecurity",
+            Tags = {}
+        },
+        {
+            Class = "AssetImportService",
+            Name = "SavePreset",
+            Parameters = {
+                {
+                    Name = "name",
+                    Type = "string"
+                },
+                {
+                    Name = "preset",
+                    Type = "Dictionary"
+                }
+            },
+            ReturnType = "bool",
+            Security = "RobloxScriptSecurity",
+            Tags = {}
+        },
+        {
+            Class = "AssetImportService",
+            Name = "StartSessionWithPath",
+            Parameters = {
+                {
+                    Name = "filePath",
+                    Type = "string"
+                }
+            },
+            ReturnType = "AssetImportSession",
+            Security = "RobloxScriptSecurity",
+            Tags = {}
+        },
+        {
+            Class = "AssetImportService",
+            Name = "StartSingleFileWatch",
+            Parameters = {
+                {
+                    Name = "filePath",
+                    Type = "string"
+                }
+            },
+            ReturnType = "null",
+            Security = "RobloxScriptSecurity",
+            Tags = {}
+        },
+        {
+            Class = "AssetImportService",
+            Name = "StopSingleFileWatch",
+            Parameters = {
+                {
+                    Name = "filePath",
+                    Type = "string"
+                }
+            },
+            ReturnType = "null",
+            Security = "RobloxScriptSecurity",
+            Tags = {}
+        },
+        {
+            Class = "AssetImportService",
+            Name = "GetFilesInDirAsync",
+            Parameters = {
+                {
+                    Name = "path",
+                    Type = "string"
+                }
+            },
+            ReturnType = "Array",
+            Security = "RobloxScriptSecurity",
+            Tags = {
+                Yields = true
+            }
+        },
+        {
+            Class = "AssetImportService",
+            Name = "PickFileWithPromptAsync",
+            Parameters = {},
+            ReturnType = "string",
+            Security = "RobloxScriptSecurity",
+            Tags = {
+                Yields = true
+            }
+        },
+        {
+            Class = "AssetImportService",
+            Name = "PickImageFileWithPrompt",
+            Parameters = {},
+            ReturnType = "string",
+            Security = "RobloxScriptSecurity",
+            Tags = {
+                Yields = true
+            }
+        },
+        {
+            Class = "AssetImportService",
+            Name = "PickMeshFileWithPrompt",
+            Parameters = {},
+            ReturnType = "string",
+            Security = "RobloxScriptSecurity",
+            Tags = {
+                Yields = true
+            }
+        },
+        {
+            Class = "AssetImportService",
+            Name = "PickMultipleFilesWithPrompt",
+            Parameters = {},
+            ReturnType = "Array",
+            Security = "RobloxScriptSecurity",
+            Tags = {
+                Yields = true
+            }
+        },
+        {
+            Class = "AssetImportService",
+            Name = "StartSessionWithPathAsync",
+            ...[truncatedasitwastoolong]
